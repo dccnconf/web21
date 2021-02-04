@@ -1,0 +1,179 @@
+[{
+  "name": "V.M. Vishnevsky",
+  "chair": {
+    "order": 1
+  },
+  "affiliations": [{"slug":"ipu"}]
+}, {
+  "name": "K.E. Samouylov",
+  "chair": {
+    "order": 2
+  },
+  "affiliations": [{"slug":"rudn"}]
+}, {
+  "name": "S.M. Abramov",
+  "affiliations": [{"slug":"psiras"}]
+}, {
+  "name": "S. Andreev",
+  "affiliations": [{"slug":"tampere"}],
+  "ieee": "member"
+}, {
+  "name": "A.M. Andronov",
+  "affiliations": [{"slug":"tti"}]
+}, {
+  "name": "N. Balakrishnan",
+  "affiliations": [{"slug":"mcmaster"}]
+}, {
+  "name": "A.S. Bugaev",
+  "affiliations": [{"slug":"mipt"}],
+  "ieee": "member"
+}, {
+  "name": "S.R. Chakravarthy",
+  "affiliations": [{"slug":"kettering"}]
+}, {
+  "name": "T. Czachorski",
+  "affiliations": [{"slug":"iipas"}]
+}, {
+  "name": "A.N. Dudin",
+  "affiliations": [{"slug":"bsu"}]
+}, {
+  "name": "D. Deng",
+  "affiliations": [{"slug":"ncue"}]
+}, {
+  "name": "A.V. Dvorkovich",
+  "affiliations": [{"slug":"mipt"}]
+}, {
+  "name": "Yu.V. Gaidamaka",
+  "affiliations": [{"slug":"rudn"}]
+}, {
+  "name": "P. Gaj",
+  "affiliations": [{"slug":"psgdecs"}]
+}, {
+  "name": "D. Grace",
+  "affiliations": [{"slug":"york"}],
+  "ieee": "member"
+}, {
+  "name": "Yu.V. Gulyaev",
+  "affiliations": [{"slug":"ireras"}],
+  "ieee": "senior member"
+}, {
+  "name": "J. Hosek",
+  "affiliations": [{"slug":"brno"}],
+  "ieee": "member"
+}, {
+  "name": "V.C. Joshua",
+  "affiliations": [{"slug":"cms"}]
+}, {
+  "name": "H. Karatza",
+  "affiliations": [{"slug":"aristotle"}],
+  "ieee": "senior member"
+}, {
+  "name": "N. Kolev",
+  "affiliations": [{"slug":"saopaulo"}]
+}, {
+  "name": "J. Kolodziej",
+  "affiliations": [{"slug":"nask"}]
+}, {
+  "name": "G. Kotsis",
+  "affiliations": [{"slug":"kepler"}]
+}, {
+  "name": "T. Kozlova Madsen",
+  "affiliations": [{"slug":"aalborg"}]
+}, {
+  "name": "U. Krieger",
+  "affiliations": [{"slug":"bamberg"}],
+  "ieee": "member"
+}, {
+  "name": "A. Krishnamoorthy",
+  "affiliations": [{"slug":"cochin"}]
+}, {
+  "name": "A.E. Koucheryavy",
+  "affiliations": [{"slug":"bonchbruevich"}],
+  "ieee": "member"
+}, {
+  "name": "Ye.A. Koucheryavy",
+  "affiliations": [{"slug":"tampere"}],
+  "ieee": "senior member"
+}, {
+  "name": "N.A. Kuznetsov",
+  "affiliations": [{"slug":"mipt"}],
+  "ieee": "member"
+}, {
+  "name": "L. Lakatos",
+  "affiliations": [{"slug":"budapest"}]
+}, {
+  "name": "E. Levner",
+  "affiliations": [{"slug":"holon"}]
+}, {
+  "name": "S.D. Margenov",
+  "affiliations": [{"slug":"iict"}]
+}, {
+  "name": "N. Markovich",
+  "affiliations": [{"slug":"ipu"}]
+}, {
+  "name": "A. Melikov",
+  "affiliations": [{"slug":"icanas"}]
+}, {
+  "name": "E.V. Morozov",
+  "affiliations": [{"slug":"karelia"}]
+}, {
+  "name": "V.A. Naumov",
+  "affiliations": [{"slug":"pike"}]
+}, {
+  "name": "A.A. Nazarov",
+  "affiliations": [{"slug":"tsu"}]
+}, {
+  "name": "I.V. Nikiforov",
+  "affiliations": [{"slug":"troyes"}]
+}, {
+  "name": "P. Nikitin",
+  "affiliations": [{"slug":"washington"}],
+  "ieee": "senior member"
+}, {
+  "name": "S.A. Nikitov",
+  "affiliations": [{"slug":"ireras"}],
+  "ieee": "senior member"
+}, {
+  "name": "D.A. Novikov",
+  "affiliations": [{"slug":"ipu"}]
+}, {
+  "name": "M. Pagano",
+  "affiliations": [{"slug":"pisa"}]
+}, {
+  "name": "E. Petersons",
+  "affiliations": [{"slug":"rtu"}]
+}, {
+  "name": "V.V. Rykov",
+  "affiliations": [{"slug":"gubkin"}]
+}, {
+  "name": "M.A. Sneps-Sneppe",
+  "affiliations": [{"slug":"ventspils"}]
+}, {
+  "name": "P. Stanchev",
+  "affiliations": [{"slug":"kettering"}]
+}, {
+  "name": "S.N. Stepanov",
+  "affiliations": [{"slug":"mtuci"}]
+}, {
+  "name": "S.P. Suschenko",
+  "affiliations": [{"slug":"tsu"}]
+}, {
+  "name": "J. Sztrik",
+  "affiliations": [{"slug":"debrecen"}]
+}, {
+  "name": "H. Tijms",
+  "affiliations": [{"slug":"vrije"}]
+}, {
+  "name": "S.N. Vasiliev",
+  "affiliations": [{"slug":"ipu"}]
+}, {
+  "name": "M. Xie",
+  "affiliations": [{"slug":"cuhk"}],
+  "ieee": "fellow"
+}, {
+  "name": "A. Zaslavsky",
+  "affiliations": [{"slug":"deakin"}]
+}, {
+  "name": "Yu.P. Zaychenko",
+  "affiliations": [{"slug":"kpi"}]
+}]

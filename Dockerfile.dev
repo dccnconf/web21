@@ -1,0 +1,20 @@
+# syntax=docker/dockerfile:experimental
+FROM node:alpine
+
+# Install yarn
+RUN apk add yarn
+
+# Set the working directory
+WORKDIR /app
+
+# Copy yarn files
+COPY ./package.json ./
+COPY ./yarn.lock ./
+
+# Install dependencies
+RUN yarn install
+
+EXPOSE 3000
+
+# Start development server (source is expected to be bind-mounted), see compose
+CMD ["npm", "run", "dev"]
