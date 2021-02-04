@@ -3,7 +3,7 @@ name: Build docker images and push them to GitHub registry
 on:
   push:
     branches:
-      - master
+      - main
     tags:
       - v*
 
