@@ -35,7 +35,7 @@ export default function About({ tracks =[] } = {}) {
           </li>
           <li>
             <a
-              href="https://uconfy.com/conf/1/"
+              href="https://uconfy.com/conf/4/"
               className="text-blue-500 hover:underline">Conference at <span className="font-medium">uConfy</span> (for authors) ⚙️</a>
           </li>
         </ul>

@@ -10,7 +10,7 @@ const ProgramPage = () => {
             imageName="undraw_season_change_f99v.svg"
             imageAlt="Image about season change"
         >
-          <p className="md:text-xl">Program will be prepared after we review and accept all papers.</p>
+          <p className="md:text-xl">We will publish the program after the review process is over.</p>
         </EmptyPagePlaceholder>
       </section>
     </Layout>
