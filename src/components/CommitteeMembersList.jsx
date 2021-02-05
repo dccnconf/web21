@@ -4,7 +4,7 @@ import React from "react";
 const CommitteeMembersList = ({ members, className = "" }) => {
   return (
     <div className={className}>
-      <div className="flex flex-col items-center md:flex-row md:flex-wrap">
+      <div className="flex flex-col md:flex-row md:flex-wrap">
         {
           members
             .map(member => (

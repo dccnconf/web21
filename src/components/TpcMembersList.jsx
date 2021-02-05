@@ -22,7 +22,7 @@ const TpcMember = ({ member, className = "" }) => {
     <div className={className}>
       {
         member.chair && (
-          <div className="mt-3 text-sm text-indigo-500 font-bold">
+          <div className="text-sm text-indigo-500 font-bold">
             General Chair
           </div>
         )
