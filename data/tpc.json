@@ -176,4 +176,8 @@
 }, {
   "name": "Yu.P. Zaychenko",
   "affiliations": [{"slug":"kpi"}]
+}, {
+  "name": "S.E. Bankov",
+  "affiliations": [{"slug":"ireras"}],
+  "ieee": "member"
 }]
