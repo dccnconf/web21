@@ -27,7 +27,7 @@ const MemberCard = ({ member, className = "" }) => (
         member.avatar && (<img
           src={member.avatar}
           alt={`${member.name} avatar`}
-          className="w-20 h-20 rounded-full object-cover mr-4"
+          className="w-20 flex-shrink-0 h-20 rounded-full object-cover mr-4"
         />)
       }
       <div className="self-start">
