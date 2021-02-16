@@ -181,9 +181,9 @@
   "affiliations": [{"slug":"ireras"}],
   "ieee": "member"
 }, {
-    "name": "I.A. Kochetkova",
-    "affiliations": [{"slug":"rudn"}]
-},  {
+  "name": "I.A. Kochetkova",
+  "affiliations": [{"slug":"rudn"}]
+}, {
   "name": "L.A. Sevastianov",
   "affiliations": [{"slug":"rudn"}]
 }]
