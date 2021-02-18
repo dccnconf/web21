@@ -11,11 +11,11 @@ const Fees = ({ fees, className = "" }) => {
         where the paper is scheduled. You can download payment details via the following link:
       </p>
       <div className="mt-8">
-        <a href="/downloads/DCCN2020_FEES.pdf"
+        <a href="/downloads/DCCN2021_FEES.pdf"
            className="text-blue-500 hover:underline text-lg"
         >
           <FontAwesomeIcon icon={faFilePdf} size="lg" className="mr-3" />
-          DCCN2020_FEES.PDF
+          DCCN2021_FEES.PDF
         </a>
       </div>
       <p className="md:leading-7 md:text-xl text-gray-700 mt-8">

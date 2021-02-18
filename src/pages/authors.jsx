@@ -4,7 +4,7 @@ import EmptyPagePlaceholder from "../components/EmptyPagePlaceholder";
 
 const AuthorsPage = () => {
   return (
-    <Layout pageTitle={"Authors | DCCN'2020"} active="authors">
+    <Layout pageTitle={"Authors | DCCN'2021"} active="authors">
       <section className="container mx-auto md:w-3/4 px-4 md:px-0" id="top">
         <EmptyPagePlaceholder
             imageName="undraw_Designer_by46.svg"

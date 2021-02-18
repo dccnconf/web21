@@ -14,7 +14,7 @@ const Footer = () => (
             </Link>
             <div className="text-gray-500 md:mt-2">
               <Link href={"/"}>
-                <a className="hover:underline leading-7 font-medium lg:text-xl">DCCN'2020</a>
+                <a className="hover:underline leading-7 font-medium lg:text-xl">DCCN'2021</a>
               </Link>
               <div className="text-xs font-medium">
                 All rights reserved
@@ -71,6 +71,8 @@ const getProgramLinks = () => [
 ];
 
 const getSupportLinks = () => [
+  <FooterLink href={"/support"} hash="payment" label="Payments" />,
+  <FooterLink href={"/support"} hash="contact" label="Contact Us" />,
 ];
 
 export default Footer;

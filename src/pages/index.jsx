@@ -11,13 +11,17 @@ import {getAllCommitteeMembers} from "../libs/committee";
 import {getAllTpcMembers} from "../libs/tpc";
 import CommitteeMembersList from "../components/CommitteeMembersList";
 import TpcMembersList from "../components/TpcMembersList";
+import Fees from "../components/Fees";
+import {getAllFees} from "../libs/fees";
+import Link from "next/link";
 
 export default function Home ({
   deadlines,
   tracks,
   organizations,
   committeeMembers,
-  tpcMembers
+  tpcMembers,
+  fees
 }) {
   return (
     <Layout pageTitle={"DCCN'2021"} active="conference">
@@ -40,6 +44,20 @@ export default function Home ({
         <h2 className="h2">Timeline</h2>
         <div className="container mx-4 md:mx-auto py-12 xl:w-1/2 lg:w-2/3">
           <Timeline deadlines={deadlines} />
+        </div>
+      </section>
+
+      <section id="fees" className="pt-12 bg-purple-100">
+        <div className="container mx-auto px-4 pb-12 lg:w-1/2">
+          <h2 className="h2">Registration & Fees</h2>
+          <Fees className="mt-8"
+              fees={fees}
+          />
+          <p className="text-xl">
+            <Link href={"/support"} as="/support#payment">
+              <a className="text-blue-500 hover:underline">Read more...</a>
+            </Link>
+          </p>
         </div>
       </section>
 
@@ -85,6 +103,7 @@ export const getStaticProps = async () => {
   const committeeMembers = getAllCommitteeMembers();
   const tpcMembers = getAllTpcMembers();
   const topics = [];
+  const fees = getAllFees();
   // for (const track of tracks) {
   //   for (const topic of track.topics) {
   //     topics.push(topic);
@@ -96,7 +115,8 @@ export const getStaticProps = async () => {
       tracks,
       organizations,
       committeeMembers,
-      tpcMembers
+      tpcMembers,
+      fees
       // topics
     }
   }
