@@ -65,6 +65,7 @@ const getConferenceLinks = () => [
   <FooterLink href={"/authors"} label="CFP" />,
   <FooterLink href={"/"} hash="timeline" label="Timeline" />,
   <FooterLink href={"/"} hash="committee" label="Organizers" />,
+  <FooterLink href={"/"} hash="fees" label="Registration" />,
 ];
 
 const getProgramLinks = () => [

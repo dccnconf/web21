@@ -185,6 +185,11 @@ const ConferenceMenu = ({onClick}) => (
       comment="Organizing and technical program committees"
       onClick={onClick}
     />
+    <NavbarDropdownMenuItem
+      href="/" as="/#fees" icon={faCoins} text="Registration & Fees"
+      comment="Registration fees and discounts for our participants"
+      onClick={onClick}
+    />
   </>
 );
 
