@@ -24,7 +24,7 @@ export default function Hero () {
         </p>
         <br className="hidden lg:block lg:mt-12"/>
 
-        <div className="mt-5 sm:mt-12 mx-0 md:mx-16 lg:mx-0 lg:w-1/2 xl:w-1/3">
+        <div className="mt-3 mx-0 md:mx-16 lg:mx-0 lg:w-1/2 xl:w-1/3">
           <div className="rounded-md shadow">
             <a href="https://uconfy.com/conf/4/"
                target="_blank"
