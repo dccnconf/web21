@@ -80,7 +80,15 @@ export default function Navbar({ active = 'conference' }) {
 
               <NavbarLink text="Authors" isActive={active === 'authors'} href="/authors" />
               <NavbarLink text="Program" isActive={active === 'program'} href="/program" />
-              <NavbarLink text="Support" isActive={active === 'support'} href="/support" />
+
+              <NavbarDropdownItem
+                  isActive={active === 'support'}
+                  text="Support"
+                  isShown={isShown.support}
+                  setIsShown={shown => setIsMenuShown('support', shown)}
+              >
+                  <SupportMenu onClick={closeAll} />
+              </NavbarDropdownItem>
 
             </nav>
             <div className="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0" />
@@ -98,7 +106,7 @@ export default function Navbar({ active = 'conference' }) {
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
-          <div className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+          <div className="absolute top-0 z-10 inset-x-0 p-2 transition transform origin-top-right md:hidden">
             <div className="rounded-lg shadow-lg">
               <div className="rounded-lg shadow-xs bg-white divide-y-2 divide-gray-50">
                 <div className="pt-5 pb-6 px-5 space-y-6">
@@ -121,7 +129,8 @@ export default function Navbar({ active = 'conference' }) {
                   <div>
                     <nav className="grid row-gap-8">
                       {
-                        (active === 'conference' && (<ConferenceMenu onClick={closeAll} />))
+                        (active === 'conference' && (<ConferenceMenu onClick={closeAll} />)) ||
+                        (active === 'support' && (<SupportMenu onClick={closeAll} />))
                       }
                     </nav>
                   </div>
@@ -176,6 +185,11 @@ const ConferenceMenu = ({onClick}) => (
       comment="Organizing and technical program committees"
       onClick={onClick}
     />
+    <NavbarDropdownMenuItem
+      href="/" as="/#fees" icon={faCoins} text="Registration & Fees"
+      comment="Registration fees and discounts for our participants"
+      onClick={onClick}
+    />
   </>
 );
 
@@ -195,7 +209,7 @@ const ProgramMenu = ({onClick}) => (
   <>
     <NavbarDropdownMenuItem
       href="/program" icon={faCalendarAlt} text="Conference Schedule"
-      comment="General schedule of DCCN'2020 conference"
+      comment="General schedule of DCCN'2021 conference"
       onClick={onClick}
     />
     <NavbarDropdownMenuItem
