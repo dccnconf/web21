@@ -26,14 +26,14 @@ export default function Hero () {
 
         <div className="mt-5 sm:mt-12 mx-0 md:mx-16 lg:mx-0 lg:w-1/2 xl:w-1/3">
           <div className="rounded-md shadow">
-            <span
-                // href="https://uconfy.com/conf/4/"
-               className="flex items-center justify-center px-2 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10 opacity-50 cursor-not-allowed"
-               // className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+            <a href="https://uconfy.com/conf/4/"
+               target="_blank"
+               // className="flex items-center justify-center px-2 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
             >
               <FontAwesomeIcon icon={faDoorOpen} size="lg" className="mr-2 hidden md:block" />
               Submit paper
-            </span>
+            </a>
           </div>
           <p className="text-center mt-3">
             Registration will be opened on
