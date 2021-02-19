@@ -4,7 +4,7 @@ import {faDoorOpen} from "@fortawesome/free-solid-svg-icons";
 
 export default function Hero () {
   return (
-    <main className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 flex">
+    <main className="mt-10 mb-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 flex">
       <div className="sm:text-center lg:text-left lg:w-3/4">
         <p className="mt-3 text-lg text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0">
           Welcome to the 24th International Conference on
@@ -35,11 +35,6 @@ export default function Hero () {
               Submit paper
             </a>
           </div>
-          <p className="text-center mt-3">
-            Registration will be opened on
-            <br className="block sm:hidden" />
-            <span className="text-indigo-500 font-semibold"> 15 February 2021</span>
-          </p>
         </div>
       </div>
 
