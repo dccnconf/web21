@@ -12,6 +12,7 @@ const Fees = ({ fees, className = "" }) => {
       </p>
       <div className="mt-8">
         <a href="/downloads/DCCN2021_FEES.pdf"
+           target="_blank"
            className="text-blue-500 hover:underline text-lg"
         >
           <FontAwesomeIcon icon={faFilePdf} size="lg" className="mr-3" />
