@@ -7,8 +7,8 @@ const CFP = ({topics, className = ""} = {}) => {
   return (
   <div className={className}>
     <p className="md:text-lg">
-      Authors are encouraged to submit their papers (6-8 pages) in Russian or English language via the online
-      registration system <a href="https://uconfy.com" target="_blank" className="text-indigo-700">uConfy.com</a>. The accepted papers
+      Authors are encouraged to submit their papers (4-6 pages) in Russian or English language via the online
+      registration system  <a href="https://uconfy.com" target="_blank" className="text-indigo-700">uConfy.com</a>. The accepted papers
       will be published in the Conference Proceedings volume (included into the Russian Science Citation Index) prior
       to the beginning of the Conference.
     </p>
@@ -46,15 +46,15 @@ const CFP = ({topics, className = ""} = {}) => {
     </div>
 
     <p className="md:text-lg mt-8">
-      After a peer review and plagiarism check, authors of selected submissions in English, recommended by the Program
-      Committee, will be invited to submit their extended papers (12-15 pages in Springer LNCS template). After a
-      second round of review the accepted extended papers will be published by Springer (approve pending) as a
-      stand-alone volume of selected extended papers (indexed in Scopus and Web of Science).
+      After a peer review and plagiarism check, authors of selected submissions in English, recommended by the Program Committee,
+      will be invited to submit their extended papers (12-15 pages in Springer LNCS template).
+      After a second round of review the accepted extended papers will be published by Springer (approve pending)
+      as a stand-alone volume of selected extended papers (indexed in Scopus and Web of Science).
     </p>
     <p className="md:text-lg mt-8">
-      Please note, that peer review is double-blinded. Authors are required to remove their names, affiliation and any
-      other information that may be used to identify them prior to review. In case the submission is not blinded, it
-      may be rejected before the review.
+      Please note, that peer review is double-blind. In order to provide the possibility of double-blind peer review,
+      when first submitting the manuscripts the authors are asked to leave empty all fields that may identify the authors
+      (names, emails, affiliations, grant support). In case a submission is not blinded, it will not move on to the review process.
     </p>
     <p className="md:text-lg mt-8">
       <span className="font-extrabold text-xl text-indigo-500 mr-1">Topics</span> include, but are not limited to the following fields:

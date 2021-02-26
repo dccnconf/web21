@@ -15,6 +15,7 @@ import Fees from "../components/Fees";
 import {getAllFees} from "../libs/fees";
 import Link from "next/link";
 import TechnicalsSponsors from "../components/TechnicalSponsors";
+import getTopics from "../libs/topics";
 
 export default function Home ({
   deadlines,
@@ -22,7 +23,8 @@ export default function Home ({
   organizations,
   committeeMembers,
   tpcMembers,
-  fees
+  fees,
+  topics
 }) {
   return (
     <Layout pageTitle={"DCCN'2021"} active="conference">
@@ -35,7 +37,7 @@ export default function Home ({
 
           <h2 className="h2">About</h2>
           <div className="py-12 text-gray-600">
-            <About tracks={tracks} />
+            <About tracks={tracks} topics={topics} />
           </div>
 
         </div>
@@ -108,7 +110,7 @@ export const getStaticProps = async () => {
   const organizations = getAllOrganizations();
   const committeeMembers = getAllCommitteeMembers();
   const tpcMembers = getAllTpcMembers();
-  const topics = [];
+  const topics = getTopics();
   const fees = getAllFees();
   // for (const track of tracks) {
   //   for (const topic of track.topics) {
@@ -122,8 +124,8 @@ export const getStaticProps = async () => {
       organizations,
       committeeMembers,
       tpcMembers,
-      fees
-      // topics
+      fees,
+      topics
     }
   }
 };

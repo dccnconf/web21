@@ -1,7 +1,7 @@
-import getAllTracks from "../libs/tracks";
 import Layout from "../components/layout";
 import React from "react";
 import CFP from "../components/CFP";
+import getTopics from "../libs/topics";
 
 const AuthorsPage = ({ topics }) => {
   return (
@@ -20,17 +20,9 @@ const AuthorsPage = ({ topics }) => {
 };
 
 export const getStaticProps = () => {
-  const tracks = getAllTracks();
-  const topics = new Set();
-
-  tracks.forEach(track => {
-    track.topics.forEach(topic => topics.add(topic))
-  });
-
   return {
-    props: {topics: Array.from(topics).sort()}
+    props: {topics: getTopics()}
   }
-
 };
 
 export default AuthorsPage;

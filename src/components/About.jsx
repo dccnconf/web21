@@ -1,13 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function About({ tracks =[] } = {}) {
-  const topics = new Set();
-
-  tracks.forEach(track => {
-    track.topics.forEach(topic => topics.add(topic))
-  });
-
+export default function About({ tracks = [], topics = [] } = {}) {
   return (
     <>
       <div className="md:leading-7 md:text-xl">
@@ -79,7 +73,7 @@ export default function About({ tracks =[] } = {}) {
           </div>
         </div>
         <div className="mt-4">
-          <Topics topics={Array.from(topics).sort()} />
+          <Topics topics={topics} />
         </div>
       </div>
     </>
