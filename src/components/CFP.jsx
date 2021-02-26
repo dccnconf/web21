@@ -48,7 +48,7 @@ const CFP = ({topics, className = ""} = {}) => {
     <p className="md:text-lg mt-8">
       After a peer review and plagiarism check, authors of selected submissions in English, recommended by the Program Committee,
       will be invited to submit their extended papers (12-15 pages in Springer LNCS template).
-      After a second round of review the accepted extended papers will be published by Springer (approve pending)
+      After a second round of review the accepted extended papers will be published by Springer (approval pending)
       as a stand-alone volume of selected extended papers (indexed in Scopus and Web of Science).
     </p>
     <p className="md:text-lg mt-8">
