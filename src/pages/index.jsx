@@ -14,6 +14,7 @@ import TpcMembersList from "../components/TpcMembersList";
 import Fees from "../components/Fees";
 import {getAllFees} from "../libs/fees";
 import Link from "next/link";
+import TechnicalsSponsors from "../components/TechnicalSponsors";
 
 export default function Home ({
   deadlines,
@@ -79,6 +80,11 @@ export default function Home ({
               organizations={organizations}
               className="mt-8 mb-12 container mx-auto md:w-3/4"
             />
+          </div>
+
+          <div className="mt-12 mb-12">
+            <h3 className="h3">Technical Sponsors</h3>
+            <TechnicalsSponsors/>
           </div>
 
           <div>
