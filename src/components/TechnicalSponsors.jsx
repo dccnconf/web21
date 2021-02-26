@@ -1,7 +1,5 @@
 import React from "react";
 
-
-// noinspection JSUnresolvedVariable
 const TechnicalSponsor = ({imgUrl}) => (
   <img src={imgUrl}
        style={{maxWidth: 212}}
@@ -9,7 +7,6 @@ const TechnicalSponsor = ({imgUrl}) => (
        alt={`logotype`}
   />
 );
-
 
 const TechnicalsSponsors = () => {
   return (
