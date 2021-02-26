@@ -11,7 +11,7 @@ const TechnicalSponsor = ({imgUrl}) => (
 const TechnicalsSponsors = () => {
   return (
     <div>
-      <p className="md:leading-7 md:text-xl mt-6 text-center mx-auto text-gray-700 w-1/1 sm:w-3/4">
+      <p className="md:leading-7 md:text-xl mt-6 text-center mx-auto text-gray-700 w-1/1 xl:w-1/2">
         DCCN 2021 is an IEEE (Russia Section) technically co-sponsored (approved) International Conference.
       </p>
       <div className="flex flex-wrap px-4 mt-8 mb-12 items-start justify-center">
