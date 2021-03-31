@@ -186,4 +186,7 @@
 }, {
   "name": "L.A. Sevastianov",
   "affiliations": [{"slug":"rudn"}]
+}, {
+  "name": "A.N.Sobolevski",
+  "affiliations": [{"slug":"iitp"}]
 }]

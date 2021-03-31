@@ -285,4 +285,9 @@
   "slug": "kpi",
   "name": "Kyiv polytechnic institute",
   "country": "Ukraine"
+}, {
+  "id": 47,
+  "slug": "iitp",
+  "name": "IITP RAS",
+  "country": "Russia"
 }]
