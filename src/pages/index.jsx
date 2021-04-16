@@ -80,7 +80,7 @@ export default function Home ({
             <h3 className="h3">Organizers & sponsors</h3>
             <SponsorsImageGallery
               organizations={organizations}
-              className="mt-8 mb-12 container mx-auto md:w-3/4"
+              className="mt-8 mb-12 container mx-auto md:w-3/5"
             />
           </div>
 

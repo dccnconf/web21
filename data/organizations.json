@@ -67,11 +67,7 @@
   "name": "Project 5-100: Russian Academic Excellence Project",
   "country": "Russia",
   "logotype": "/images/logotypes/5100.png",
-  "url": "https://5top100.ru/en/",
-  "member": {
-    "order": 3,
-    "type": "Organizer"
-  }
+  "url": "https://5top100.ru/en/"
 }, {
   "id": 6,
   "slug": "springer",
