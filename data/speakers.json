@@ -31,7 +31,7 @@
   "country": "Israel",
   "avatar": "/images/avatars/levner.jpg",
   "affiliations": [{
-    "name": "Holon Institute of Technology,",
+    "name": "Holon Institute of Technology",
     "department": null,
     "city": "Holon",
     "address": "Flint, MI-48504",
@@ -58,7 +58,7 @@
   "country": "Hungary",
   "avatar": "/images/avatars/sztrik.jpg",
   "affiliations": [{
-    "name": "University of Debrecen, Hungary",
+    "name": "University of Debrecen",
     "country": "Hungary",
     "city": "Debrecen",
     "position": "Professor"
