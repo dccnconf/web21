@@ -41,7 +41,7 @@ const KeynotePage = ({ keynote }) => {
             <div className="container mx-auto mt-12 bg-indigo-100">
               <div className="container md:w-2/3 mx-auto p-8 items-start">
                 {/*<div className="lg:w-1/4 pr-8 lg:mt-12 lg:pt-12">*/}
-                <h3 className="text-4xl font-extrabold text-center lg:text-center">About the speaker</h3>
+                <h3 className="text-2xl md:text-4xl font-extrabold text-center lg:text-center">About the speaker</h3>
                 {/*</div>*/}
                 <div className="flex-grow w-full mt-12">
                   <KeynoteSpeakerCard speaker={keynote.speaker} enableLink={false} />
