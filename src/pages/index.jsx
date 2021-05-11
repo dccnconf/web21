@@ -16,6 +16,8 @@ import {getAllFees} from "../libs/fees";
 import Link from "next/link";
 import TechnicalsSponsors from "../components/TechnicalSponsors";
 import getTopics from "../libs/topics";
+import KeynoteSpeakers from "../components/KeynoteSpeakers";
+import {getAllSpeakers} from "../libs/keynotes";
 
 export default function Home ({
   deadlines,
@@ -24,6 +26,7 @@ export default function Home ({
   committeeMembers,
   tpcMembers,
   fees,
+  speakers,
   topics
 }) {
   return (
@@ -41,6 +44,17 @@ export default function Home ({
           </div>
 
         </div>
+      </section>
+
+      <section id="keynotes" className="mt-12">
+        <div className="container mx-auto px-4 pb-12 lg:w-3/4">
+          <h2 className="h2">Keynote Speakers</h2>
+          <KeynoteSpeakers
+              className="mt-12"
+              speakers={speakers}
+          />
+        </div>
+
       </section>
 
       <section id="timeline" className="pt-12">
@@ -112,6 +126,8 @@ export const getStaticProps = async () => {
   const tpcMembers = getAllTpcMembers();
   const topics = getTopics();
   const fees = getAllFees();
+  const speakers = getAllSpeakers();
+
   // for (const track of tracks) {
   //   for (const topic of track.topics) {
   //     topics.push(topic);
@@ -125,7 +141,8 @@ export const getStaticProps = async () => {
       committeeMembers,
       tpcMembers,
       fees,
-      topics
+      topics,
+      speakers
     }
   }
 };

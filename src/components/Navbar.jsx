@@ -176,6 +176,11 @@ const ConferenceMenu = ({onClick}) => (
       onClick={onClick}
     />
     <NavbarDropdownMenuItem
+      href="/" as="/#keynotes" icon={faStar} text="Keynote Speakers"
+      comment="Read about our keynote speakers"
+      onClick={onClick}
+    />
+    <NavbarDropdownMenuItem
       href="/" as="/#timeline" icon={faCalendarDay} text="Timeline"
       comment="When the submission ends, conference starts and other important dates"
       onClick={onClick}
@@ -336,7 +341,7 @@ const NavbarDropdownMenuItem = ({ href, as = undefined, icon, iconClassName = "m
   <div onClick={onClick}>
     <Link href={href} as={as}>
       <a className="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-        { icon && <FontAwesomeIcon icon={icon} size="lg" className={`text-indigo-600 ${iconClassName}`} />}
+        { icon && <div className="flex justify-center mt-0 md:mt-2" style={{"max-width": 32, "min-width": 32}}><FontAwesomeIcon icon={icon} size="lg" className={`text-indigo-600 ${iconClassName}`} /></div>}
         <div className="space-y-1">
           <p className="text-base leading-6 font-medium text-gray-900 mb-1">{text}</p>
           { comment && (<p className="hidden md:block text-sm leading-5 text-gray-500">{comment}</p>) }
