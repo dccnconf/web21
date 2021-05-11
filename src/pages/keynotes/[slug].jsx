@@ -14,7 +14,7 @@ const KeynotePage = ({ keynote }) => {
       {
         keynote && (
           <section className="container mx-auto my-12 py-12">
-            <article className="container mx-auto md:w-2/3 pb-12">
+            <article className="container mx-auto md:w-2/3 pb-12 p-8">
               <p className="mb-1 font-extrabold md:text-2xl text-indigo-600">
                 <FontAwesomeIcon icon={faStar} />
                 <span className="ml-2">Keynote</span>
@@ -39,10 +39,10 @@ const KeynotePage = ({ keynote }) => {
             </article>
 
             <div className="container mx-auto mt-12 bg-indigo-100">
-              <div className="container md:w-2/3 mx-auto lg:flex p-8 items-start">
-                <div className="lg:w-1/4 pr-8 lg:mt-12 lg:pt-12">
-                  <h3 className="text-3xl font-extrabold text-center lg:text-right">About the speaker</h3>
-                </div>
+              <div className="container md:w-2/3 mx-auto p-8 items-start">
+                {/*<div className="lg:w-1/4 pr-8 lg:mt-12 lg:pt-12">*/}
+                <h3 className="text-4xl font-extrabold text-center lg:text-center">About the speaker</h3>
+                {/*</div>*/}
                 <div className="flex-grow w-full mt-12">
                   <KeynoteSpeakerCard speaker={keynote.speaker} enableLink={false} />
                   <div className="mt-12 md:text-lg leading-tight text-gray-800 markdown-box">
