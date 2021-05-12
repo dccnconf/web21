@@ -92,7 +92,7 @@ export default function Navbar({ active = 'conference' }) {
 
             </nav>
 
-            <div className="hidden md:flex flex-1 flex-shrink-0 justify-end items-center ml-4">
+            <div className="hidden md:flex flex-1 flex-shrink-0 justify-end md:justify-center items-center ml-4">
               <ChangeLang />
             </div>
           </div>
