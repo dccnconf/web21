@@ -1,0 +1,21 @@
+export const en = {
+  "index.conference.fullName": "Distributed Computer and Communication Networks",
+  "index.conference.name.postfix": "Control, Computation, Communications",
+  "index.conference.date": "20-24 September 2021",
+  "index.conference.place": "Moscow, Russia",
+  "index.conference.welcome": "Welcome to the 24th International Conference on",
+  "index.conference.submit.button": "Submit paper",
+  "index.about": "About",
+  "index.about.paragraph1": "DCCN-2021 will take place in Moscow, Russia, on 20-24 September, 2021. The conference is a continuation of traditional international conferences of the DCCN series, which took place in Bulgaria, Israel, and Russia in the last 25 years.",
+  "index.about.paragraph2": "The main idea of the conference is to provide a platform and forum for researchers and developers from academia and industry from various countries working in the area of theory and applications of distributed computer and communication networks, mathematical modeling, methods of control and\n optimization of distributed systems, by offering them a unique opportunity to share their views as well\n as discuss the prospective developments and pursue collaboration in this area.",
+  "index.about.paragraph3": "The working languages of the Conference are Russian and English.",
+  "index.about.conference.deadlines": "Conference deadlines",
+  "index.about.conference.call.for.papers": "Call For papers",
+  "index.about.conference.organizing.committee": "Organizing committee",
+  "index.about.conference.conference.at.uconfy": "Conference ar uConfy",
+  "index.proceedings": "Proceedings",
+  "index.proceedings.paragraph": "Traditionally, the accepted and presented DCCN papers are published in the Conference Proceedings volume (included into the Russian Science Citation Index). The revised selected submissions in English, recommended by the Program Committee, also appear as a stand-alone volume of selected extended papers published by Springer (indexed in Scopus and Web of Science).",
+  "index.topics": "Topics",
+  "index.topics.paragraph": "Conference topics include, but are not limited to the these.",
+  "index.keynotespeakers": "Keynote Speakers"
+}

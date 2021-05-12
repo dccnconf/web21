@@ -1,16 +1,58 @@
 [
-  "Communication networks algorithms and protocols",
-  "Wireless and mobile networks",
-  "Computer and telecommunication networks control and management",
-  "Performance analysis, QoS/QoE evaluation and network efficiency",
-  "Evolution of wireless networks toward 5G",
-  "Centimeter- and millimeter-wave radio technologies",
-  "High-altitude telecommunications platforms",
-  "Analytical modeling and simulation of communication systems",
-  "Probabilistic and statistical models in information systems",
-  "Queuing theory and reliability theory applications",
-  "Internet of Things and Fog Computing",
-  "Cloud computing, distributed and parallel systems",
-  "Security in infocommunication systems",
-  "Machine learning, big data, artificial intelligence"
+  {
+    "en": "Communication networks algorithms and protocols",
+    "ru": "Алгоритмы и протоколы сетей связи"
+  },
+  {
+    "en": "Wireless and mobile networks",
+    "ru": "Беспроводные и мобильные сети"
+  },
+  {
+    "en": "Computer and telecommunication networks control and management",
+    "ru": "Контроль и управление компьютерными и телекоммуникационными сетями"
+  },
+  {
+    "en": "Performance analysis, QoS/QoE evaluation and network efficiency",
+    "ru": "Анализ производительности, оценка QoS / QoE и эффективность сети"
+  },
+  {
+    "en": "Evolution of wireless networks toward 5G",
+    "ru": "Эволюция беспроводных сетей в сторону 5G"
+  },
+  {
+    "en": "Centimeter- and millimeter-wave radio technologies",
+    "ru": "Радиотехнологии сантиметрового и миллиметрового диапазонов"
+  },
+  {
+    "en": "High-altitude telecommunications platforms",
+    "ru": "Высотные телекоммуникационные платформы"
+  },
+  {
+    "en": "Analytical modeling and simulation of communication systems",
+    "ru": "Аналитическое моделирование и симуляция систем связи"
+  },
+  {
+    "en": "Probabilistic and statistical models in information systems",
+    "ru": "Вероятностно-статистические модели в информационных системах"
+  },
+  {
+    "en": "Queuing theory and reliability theory applications",
+    "ru": "Приложения теории массового обслуживания и теории надежности"
+  },
+  {
+    "en": "Internet of Things and Fog Computing",
+    "ru": "Интернет вещей и туманные вычисления"
+  },
+  {
+    "en": "Cloud computing, distributed and parallel system",
+    "ru": "Облачные вычисления, распределенные и параллельные системы"
+  },
+  {
+    "en": "Security in infocommunication systems",
+    "ru": "Безопасность в инфокоммуникационных системах"
+  },
+  {
+    "en": "Machine learning, big data, artificial intelligence",
+    "ru": "Машинное обучение, большие данные, искусственный интеллект"
+  }
 ]

@@ -18,6 +18,7 @@ import TechnicalsSponsors from "../components/TechnicalSponsors";
 import getTopics from "../libs/topics";
 import KeynoteSpeakers from "../components/KeynoteSpeakers";
 import {getAllSpeakers} from "../libs/keynotes";
+import {useIntl} from "../hooks/useIntl";
 
 export default function Home ({
   deadlines,
@@ -29,6 +30,8 @@ export default function Home ({
   speakers,
   topics
 }) {
+  const {translate} = useIntl();
+
   return (
     <Layout pageTitle={"DCCN'2021"} active="conference">
       {/*<div className="lg:pb-12">*/}
@@ -37,8 +40,7 @@ export default function Home ({
 
       <section id="about" className="pt-12 bg-gray-100">
         <div className="container mx-auto px-4 pb-12 lg:w-1/2">
-
-          <h2 className="h2">About</h2>
+          <h2 className="h2">{translate("index.about")}</h2>
           <div className="py-12 text-gray-600">
             <About tracks={tracks} topics={topics} />
           </div>
@@ -48,7 +50,7 @@ export default function Home ({
 
       <section id="keynotes" className="mt-12">
         <div className="container mx-auto px-4 pb-12 lg:w-3/4">
-          <h2 className="h2">Keynote Speakers</h2>
+          <h2 className="h2">{translate("index.keynotespeakers")}</h2>
           <KeynoteSpeakers
               className="mt-12"
               speakers={speakers}
@@ -118,13 +120,14 @@ export default function Home ({
   );
 }
 
-export const getStaticProps = async () => {
+export const getStaticProps = async (context = {}) => {
+  const { locale } = context;
   const deadlines = getDeadlines();
   const tracks = getAllTracks();
   const organizations = getAllOrganizations();
   const committeeMembers = getAllCommitteeMembers();
   const tpcMembers = getAllTpcMembers();
-  const topics = getTopics();
+  const topics = getTopics(locale);
   const fees = getAllFees();
   const speakers = getAllSpeakers();
 

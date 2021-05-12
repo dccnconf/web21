@@ -13,6 +13,7 @@ import {
 import {faCalendarAlt, faEnvelope, faStar} from '@fortawesome/free-regular-svg-icons';
 import OutsideClickHandler from "react-outside-click-handler";
 import {Transition} from "@tailwindui/react";
+import ChangeLang from "./ChangeLang";
 
 
 export default function Navbar({ active = 'conference' }) {
@@ -40,9 +41,8 @@ export default function Navbar({ active = 'conference' }) {
     <>
       <div className="relative bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div
-            className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
-            <div className="lg:w-0 lg:flex-1">
+          <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start lg:space-x-10">
+            <div className="lg:w-0 md:flex-1">
               <Brand />
             </div>
 
@@ -59,7 +59,7 @@ export default function Navbar({ active = 'conference' }) {
             </div>
 
             {/* Desktop menu */}
-            <nav className="hidden md:flex space-x-10">
+            <nav className="lg:w-0 md:flex-1 hidden md:flex space-x-8 lg:space-x-10">
               <NavbarDropdownItem
                 isActive={active === 'conference'}
                 text="Conference"
@@ -91,7 +91,10 @@ export default function Navbar({ active = 'conference' }) {
               </NavbarDropdownItem>
 
             </nav>
-            <div className="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0" />
+
+            <div className="hidden md:flex flex-1 flex-shrink-0 justify-end items-center ml-4">
+              <ChangeLang />
+            </div>
           </div>
         </div>
 
@@ -126,14 +129,12 @@ export default function Navbar({ active = 'conference' }) {
                   </div>
 
                   {/* Currently active menu */}
-                  <div>
                     <nav className="grid row-gap-8">
                       {
                         (active === 'conference' && (<ConferenceMenu onClick={closeAll} />)) ||
                         (active === 'support' && (<SupportMenu onClick={closeAll} />))
                       }
                     </nav>
-                  </div>
                 </div>
                 <div className="py-6 px-5 space-y-6">
                   <div className="grid grid-cols-1 sm:grid-cols-2 row-gap-4 col-gap-8">
@@ -275,7 +276,7 @@ const NavbarLink = ({ isActive, text, href, onClick }) => {
   );
 }
 
-const NavbarDropdownItem = ({ isActive, text, children, isShown, setIsShown, tails = [] } = {}) => (
+export const NavbarDropdownItem = ({ isActive, text, children, isShown, setIsShown, tails = [], bodyStyle = {} } = {}) => (
   <OutsideClickHandler
     onOutsideClick={
       () => {
@@ -308,7 +309,7 @@ const NavbarDropdownItem = ({ isActive, text, children, isShown, setIsShown, tai
       leaveFrom="opacity-100 translate-y-0"
       leaveTo="opacity-0 translate-y-1"
     >
-      <div className={`absolute -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2`}>
+      <div style={bodyStyle} className={ "absolute -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"}>
         <div className="rounded-lg shadow-lg">
           <div className="rounded-lg shadow-xs overflow-hidden z-20">
             <div className="z-20 relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
@@ -327,7 +328,6 @@ const NavbarDropdownItem = ({ isActive, text, children, isShown, setIsShown, tai
                 </div>
               )
             }
-
           </div>
         </div>
       </div>
@@ -352,7 +352,7 @@ const NavbarDropdownMenuItem = ({ href, as = undefined, icon, iconClassName = "m
 );
 
 
-const TailDropdownLink = ({ href, as = undefined, icon, iconClassName = "mx-1", text, onClick }) => (
+export const TailDropdownLink = ({ href, as = undefined, icon, iconClassName = "mx-1", text, onClick }) => (
   <div onClick={onClick}>
     <Link href={href} as={as}>
       <a className="-m-3 p-3 flex items-center space-x-3 rounded-md text-base leading-6 font-medium text-gray-900 hover:bg-gray-100 transition ease-in-out duration-150">
