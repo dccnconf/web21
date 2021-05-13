@@ -44,7 +44,6 @@ export default function Home ({
           <div className="py-12 text-gray-600">
             <About tracks={tracks} topics={topics} />
           </div>
-
         </div>
       </section>
 

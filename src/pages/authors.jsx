@@ -19,9 +19,10 @@ const AuthorsPage = ({ topics }) => {
   );
 };
 
-export const getStaticProps = () => {
+export const getStaticProps = (context = {}) => {
+  const { locale } = context;
   return {
-    props: {topics: getTopics()}
+    props: {topics: getTopics(locale)}
   }
 };
 

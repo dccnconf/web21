@@ -1,39 +1,39 @@
 import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArchive, faLink} from "@fortawesome/free-solid-svg-icons";
+import {useIntl} from "../hooks/useIntl";
 
 
 const CFP = ({topics, className = ""} = {}) => {
+  const {translate} = useIntl();
+
   return (
   <div className={className}>
     <p className="md:text-lg">
-      Authors are encouraged to submit their papers (4-6 pages) in Russian or English language via the online
-      registration system  <a href="https://uconfy.com" target="_blank" className="text-indigo-700">uConfy.com</a>. The accepted papers
-      will be published in the Conference Proceedings volume (included into the Russian Science Citation Index) prior
-      to the beginning of the Conference.
+      {translate("authors.cfp.paragraph1", {link: <a href="https://uconfy.com" target="_blank" className="text-indigo-700">uConfy.com</a>})}
     </p>
     <div className="pl-8 mt-8">
       <a href="/downloads/DCCN2021_LaTeX_RU.zip" className="text-indigo-700">
         <FontAwesomeIcon icon={faArchive} size="lg" className="mr-3"/>
-        <span className="md:text-lg align-middle">Template in Russian</span>
+        <span className="md:text-lg align-middle">{translate("authors.cfp.template.russian")}</span>
       </a>
     </div>
     <div className="pl-8 mt-4">
       <a href="/downloads/DCCN2021_LaTeX_EN.zip" className="text-indigo-700">
         <FontAwesomeIcon icon={faArchive} size="lg" className="mr-3"/>
-        <span className="md:text-lg align-middle">Template in English</span>
+        <span className="md:text-lg align-middle">{translate("authors.cfp.template.english")}</span>
       </a>
     </div>
 
     <p className="md:text-lg mt-8">
-      For your convenience, we made available the DCCN templates in the scientific authoring platform Overleaf:
+      {translate("authors.cfp.paragraph2")}
     </p>
     <div className="mt-4 pl-8">
       <a href="https://www.overleaf.com/latex/templates/dccn2021-submission-template-rus/ckqxxxthwjnf"
          target="_blank"
          className="text-indigo-700">
         <FontAwesomeIcon icon={faLink} size="lg" className="mr-3"/>
-        <span className="text-lg align-middle">Overleaf DCCN'2021 Submission Template (RUS)</span>
+        <span className="text-lg align-middle">{translate("authors.cfp.template.russian.overleaf")}</span>
       </a>
     </div>
     <div className="mt-4 pl-8">
@@ -41,23 +41,18 @@ const CFP = ({topics, className = ""} = {}) => {
          target="_blank"
          className="text-indigo-700">
         <FontAwesomeIcon icon={faLink} size="lg" className="mr-3"/>
-        <span className="text-lg align-middle">Overleaf DCCN'2021 Submission Template (ENG)</span>
+        <span className="text-lg align-middle">{translate("authors.cfp.template.english.overleaf")}</span>
       </a>
     </div>
 
     <p className="md:text-lg mt-8">
-      After a peer review and plagiarism check, authors of selected submissions in English, recommended by the Program Committee,
-      will be invited to submit their extended papers (12-15 pages in Springer LNCS template).
-      After a second round of review the accepted extended papers will be published by Springer (approval pending)
-      as a stand-alone volume of selected extended papers (indexed in Scopus and Web of Science).
+      {translate("authors.cfp.paragraph3")}
     </p>
     <p className="md:text-lg mt-8">
-      Please note, that peer review is double-blind. In order to provide the possibility of double-blind peer review,
-      when first submitting the manuscripts the authors are asked to leave empty all fields that may identify the authors
-      (names, emails, affiliations, grant support). In case a submission is not blinded, it will not move on to the review process.
+      {translate("authors.cfp.paragraph4")}
     </p>
     <p className="md:text-lg mt-8">
-      <span className="font-extrabold text-xl text-indigo-500 mr-1">Topics</span> include, but are not limited to the following fields:
+      {translate("authors.cfp.topics", {topics: <span className="font-extrabold text-xl text-indigo-500 mr-1">{translate("authors.cfp.topics.name")}</span>})}
     </p>
     <ul className="list-inside md:text-lg pl-2 mt-4 list-disc leading-6">
       {topics.map((topic, index) => <li className="text-base" key={index}>{topic}</li>)}

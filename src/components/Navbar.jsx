@@ -46,6 +46,8 @@ export default function Navbar({active = 'conference'}) {
             <div className="md:flex-1">
               <Brand/>
             </div>
+
+            {/* Mobile menu toggler */}
             <div className="flex flex-1 flex-shrink-0 justify-end items-center ml-4  md:hidden">
               <div className="mt-1">
                 <ChangeLang isMobile={true}/>
@@ -61,8 +63,6 @@ export default function Navbar({active = 'conference'}) {
                 </button>
               </div>
             </div>
-
-            {/* Mobile menu toggler */}
 
             {/* Desktop menu */}
             <nav className="md:flex-1 hidden md:flex space-x-8 lg:space-x-10">
