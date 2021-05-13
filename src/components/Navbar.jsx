@@ -14,9 +14,12 @@ import {faCalendarAlt, faEnvelope, faStar} from '@fortawesome/free-regular-svg-i
 import OutsideClickHandler from "react-outside-click-handler";
 import {Transition} from "@tailwindui/react";
 import ChangeLang from "./ChangeLang";
+import {useIntl} from "../hooks/useIntl";
 
 
 export default function Navbar({active = 'conference'}) {
+  const {translate} = useIntl();
+
   const NO_MENUS_SHOWN = {
     conference: false,
     program: false,
@@ -68,7 +71,7 @@ export default function Navbar({active = 'conference'}) {
             <nav className="md:flex-1 hidden md:flex space-x-8 lg:space-x-10">
               <NavbarDropdownItem
                 isActive={active === 'conference'}
-                text="Conference"
+                text={translate("navigation.conference")}
                 isShown={isShown.conference}
                 setIsShown={shown => setIsMenuShown('conference', shown)}
                 tails={[
@@ -76,7 +79,7 @@ export default function Navbar({active = 'conference'}) {
                     href="/support"
                     as="/support#contact"
                     icon={faEnvelope}
-                    text="Contact Us"
+                    text={translate("navigation.contact.us")}
                     iconClassName="text-indigo-600"
                   />
                 ]}
@@ -84,12 +87,12 @@ export default function Navbar({active = 'conference'}) {
                 <ConferenceMenu onClick={closeAll}/>
               </NavbarDropdownItem>
 
-              <NavbarLink text="Authors" isActive={active === 'authors'} href="/authors"/>
-              <NavbarLink text="Program" isActive={active === 'program'} href="/program"/>
+              <NavbarLink text={translate("navigation.authors")} isActive={active === 'authors'} href="/authors"/>
+              <NavbarLink text={translate("navigation.program")} isActive={active === 'program'} href="/program"/>
 
               <NavbarDropdownItem
                 isActive={active === 'support'}
-                text="Support"
+                text={translate("navigation.support")}
                 isShown={isShown.support}
                 setIsShown={shown => setIsMenuShown('support', shown)}
               >
@@ -146,10 +149,10 @@ export default function Navbar({active = 'conference'}) {
                   </div>
                   <div className="py-6 px-5 space-y-6">
                     <div className="grid grid-cols-1 sm:grid-cols-2 row-gap-4 col-gap-8">
-                      <NavbarLink text="Conference" href="/" onClick={closeAll}/>
-                      <NavbarLink text="CFP" href="/authors" onClick={closeAll}/>
-                      <NavbarLink text="Program" href="/program" onClick={closeAll}/>
-                      <NavbarLink text="Contact Us" href="/support" onClick={closeAll}/>
+                      <NavbarLink text={translate("navigation.conference")} href="/" onClick={closeAll}/>
+                      <NavbarLink text={translate("navigation.authors")} href="/authors" onClick={closeAll}/>
+                      <NavbarLink text={translate("navigation.program")} href="/program" onClick={closeAll}/>
+                      <NavbarLink text={translate("navigation.contact.us")} href="/support" onClick={closeAll}/>
                     </div>
                     <div className="space-y-6"/>
                   </div>
@@ -176,35 +179,37 @@ const Brand = () => (
 );
 
 
-const ConferenceMenu = ({onClick}) => (
-  <>
+const ConferenceMenu = ({onClick}) => {
+  const {translate} = useIntl();
+
+  return <>
     <NavbarDropdownMenuItem
-      href="/" as="/#about" icon={faInfo} text="About" iconClassName="mx-2"
-      comment="Learn more about our conference"
+      href="/" as="/#about" icon={faInfo} text={translate("navigation.about")} iconClassName="mx-2"
+      comment={translate("navigation.about.desc")}
       onClick={onClick}
     />
     <NavbarDropdownMenuItem
-      href="/" as="/#keynotes" icon={faStar} text="Keynote Speakers"
-      comment="Read about our keynote speakers"
+      href="/" as="/#keynotes" icon={faStar} text={translate("navigation.keynote.speakers")}
+      comment={translate("navigation.about.desc")}
       onClick={onClick}
     />
     <NavbarDropdownMenuItem
-      href="/" as="/#timeline" icon={faCalendarDay} text="Timeline"
-      comment="When the submission ends, conference starts and other important dates"
+      href="/" as="/#timeline" icon={faCalendarDay} text={translate("navigation.timeline")}
+      comment={translate("navigation.timeline.desc")}
       onClick={onClick}
     />
     <NavbarDropdownMenuItem
-      href="/" as="/#committee" icon={faUserFriends} text="Organizers & Sponsors"
-      comment="Organizing and technical program committees"
+      href="/" as="/#committee" icon={faUserFriends} text={translate("navigation.organizers.sponsors")}
+      comment={translate("navigation.organizers.sponsors.desc")}
       onClick={onClick}
     />
     <NavbarDropdownMenuItem
-      href="/" as="/#fees" icon={faCoins} text="Registration & Fees"
-      comment="Registration fees and discounts for our participants"
+      href="/" as="/#fees" icon={faCoins} text={translate("navigation.reg.fees")}
+      comment={translate("navigation.reg.fees.desc")}
       onClick={onClick}
     />
   </>
-);
+};
 
 
 // const AuthorsMenu = ({onClick}) => (
@@ -249,20 +254,23 @@ const ProgramMenu = ({onClick}) => (
 );
 
 
-const SupportMenu = ({onClick}) => (
-  <>
+const SupportMenu = ({onClick}) => {
+  const {translate} = useIntl();
+
+  return <>
     <NavbarDropdownMenuItem
-      href="/support" as="/support#payment" icon={faFileInvoice} text="Payment details" iconClassName="mx-2"
-      comment="Learn more about the wire fee transfer"
+      href="/support" as="/support#payment" icon={faFileInvoice}
+      text={translate("navigation.payment.details")} iconClassName="mx-2"
+      comment={translate("navigation.payment.details.desc")}
       onClick={onClick}
     />
     <NavbarDropdownMenuItem
-      href="/support" as="/support#contact" icon={faEnvelope} text="Contact Us" iconClassName="mx-2"
-      comment="Contact organizing committee"
+      href="/support" as="/support#contact" icon={faEnvelope} text={translate("navigation.contact.us")} iconClassName="mx-2"
+      comment={translate("navigation.contact.us.desc")}
       onClick={onClick}
     />
   </>
-);
+};
 
 
 /**********************************************************************
@@ -299,7 +307,8 @@ export const NavbarDropdownItem = ({isActive, text, children, isShown, setIsShow
         onClick={() => setIsShown(!isShown)}
       >
         {text}
-        <svg className="text-gray-400 h-5 w-5 ml-2 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+        <svg
+          className="text-gray-400 h-5 w-5 ml-2 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
           viewBox="0 0 20 20" fill="currentColor">
           <path fillRule="evenodd"
                 d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"

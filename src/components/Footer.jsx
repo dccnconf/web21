@@ -1,8 +1,11 @@
 import React from "react";
 import Link from "next/link";
+import {useIntl} from "../hooks/useIntl";
 
-const Footer = () => (
-  <div className="pt-12 pb-8">
+const Footer = () => {
+  const {translate} = useIntl();
+
+  return <div className="pt-12 pb-8">
     <div className="container px-8 mx-auto xl:w-3/4">
       <div className="flex flex-col md:flex-row items-start">
 
@@ -17,7 +20,7 @@ const Footer = () => (
                 <a className="hover:underline leading-7 font-medium lg:text-xl">DCCN'2021</a>
               </Link>
               <div className="text-xs font-medium">
-                All rights reserved
+                {translate("navigation.rights")}
               </div>
             </div>
           </div>
@@ -26,7 +29,9 @@ const Footer = () => (
         <div className="sm:grid sm:grid-cols-3 sm:grid-flow-row gap-12 order-1 md:order-2">
           <div className="">
             <Link href="/">
-              <a className="font-medium uppercase tracking-wide text-gray-500 hover:underline">Conference</a>
+              <a className="font-medium uppercase tracking-wide text-gray-500 hover:underline">
+                {translate("navigation.conference")}
+              </a>
             </Link>
             <ul className="text-gray-600 leading-tight">
               {getConferenceLinks().map((link, index) => <li key={index} className="my-3">{link}</li>)}
@@ -34,7 +39,9 @@ const Footer = () => (
           </div>
           <div className="mt-8 sm:mt-0">
             <Link href={"/program"}>
-              <a className="font-medium uppercase tracking-wider text-gray-500 hover:underline">Program</a>
+              <a className="font-medium uppercase tracking-wider text-gray-500 hover:underline">
+                {translate("navigation.program")}
+              </a>
             </Link>
             <ul className="text-gray-600 leading-tight">
               {getProgramLinks().map((link, index) => <li key={index} className="my-3">{link}</li>)}
@@ -42,7 +49,9 @@ const Footer = () => (
           </div>
           <div className="mt-8 sm:mt-0">
             <Link href={"/support"}>
-              <a className="font-medium uppercase tracking-wider text-gray-500 hover:underline">Support</a>
+              <a className="font-medium uppercase tracking-wider text-gray-500 hover:underline">
+                {translate("navigation.support")}
+              </a>
             </Link>
             <ul className="text-gray-600 leading-tight">
               {getSupportLinks().map((link, index) => <li key={index} className="my-3">{link}</li>)}
@@ -52,29 +61,36 @@ const Footer = () => (
       </div>
     </div>
   </div>
-);
+};
 
-const FooterLink = ({ href, hash = undefined, label }) => (
+const FooterLink = ({href, hash = undefined, label}) => (
   <Link href={href} as={hash ? `${href}#${hash}` : undefined}>
     <a className="leading-3 tracking-wide text-gray-600 hover:underline hover:text-blue-600">{label}</a>
   </Link>
 );
 
-const getConferenceLinks = () => [
-  <FooterLink href={"/"} hash="about" label="About" />,
-  <FooterLink href={"/authors"} label="CFP" />,
-  <FooterLink href={"/"} hash="keynotes" label="Keynotes" />,
-  <FooterLink href={"/"} hash="timeline" label="Timeline" />,
-  <FooterLink href={"/"} hash="committee" label="Organizers" />,
-  <FooterLink href={"/"} hash="fees" label="Registration" />,
-];
+const getConferenceLinks = () => {
+  const {translate} = useIntl();
 
-const getProgramLinks = () => [
-];
+  return [
+    <FooterLink href={"/"} hash="about" label={translate("navigation.about")}/>,
+    <FooterLink href={"/authors"} label={translate("navigation.cfp")}/>,
+    <FooterLink href={"/"} hash="keynotes" label={translate("navigation.keynotes")}/>,
+    <FooterLink href={"/"} hash="timeline" label={translate("navigation.timeline")}/>,
+    <FooterLink href={"/"} hash="committee" label={translate("navigation.organizers")}/>,
+    <FooterLink href={"/"} hash="fees" label={translate("navigation.registration")}/>,
+  ]
+};
 
-const getSupportLinks = () => [
-  <FooterLink href={"/support"} hash="payment" label="Payments" />,
-  <FooterLink href={"/support"} hash="contact" label="Contact Us" />,
-];
+const getProgramLinks = () => [];
+
+const getSupportLinks = () => {
+  const {translate} = useIntl();
+
+  return [
+    <FooterLink href={"/support"} hash="payment" label={translate("navigation.payments")}/>,
+    <FooterLink href={"/support"} hash="contact" label={translate("navigation.contact.us")}/>
+  ]
+};
 
 export default Footer;
