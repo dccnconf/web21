@@ -1,4 +1,5 @@
 import React from "react";
+import {useIntl} from "../hooks/useIntl";
 
 const TechnicalSponsor = ({imgUrl}) => (
   <img src={imgUrl}
@@ -9,10 +10,12 @@ const TechnicalSponsor = ({imgUrl}) => (
 );
 
 const TechnicalsSponsors = () => {
+  const {translate} = useIntl();
+
   return (
     <div>
       <p className="md:leading-7 md:text-xl mt-6 text-center mx-auto text-gray-700 w-1/1 xl:w-1/2">
-        DCCN 2021 is an IEEE (Russia Section) technically co-sponsored (approved) International Conference.
+        {translate("index.organizers.technical.sponsors.paragraph")}
       </p>
       <div className="flex flex-wrap px-4 mt-8 mb-12 items-start justify-center">
         <TechnicalSponsor imgUrl="/images/logotypes/ieee-logo.png"/>

@@ -60,7 +60,7 @@ export default function Home ({
       </section>
 
       <section id="timeline" className="pt-12">
-        <h2 className="h2">Timeline</h2>
+        <h2 className="h2">{translate("index.timeline")}</h2>
         <div className="container mx-4 md:mx-auto py-12 xl:w-1/2 lg:w-2/3">
           <Timeline deadlines={deadlines} />
         </div>
@@ -68,13 +68,13 @@ export default function Home ({
 
       <section id="fees" className="pt-12 bg-purple-100">
         <div className="container mx-auto px-4 pb-12 lg:w-1/2">
-          <h2 className="h2">Registration & Fees</h2>
+          <h2 className="h2">{translate("index.registration.fees")}</h2>
           <Fees className="mt-8"
               fees={fees}
           />
           <p className="text-xl">
             <Link href={"/support"} as="/support#payment">
-              <a className="text-blue-500 hover:underline">Read more...</a>
+              <a className="text-blue-500 hover:underline">{translate("index.read.more")}...</a>
             </Link>
           </p>
         </div>
@@ -84,8 +84,8 @@ export default function Home ({
         <div className="container mx-auto px-4 pb-12 lg:w-3/4">
 
           <div className="mb-8">
-            <h2 className="h2">Organizers</h2>
-            <h3 className="h3 mt-12">Organizing committee</h3>
+            <h2 className="h2">{translate("index.organizers")}</h2>
+            <h3 className="h3 mt-12">{translate("index.organizing.committee")}</h3>
             <CommitteeMembersList
               members={committeeMembers}
               className="container mt-2 md:mx-auto lg:w-3/4"
@@ -93,7 +93,7 @@ export default function Home ({
           </div>
 
           <div>
-            <h3 className="h3">Organizers & sponsors</h3>
+            <h3 className="h3">{translate("index.organizers.sponsors")}</h3>
             <SponsorsImageGallery
               organizations={organizations}
               className="mt-8 mb-12 container mx-auto md:w-3/5"
@@ -101,12 +101,12 @@ export default function Home ({
           </div>
 
           <div className="mt-12 mb-12">
-            <h3 className="h3">Technical Sponsors</h3>
+            <h3 className="h3">{translate("index.organizers.technical.sponsors")}</h3>
             <TechnicalsSponsors/>
           </div>
 
           <div>
-            <h3 className="h3">Technical Program Committee</h3>
+            <h3 className="h3">{translate("index.technical.program.committee")}</h3>
             <TpcMembersList
               members={tpcMembers}
               className="container mt-8 mx-auto lg:w-3/4"

@@ -1,14 +1,15 @@
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFilePdf} from "@fortawesome/free-regular-svg-icons";
+import {useIntl} from "../hooks/useIntl";
 
 const Fees = ({ fees, className = "" }) => {
+  const {translate} = useIntl();
+
   return (
     <div className={className}>
       <p className="md:leading-7 md:text-xl text-gray-700">
-        At least one author per accepted paper must pay the registration fee and present the paper
-        in the conference <span className="text-indigo-600 font-medium mr-1">online session</span>
-        where the paper is scheduled. You can download payment details via the following link:
+        {translate("index.registration.fees.paragraph1")}
       </p>
       <div className="mt-8">
         <a href="/downloads/DCCN2021_FEES.pdf"
@@ -20,8 +21,7 @@ const Fees = ({ fees, className = "" }) => {
         </a>
       </div>
       <p className="md:leading-7 md:text-xl text-gray-700 mt-8">
-        Registration fees are waived for invited keynote speakers. Please note, that once the registration payment is
-        done, <span className="text-red-800 font-bold">no refund is available</span>.
+        {translate("index.registration.fees.paragraph2")}
       </p>
       <FeesTable fees={fees} className="my-12" />
     </div>
@@ -34,6 +34,8 @@ export const FeesTable = ({ fees, className = "" }) => {
     record.prices.sort((a, b) => (!a.ieeeMember && b.ieeeMember) ? -1 : (!!a.ieeeMember === !!b.ieeeMember) ? 0 : 1);
   }
 
+  const {translate} = useIntl();
+
   return (
     <div className={className}>
       <div className="flex flex-col">
@@ -43,17 +45,14 @@ export const FeesTable = ({ fees, className = "" }) => {
               <table className="min-w-full divide-y divide-gray-200">
                 <thead>
                 <tr>
-                  <th
-                    className="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-800 uppercase tracking-wider">
-                    PARTICIPANTS
+                  <th className="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-800 uppercase tracking-wider">
+                    {translate("index.registration.fees.participants")}
                   </th>
-                  <th
-                    className="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-800 uppercase tracking-wider">
-                    NO IEEE MEMBERSHIP
+                  <th className="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-800 uppercase tracking-wider">
+                    {translate("index.registration.fees.no.ieee.member")}
                   </th>
-                  <th
-                    className="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-800 uppercase tracking-wider">
-                    IEEE MEMBER
+                  <th className="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-800 uppercase tracking-wider">
+                    {translate("index.registration.fees.ieee.member")}
                   </th>
                 </tr>
                 </thead>
