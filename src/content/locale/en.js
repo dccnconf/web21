@@ -67,5 +67,17 @@ export const en = {
   "navigation.cfp": "CFP",
   "navigation.registration": "Registration",
   "navigation.payments": "Payments",
-  "navigation.rights": "All rights reserved"
+  "navigation.rights": "All rights reserved",
+  "support.payment.details": "Payment Details",
+  "support.payment.transfer.possible": "Payment is possible by wire transfer.",
+  "support.important": "IMPORTANT:",
+  "support.important.paragraph1": "The payment reference shall be necessarily specified. Otherwise we will not be able to properly trace the payment and identify the payer.",
+  "support.important.paragraph2": "Please specify in the MEMO LINE the following: “{info}”. Replace NAME and SURNAME with your full name.",
+  "support.important.paragraph3": "For Russian participants please indicate the name in Russian, If one person pays on behalf of a group of participants, please specify the names of all the participants.",
+  "support.important.name.surname.info": "NAME SURNAME, conference participation fee for DCCN2021. Without VAT.",
+  "support.contact": "If you have any questions, please write us:",
+  "support.payment.details.full": "Payment details for funds transfer in {val}",
+  "support.payment.details.rubles": "Russian rubles",
+  "support.payment.details.euro": "EURO",
+  "support.contact.us": "Contact Us"
 }
