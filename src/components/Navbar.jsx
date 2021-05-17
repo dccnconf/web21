@@ -15,6 +15,7 @@ import OutsideClickHandler from "react-outside-click-handler";
 import {Transition} from "@tailwindui/react";
 import ChangeLang from "./ChangeLang";
 import {useIntl} from "../hooks/useIntl";
+import {LocalizationContext} from "../contexts/LocalizationProvider";
 
 
 export default function Navbar({active = 'conference'}) {
@@ -52,9 +53,11 @@ export default function Navbar({active = 'conference'}) {
 
             {/* Mobile menu toggler */}
             <div className="flex flex-1 flex-shrink-0 justify-end items-center ml-4  md:hidden">
-              <div className="mt-1">
-                <ChangeLang isMobile={true}/>
-              </div>
+              <LocalizationContext.Consumer>
+                {({locale}) => (
+                  <ChangeLang isMobile={true} locale={locale}/>
+                )}
+              </LocalizationContext.Consumer>
               <div className="-mr-2 -my-2 md:hidden">
                 <button type="button"
                         className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
@@ -68,7 +71,7 @@ export default function Navbar({active = 'conference'}) {
             </div>
 
             {/* Desktop menu */}
-            <nav className="md:flex-1 hidden md:flex space-x-8 lg:space-x-10">
+            <nav className="md:flex-1 hidden md:flex space-x-5 lg:space-x-10">
               <NavbarDropdownItem
                 isActive={active === 'conference'}
                 text={translate("navigation.conference")}
@@ -102,7 +105,11 @@ export default function Navbar({active = 'conference'}) {
             </nav>
 
             <div className="hidden md:flex flex-1 flex-shrink-0 justify-end md:justify-center items-center ml-4">
-              <ChangeLang/>
+              <LocalizationContext.Consumer>
+                {({locale}) => (
+                  <ChangeLang locale={locale}/>
+                )}
+              </LocalizationContext.Consumer>
             </div>
           </div>
         </div>

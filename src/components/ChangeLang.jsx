@@ -1,7 +1,8 @@
-import React, {useEffect, useState} from "react";
+import React, {useContext, useEffect, useState} from "react";
 import Image from 'next/image'
 import {useRouter} from "next/router";
 import {NavbarDropdownItem} from "./Navbar";
+import {LocalizationContext} from "../contexts/LocalizationProvider";
 
 export const LANGUAGES_MAP = {
   ru: "Русский",
@@ -21,22 +22,9 @@ function ChangeLangItem({name, onClick, active = false, isMobile = false}) {
   </div>
 }
 
-function ChangeLang({isMobile = false}) {
-  const router = useRouter();
-  const {locale, pathname} = router;
-  const [currentLang, setCurrentLang] = useState(locale);
+function ChangeLang({isMobile = false, locale}) {
+  const {setLocale} = useContext(LocalizationContext);
   const [isShown, setIsShown] = useState(false);
-
-  useEffect(() => {
-    setIsShown(false);
-    setTimeout(() => {
-      changeLang(currentLang);
-    }, 300)
-  }, [currentLang]);
-
-  const changeLang = (currentLang) => {
-    router.push(pathname, pathname, {locale: currentLang});
-  }
 
   const bodyStyle = isMobile ? {
     width: "54px",
@@ -53,26 +41,35 @@ function ChangeLang({isMobile = false}) {
     gap: "1rem"
   } : {};
 
+  const changeLang = (lang) => {
+    setIsShown(false);
+    setTimeout(() => {
+      setLocale(lang);
+    }, 300)
+  }
+
   return <NavbarDropdownItem
     bodyStyle={bodyStyle}
     itemStyle={itemStyle}
     isActive={true}
-    text={<ChangeLangItem key={currentLang}
-                          name={currentLang}
-                          isMobile={isMobile}
-                          textName="English"/>}
+    text={
+      <ChangeLangItem key={locale}
+                      name={locale}
+                      isMobile={isMobile}
+      />
+    }
     isShown={isShown}
     setIsShown={shown => setIsShown(shown)}
     additionalBodyClasses="w-auto"
   >
     <ChangeLangItem key="en"
-                    onClick={setCurrentLang}
-                    active={currentLang === "en"}
+                    onClick={changeLang}
+                    active={locale === "en"}
                     isMobile={isMobile}
                     name="en"/>
     <ChangeLangItem key="ru"
-                    onClick={setCurrentLang}
-                    active={currentLang === "ru"}
+                    onClick={changeLang}
+                    active={locale === "ru"}
                     isMobile={isMobile}
                     name="ru"/>
   </NavbarDropdownItem>
