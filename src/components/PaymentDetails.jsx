@@ -1,55 +1,27 @@
 import React from "react";
+import {useIntl} from "../hooks/useIntl";
 
-const PaymentDetails = ({ className }) => {
+const PaymentDetails = ({ className = "" }) => {
+  const {translate} = useIntl();
+
   return (
     <div className={className}>
       <p className="md:leading-7 md:text-xl text-gray-700 my-8">
-        Payment is possible by wire transfer.
+        {translate("support.payment.transfer.possible")}
       </p>
 
       <div className="border rounded-xl bg-pink-100 border-red-300 px-6 py-4 mt-4 text-lg leading-7 text-gray-700">
-        <span className="font-semibold text-pink-400 mr-2">ВАЖНО:</span>
+        <span className="font-semibold text-pink-400 mr-2">{translate("support.important")}</span>
+        <p>{translate("support.important.paragraph1")}</p>
         <p>
-          Необходимо указать назначение платежа. В противном случае мы не сможем
-          корректно отследить платеж и идентифицировать плательщика.
+          {translate("support.important.paragraph2", {info:  <span className="font-bold">{translate("support.important.name.surname.info")}</span> })}
         </p>
-        <p>
-          В графе назначения платежа необходимо указать:
-          <span className="font-bold">
-            “ИМЯ ФАМИЛИЯ. Взнос за участие в конференции DCCN2021. Без НДС.”
-          </span> (замените ИМЯ и ФАМИЛИЮ вашим полным именем).
-        </p>
-        <p>
-          Если Вы платите за несколько участников, просьба перечислить имена
-          всех участников, за которых вносится оплата.
-        </p>
-      </div>
-
-
-      <div className="border rounded-xl bg-pink-100 border-red-300 px-6 py-4 mt-8 text-lg leading-7 text-gray-700">
-        <span className="font-semibold text-pink-400 mr-2">IMPORTANT:</span>
-        <p>
-          The payment reference shall be necessarily specified.
-          Otherwise we will not be able to properly trace the payment and
-          identify the payer.
-        </p>
-        <p>
-          Please specify in the MEMO LINE the following:
-          <span className="font-bold">
-            “NAME SURNAME, conference participation fee for DCCN2021. Without VAT.”
-          </span>.
-          Replace NAME and SURNAME with your full name.
-        </p>
-        <p>
-          For Russian participants please indicate the name in Russian,
-          If one person pays on behalf of a group of participants,
-          please specify the names of all the participants.
-        </p>
+        <p>{translate("support.important.paragraph3")}</p>
       </div>
 
       <div className="mt-12">
         <h5 className="md:leading-7 md:text-xl text-gray-700">
-          Payment details for funds transfer in <span className="text-pink-800">Russian rubles</span>:
+          {translate("support.payment.details.full", {val: <span className="text-pink-800">{translate("support.payment.details.rubles")}</span>})}
         </h5>
         <table className="table-auto w-full mt-8">
           <tbody>
@@ -97,7 +69,7 @@ const PaymentDetails = ({ className }) => {
 
       <div className="mt-12">
         <h5 className="text-franklin-cond text-lg mb-4">
-          Payment details for funds transfer in <span className="text-pink-800">EURO</span>:
+          {translate("support.payment.details.full", {val: <span className="text-pink-800">{translate("support.payment.details.euro")}</span>})}
         </h5>
         <table className="table-auto w-full mt-8">
           <tbody>
