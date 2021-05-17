@@ -1,7 +1,12 @@
 import {loadJSONFile} from "./utility";
 
-export const getDeadlines = () => {
+const getLocalizedEvents = (locale) => {
   const deadlinesList = loadJSONFile('deadlines.json') || [];
+  return deadlinesList.map(deadline => ({...deadline, event: deadline.event[locale]}))
+}
+
+export const getDeadlines = (locale = "en") => {
+  const deadlinesList = getLocalizedEvents(locale);
 
   // Group and sort deadlines:
   deadlinesList.sort((a, b) => a.date < b.date || (a.date === b.date && a['important'] && !b['important']));

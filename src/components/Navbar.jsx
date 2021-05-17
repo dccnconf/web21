@@ -272,7 +272,8 @@ const SupportMenu = ({onClick}) => {
       onClick={onClick}
     />
     <NavbarDropdownMenuItem
-      href="/support" as="/support#contact" icon={faEnvelope} text={translate("navigation.contact.us")} iconClassName="mx-2"
+      href="/support" as="/support#contact" icon={faEnvelope} text={translate("navigation.contact.us")}
+      iconClassName="mx-2"
       comment={translate("navigation.contact.us.desc")}
       onClick={onClick}
     />
@@ -308,10 +309,9 @@ export const NavbarDropdownItem = ({isActive, text, children, isShown, setIsShow
     }
   >
     <div className="relative">
-      <button
-        type="button"
-        className={`${isActive ? 'text-gray-900' : 'text-gray-500'} group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150`}
-        onClick={() => setIsShown(!isShown)}
+      <button type="button"
+              className={`${isActive ? 'text-gray-900' : 'text-gray-500'} group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150`}
+              onClick={() => setIsShown(!isShown)}
       >
         {text}
         <svg

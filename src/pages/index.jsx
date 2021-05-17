@@ -121,7 +121,7 @@ export default function Home ({
 
 export const getStaticProps = async (context = {}) => {
   const { locale } = context;
-  const deadlines = getDeadlines();
+  const deadlines = getDeadlines(locale);
   const tracks = getAllTracks();
   const organizations = getAllOrganizations();
   const committeeMembers = getAllCommitteeMembers();
