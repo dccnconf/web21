@@ -23,8 +23,8 @@ export const ru = {
   "index.registration.fees.paragraph1": "По крайней мере, один автор каждой принятой статьи должен оплатить регистрационный взнос и представить статью на онлайн-сессии конференции, на которой планируется публикация статьи. Вы можете скачать реквизиты для оплаты по следующей ссылке:",
   "index.registration.fees.paragraph2": "Регистрационный взнос не взимается с приглашенных основных докладчиков. Обратите внимание, что после оплаты регистрации возврат средств невозможен.",
   "index.registration.fees.participants": "УЧАСТНИКИ",
-  "index.registration.fees.no.ieee.member": "NO IEEE MEMBER",
-  "index.registration.fees.ieee.member": "IEEE MEMBER",
+  "index.registration.fees.no.ieee.member": "Не член IEEE",
+  "index.registration.fees.ieee.member": "Член IEEE",
   "index.read.more": "Читать далее",
   "index.organizers": "Организаторы",
   "index.organizing.committee": "Организационный комитет",
@@ -79,5 +79,5 @@ export const ru = {
   "support.contact": "Если остались вопросы, пишите нам:",
   "support.payment.details.full": "Детали оплаты в {val}",
   "support.payment.details.rubles": "Рублях",
-  "support.payment.details.euro": "Евро",
+  "support.payment.details.euro": "Евро"
 }

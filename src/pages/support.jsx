@@ -29,8 +29,9 @@ const SupportPage = ({fees}) => {
     </Layout>
 };
 
-export const getStaticProps = () => {
-    const fees = getAllFees();
+export const getStaticProps = (context = {}) => {
+    const { locale } = context;
+    const fees = getAllFees(locale);
     return {
         props: {fees}
     }

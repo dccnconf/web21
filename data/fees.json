@@ -1,37 +1,64 @@
 [{
-  "category": "Russian citizens and students of Russian universities with co-authors",
+  "category": {
+    "en": "Russian citizens and students of Russian universities with co-authors",
+    "ru": "Граждане России и студенты ВУЗов России с соавторами"
+  },
   "order": 1,
   "prices": [{
     "ieeeMember": false,
     "price": 5000,
-    "currency": "RUB"
+    "currency": {
+      "en": "RUB",
+      "ru": "РУБ"
+    }
   }, {
     "ieeeMember": true,
     "price": 4250,
-    "currency": "RUB"
+    "currency": {
+      "en": "RUB",
+      "ru": "РУБ"
+    }
   }]
 }, {
-  "category": "Students of Russian universities without co-authors",
+  "category": {
+    "en": "Students of Russian universities without co-authors",
+    "ru": "Студенты российских вузов без соавторов"
+  },
   "order": 2,
   "prices": [{
     "ieeeMember": false,
     "price": 500,
-    "currency": "RUB"
+    "currency": {
+      "en": "RUB",
+      "ru": "РУБ"
+    }
   }, {
     "ieeeMember": true,
     "price": 0,
-    "currency": "RUB"
+    "currency": {
+      "en": "RUB",
+      "ru": "РУБ"
+    }
   }]
 }, {
-  "category": "International participants",
+  "category": {
+    "en": "International participants",
+    "ru": "Международные участники"
+  },
   "order": 3,
   "prices": [{
     "ieeeMember": false,
     "price": 180,
-    "currency": "EUR"
+    "currency": {
+      "en": "EUR",
+      "ru": "ЕВРО"
+    }
   }, {
     "ieeeMember": true,
     "price": 153,
-    "currency": "EUR"
+    "currency": {
+      "en": "EUR",
+      "ru": "ЕВРО"
+    }
   }]
 }]

@@ -127,7 +127,7 @@ export const getStaticProps = async (context = {}) => {
   const committeeMembers = getAllCommitteeMembers();
   const tpcMembers = getAllTpcMembers();
   const topics = getTopics(locale);
-  const fees = getAllFees();
+  const fees = getAllFees(locale);
   const speakers = getAllSpeakers();
 
   // for (const track of tracks) {

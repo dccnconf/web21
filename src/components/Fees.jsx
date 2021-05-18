@@ -85,7 +85,7 @@ const FeeTableRow = ({ fee }) => {
       <td className="px-6 py-4 whitespace-no-wrap font-bold">
         {regularPrice.price} {regularPrice.currency}
       </td>
-      <td className="px-6 py-4 whitespace-no-wrap font-bold text-center">
+      <td className="px-6 py-4 whitespace-no-wrap font-bold">
         <div className="text-green-700">
           {ieeePrice.price} {ieeePrice.currency}
         </div>
