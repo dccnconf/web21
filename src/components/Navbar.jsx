@@ -53,11 +53,7 @@ export default function Navbar({active = 'conference'}) {
 
             {/* Mobile menu toggler */}
             <div className="flex flex-1 flex-shrink-0 justify-end items-center ml-4  md:hidden">
-              <LocalizationContext.Consumer>
-                {({locale}) => (
-                  <ChangeLang isMobile={true} locale={locale}/>
-                )}
-              </LocalizationContext.Consumer>
+              <ChangeLang isMobile={true}/>
               <div className="-mr-2 -my-2 md:hidden">
                 <button type="button"
                         className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
@@ -105,11 +101,7 @@ export default function Navbar({active = 'conference'}) {
             </nav>
 
             <div className="hidden md:flex flex-1 flex-shrink-0 justify-end md:justify-center items-center ml-4">
-              <LocalizationContext.Consumer>
-                {({locale}) => (
-                  <ChangeLang locale={locale}/>
-                )}
-              </LocalizationContext.Consumer>
+              <ChangeLang />
             </div>
           </div>
         </div>

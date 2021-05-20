@@ -22,8 +22,8 @@ function ChangeLangItem({name, onClick, active = false, isMobile = false}) {
   </div>
 }
 
-function ChangeLang({isMobile = false, locale}) {
-  const {setLocale} = useContext(LocalizationContext);
+function ChangeLang({isMobile = false}) {
+  const {setLocale, locale} = useContext(LocalizationContext);
   const [isShown, setIsShown] = useState(false);
 
   const bodyStyle = isMobile ? {
