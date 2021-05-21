@@ -15,7 +15,7 @@ function ChangeLangItem({name, onClick, active = false, isMobile = false}) {
     <div style={{width: 32, display: "flex"}}>
       <Image className="mr-8"
              width={32}
-             height={16}
+             height={24}
              src={`/images/langs/${name}.png`}/>
     </div>
     {!isMobile ? <span className="ml-2">{LANGUAGES_MAP[name]}</span> : null}
