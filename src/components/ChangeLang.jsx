@@ -12,7 +12,7 @@ export const LANGUAGES_MAP = {
 function ChangeLangItem({name, onClick, active = false, isMobile = false}) {
   const className = "flex items-center cursor-pointer " + (active ? "opacity-50 cursor-not-allowed" : "");
   return <div className={className} onClick={() => onClick && onClick(name)}>
-    <div style={{width: 32}}>
+    <div style={{width: 32, display: "flex"}}>
       <Image className="mr-8"
              width={32}
              height={16}

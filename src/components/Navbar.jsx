@@ -300,7 +300,7 @@ export const NavbarDropdownItem = ({isActive, text, children, isShown, setIsShow
       }
     }
   >
-    <div className="relative">
+    <div className="relative flex flex-col">
       <button type="button"
               className={`${isActive ? 'text-gray-900' : 'text-gray-500'} group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150`}
               onClick={() => setIsShown(!isShown)}
