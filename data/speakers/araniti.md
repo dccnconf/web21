@@ -1,1 +1,7 @@
-To ba announced
+Giuseppe Araniti (S’03, M’05, SM’15) received the Laurea (2000) and the Ph.D. degree (2004) in Electronic Engineering from the University Mediterranea of Reggio Calabria, Italy.
+Since. He is an Associate Professor on Telecommunications at the University Mediterranea of Reggio Calabria, where he is a member of the Laboratory for Advanced Researches into Telecommunication Systems (ARTS). 
+His research activities are conducted by cooperating with several national and international research groups, from academia and industries, and the results of such researches are reported in more than 160 scientific publications. 
+His principal area of research is on 5G/6G networks and it includes personal communications systems, enhanced wireless and satellite systems, traffic and radio resource management, multicast and broadcast services, device-to-device (D2D) and machine-type communications (M2M/MTC). 
+He is an Associate Editor of the IEEE Transactions on Broadcasting, IEEE Transactions on Vehicular Technology, and IEEE Access Journal, is Vice-Chair of the Special Interest Group on Social Behaviour Driven Cognitive Radio Networks – IEEE Comsoc. 
+Since 2003 he is involved in several teaching activities, mainly at the University Mediterranea of Reggio Calabria, where he is currently teaching Wireless Systems Planning and Radio Mobile Networks. 
+Since February 2021, he is Bachelor’s degree Coordinator in Computer, Electronic and Telecommunication Engineering, and since January 2019, he is Rector's Delegate for the relationship with industry and job placement.
