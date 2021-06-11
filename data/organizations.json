@@ -286,4 +286,9 @@
   "slug": "iitp",
   "name": "IITP RAS",
   "country": "Russia"
+}, {
+  "id": 48,
+  "slug": "iitd",
+  "name": "Indian Institute of Technology Delhi",
+  "country": "India"
 }]
