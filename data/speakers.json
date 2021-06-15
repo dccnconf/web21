@@ -64,4 +64,16 @@
     "position": "Professor"
   }],
   "emails": ["ztrik.janos@inf.unideb.hu"]
+}, {
+  "slug": "dharmaraja",
+  "name": "Dharmaraja Selvamuthu",
+  "appeal": "Prof.",
+  "country": "India",
+  "avatar": "/images/avatars/dharmaraja.png",
+  "affiliations": [{
+    "name": "Indian Institute of Technology",
+    "country": "India",
+    "city": "Delhi",
+    "position": "Professor"
+  }]
 }]
