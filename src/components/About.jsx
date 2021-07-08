@@ -73,7 +73,7 @@ export default function About({ tracks = [], topics = [] } = {}) {
             </p>
           </div>
         </div>
-        <img src="/images/mathematics_full.jpg" alt="Image with a book" className="sm:w-5/6 mx-auto pt-3 pb-6"/>
+        <img src="/images/mathematics_full.jpg" alt="Image" className="sm:w-5/6 mx-auto pt-3 pb-6"/>
       </div>
 
       <div className="md:leading-7 md:text-xl mt-5">
