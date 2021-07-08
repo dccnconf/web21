@@ -65,11 +65,10 @@ export default function About({ tracks = [], topics = [] } = {}) {
             <p className="md:text-xl">
               <img src="/images/mathematics_logo.png" alt="Image with a book" className="w-4/5 mx-auto sm:w-2/6 sm:float-left sm:mr-4 pt-3 pb-3"/>
               Authors of the best selected papers presented at DCCN, recommended by the Program Committee,
-              will be invited to submit their extended papers to the Special Issue of the MDPI “Mathematics” journal titled
-              <a href="https://www.mdpi.com/journal/mathematics/special_issues/Distributed_Computer_Communication_Networks" target="_blank">
-                Distributed Computer and Communication Networks
-              </a>
-              (Q1, WoS, Scopus). All submitted manuscripts will be screened by the editorial office of “Mathematics”
+              will be invited to submit their extended papers to the Special Issue of the MDPI “Mathematics” journal
+              titled <a className="text-blue-500 hover:underline" href="https://www.mdpi.com/journal/mathematics/special_issues/Distributed_Computer_Communication_Networks" target="_blank">
+                 Distributed Computer and Communication Networks
+              </a> (Q1, WoS, Scopus). All submitted manuscripts will be screened by the editorial office of “Mathematics”
               and peer reviewed according to the usual standards of this journal.
             </p>
           </div>
