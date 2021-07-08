@@ -50,18 +50,31 @@ export default function About({ tracks = [], topics = [] } = {}) {
 
       <div className="py-4">
         <div className="block">
-          <img src="/images/undraw_Books_l33t.svg" alt="Image with a book" className="w-4/5 mx-auto sm:w-2/5 sm:float-left sm:mr-4 pt-3"/>
           <div className="">
+            <img src="/images/undraw_Books_l33t.svg" alt="Image with a book" className="w-4/5 mx-auto sm:w-1/4 sm:float-left sm:mr-4 pt-3"/>
             <div className="h4 text-center sm:text-left mt-4 sm:mt-0">Proceedings</div>
             <p className="md:text-xl">
-              Traditionally, the accepted and presented DCCN papers are published in the Conference Proceedings volume
-              (included into the Russian Science Citation Index).
+              Traditionally, the accepted and presented DCCN papers are published in the Conference
+              Proceedings volume (included into the Russian Science Citation Index).
+            </p>
+            <p className="md:text-xl">
+              <img src="/images/springer_logo.png" alt="Image with a book" className="w-4/5 mx-auto sm:w-2/6 sm:float-right sm:mr-4 pt-3"/>
               The revised selected submissions in English, recommended by the Program Committee,
-              also appear as a stand-alone volume of selected extended papers published by Springer
-              (indexed in Scopus and Web of Science).
+              also appear as a stand-alone volume of selected extended papers published by Springer (indexed in Scopus and Web of Science).
+            </p>
+            <p className="md:text-xl">
+              <img src="/images/mathematics_logo.png" alt="Image with a book" className="w-4/5 mx-auto sm:w-2/6 sm:float-left sm:mr-4 pt-3 pb-3"/>
+              Authors of the best selected papers presented at DCCN, recommended by the Program Committee,
+              will be invited to submit their extended papers to the Special Issue of the MDPI “Mathematics” journal titled
+              <a href="https://www.mdpi.com/journal/mathematics/special_issues/Distributed_Computer_Communication_Networks" target="_blank">
+                Distributed Computer and Communication Networks
+              </a>
+              (Q1, WoS, Scopus). All submitted manuscripts will be screened by the editorial office of “Mathematics”
+              and peer reviewed according to the usual standards of this journal.
             </p>
           </div>
         </div>
+        <img src="/images/mathematics_full.jpg" alt="Image with a book" className="sm:w-5/6 mx-auto pt-3 pb-6"/>
       </div>
 
       <div className="md:leading-7 md:text-xl mt-5">
