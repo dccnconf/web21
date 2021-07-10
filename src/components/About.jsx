@@ -51,14 +51,14 @@ export default function About({ tracks = [], topics = [] } = {}) {
       <div className="py-4">
         <div className="block">
           <div className="">
-            <img src="/images/undraw_Books_l33t.svg" alt="Image with a book" className="w-4/5 mx-auto sm:w-1/4 sm:float-left sm:mr-4 pt-3"/>
+            <img src="/images/springer_logo.png" alt="Springer Image" className= "hidden w-4/5 mx-auto sm:block sm:w-2/6 sm:float-right sm:mr-4 pt-3"/>
             <div className="h4 text-center sm:text-left mt-4 sm:mt-0">Proceedings</div>
             <p className="md:text-xl">
               Traditionally, the accepted and presented DCCN papers are published in the Conference
               Proceedings volume (included into the Russian Science Citation Index).
             </p>
+            <img src="/images/springer_logo.png" alt="Springer Image" className="w-4/5 mx-auto sm:hidden sm:w-2/6 sm:float-right sm:mr-4 pt-3"/>
             <p className="md:text-xl">
-              <img src="/images/springer_logo.png" alt="Image with a book" className="w-4/5 mx-auto sm:w-2/6 sm:float-right sm:mr-4 pt-3"/>
               The revised selected submissions in English, recommended by the Program Committee,
               also appear as a stand-alone volume of selected extended papers published by Springer (indexed in Scopus and Web of Science).
             </p>
@@ -73,7 +73,7 @@ export default function About({ tracks = [], topics = [] } = {}) {
             </p>
           </div>
         </div>
-        <img src="/images/mathematics_full.jpg" alt="Image" className="sm:w-5/6 mx-auto pt-3 pb-6"/>
+        <img src="/images/mathematics_full.jpg" alt="Image" className="xl:w-5/6 w-1/1 mx-auto mt-12 mb-12"/>
       </div>
 
       <div className="md:leading-7 md:text-xl mt-5">
