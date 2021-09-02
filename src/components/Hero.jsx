@@ -20,7 +20,7 @@ export default function Hero () {
           <span className="text-gray-900">20-24 September 2021</span>
           <br/>
           <span className="text-gray-500">Moscow, Russia</span>
-          {/*<span className="ml-2 text-indigo-600">@online?</span>*/}
+          <span className="ml-2 text-indigo-600">@online</span>
         </p>
         <br className="hidden lg:block lg:mt-12"/>
 

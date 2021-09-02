@@ -61,9 +61,8 @@ const PaymentDetails = ({ className }) => {
             </tr>
             <tr>
               <td className="border px-4 py-1">Юридический адрес (Address):</td>
-              <td className="border px-4 py-1">129075, г. Москва, ул. Шереметьевская, д. 85, строение 1, этаж
-                2, помещение I, комната 4 (по внутренней нумерации № 204)
-              </td>
+              <td className="border px-4 py-1">129085, г. Москва, Звездный б-р, д. 19, строение 1, этаж 14,
+                помещение I, комната 30 (оф.1415)</td>
             </tr>
             <tr>
               <td className="border px-4 py-1">Почтовый адрес (Postal address):</td>
@@ -123,7 +122,7 @@ const PaymentDetails = ({ className }) => {
             </tr>
             <tr>
               <td className="border px-4 py-1">BENEFICIARY ADDRESS:</td>
-              <td className="border px-4 py-1">SHEREMETYEVSKAYA STREET 85, BLDG. 1, FLOOR 2, AREA 1, ROOM 4, 129075
+              <td className="border px-4 py-1">ZVEZDNIY BOULEVARD 19, BLDG. 1, FLOOR 14, AREA I, ROOM 30 (OFFICE 1415), 129085
                 Moscow, Russian Federation
               </td>
             </tr>
