@@ -1,0 +1,91 @@
+{
+  "date": "2021-09-20",
+  "links": [{
+    "text": "Join Microsoft Teams Meeting",
+    "type": "teams",
+    "url": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTM4NjhkZmUtOGYxNy00NDU3LWEyOTgtZjI3NWEyMzM3NjU5%40thread.v2/0?context=%7b%22Tid%22%3a%222ae95c20-c675-4c48-88d3-f276b762bf52%22%2c%22Oid%22%3a%22db999021-788c-4c3d-8e8f-1899ab30f3bc%22%7d",
+    "disabled": false
+  }, {
+    "text": "Watch plenary session on YouTube",
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=7oTd-Fax3Dc",
+    "disabled": false
+  }],
+  "video": "<iframe width=\"280\" height=\"157\" src=\"https://www.youtube.com/embed/7oTd-Fax3Dc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+  "parts": [
+    {
+      "id": 1,
+      "name": "Conference Opening",
+      "type": "opening",
+      "startTime": "2021-09-20T11:30+03:00",
+      "endTime": "2021-09-20T11:45+03:00"
+    },
+    {
+      "id": 2,
+      "name": "Welcome Speech",
+      "type": "welcomeSpeech",
+      "startTime": "2021-09-20T11:45+03:00",
+      "endTime": "2021-09-20T12:00+03:00"
+    },
+    {
+      "id": 3,
+      "name": "Plenary Session",
+      "type": "session",
+      "startTime": "2021-09-20T12:00+03:00",
+      "endTime": "2021-09-20T12:00+03:00",
+      "lectures": [
+        {
+          "speaker": {
+            "slug": "dharmaraja"
+          },
+          "startTime": "2021-09-20T12:00+03:00",
+          "duration": "1h"
+        },
+        {
+          "speaker": {
+            "slug": "levner"
+          },
+          "startTime": "2021-09-20T13:00+03:00",
+          "duration": "1h"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Technical Break",
+      "type": "break",
+      "startTime": "2021-09-20T14:00+03:00",
+      "endTime": "2021-09-20T14:30+03:00"
+    },
+    {
+      "id": 5,
+      "name": "Plenary Session",
+      "type": "session",
+      "startTime": "2021-09-20T14:30+03:00",
+      "endTime": "2021-09-20T17:30+03:00",
+      "lectures": [
+        {
+          "speaker": {
+            "slug": "correira"
+          },
+          "startTime": "2021-09-20T14:30+03:00",
+          "duration": "1h"
+        },
+        {
+          "speaker": {
+            "slug": "sztrik"
+          },
+          "startTime": "2021-09-20T15:30+03:00",
+          "duration": "1h"
+        },
+        {
+          "speaker": {
+            "slug": "trivedi"
+          },
+          "startTime": "2021-09-20T16:30+03:00",
+          "duration": "1h"
+        }
+      ]
+    }
+  ]
+}

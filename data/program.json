@@ -1,0 +1,930 @@
+{
+  "days": [
+    {
+      "date": "2021-09-20",
+      "description": "DCCN opening day and plenary session (part 1)",
+      "plenary": true,
+      "online": {
+        "links": [
+          {
+            "text": "Join Microsoft Teams Meetup",
+            "type": "teams",
+            "url": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTM4NjhkZmUtOGYxNy00NDU3LWEyOTgtZjI3NWEyMzM3NjU5%40thread.v2/0?context=%7b%22Tid%22%3a%222ae95c20-c675-4c48-88d3-f276b762bf52%22%2c%22Oid%22%3a%22db999021-788c-4c3d-8e8f-1899ab30f3bc%22%7d",
+            "disabled": false
+          }, {
+            "text": "Watch plenary session on YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=7oTd-Fax3Dc",
+            "disabled": false
+          }
+        ],
+        "video": "<iframe width=\"280\" height=\"157\" src=\"https://www.youtube.com/embed/7oTd-Fax3Dc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      },
+      "intervals": [
+        {
+          "startTime": "2021-09-14T12:30+03:00",
+          "endTime": "2021-09-14T12:45+03:00",
+          "type": "special",
+          "label": "Conference opening"
+        },
+        {
+          "startTime": "2021-09-14T12:45+03:00",
+          "endTime": "2021-09-14T13:00+03:00",
+          "type": "special",
+          "label": "Welcome speech"
+        },
+        {
+          "startTime": "2021-09-14T13:00+03:00",
+          "endTime": "2021-09-14T16:00+03:00",
+          "type": "plenary",
+          "sessions": [
+            {
+              "slug": "P.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2021-09-14T16:00+03:00",
+          "endTime": "2021-09-14T16:30+03:00",
+          "type": "break",
+          "label": "Break"
+        },
+        {
+          "startTime": "2021-09-20T16:30+03:00",
+          "endTime": "2021-09-20T18:30+03:00",
+          "type": "plenary",
+          "sessions": [
+            {
+              "slug": "P.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chairs": [
+    {
+      "name": "Vladimir M. Vishnevsky",
+      "slug": "vishn",
+      "appeal": "Prof.",
+      "affiliations": [{"slug":  "ipu"}],
+      "avatar": "/images/avatars/vishnevsky.jpg"
+    }, {
+      "name": "Konstantin E. Samouylov",
+      "slug": "sam",
+      "appeal": "Prof.",
+      "affiliations": [{"slug":  "rudn"}],
+      "avatar": "/images/avatars/samouylov.jpg"
+    }, {
+      "name": "Yu. Gaidamaka",
+      "slug": "yug",
+      "appeal": "Prof."
+    }, {
+      "name": "E. Sopin",
+      "slug": "sop",
+      "appeal": "Dr."
+    }, {
+      "name": "D. Namiot",
+      "slug": "nam",
+      "appeal": "Prof."
+    }, {
+      "name": "L. Abrosimov",
+      "slug": "abr",
+      "appeal": "Prof."
+    }, {
+      "name": "V. Gerdt",
+      "slug": "ger",
+      "appeal": "Prof."
+    }, {
+      "name": "V. Abgaryan",
+      "slug": "abg",
+      "appeal": "Prof."
+    }, {
+      "name": "S. Stepanov",
+      "slug": "ste",
+      "appeal": "Prof."
+    }, {
+      "name": "A. Melikov",
+      "slug": "mel",
+      "appeal": "Prof."
+    }, {
+      "name": "A. Nazarov",
+      "slug": "naz",
+      "appeal": "Prof."
+    }, {
+      "name": "M. Pagano",
+      "slug": "pag",
+      "appeal": "Prof."
+    }, {
+      "name": "E. Morozov",
+      "slug": "mor",
+      "appeal": "Prof."
+    }, {
+      "name": "D. Efrosinin",
+      "slug": "efr",
+      "appeal": "Prof."
+    }, {
+      "name": "S. Vasilyev",
+      "slug": "vas",
+      "appeal": "Dr."
+    }, {
+      "name": "A. Andronov",
+      "slug": "and",
+      "appeal": "Prof"
+    }, {
+      "name": "V. Rykov",
+      "slug": "ryk",
+      "appeal": "Prof."
+    }, {
+      "name": "T. Atanasova",
+      "slug": "ata",
+      "appeal": "Prof."
+    }, {
+      "name": "E. Shchetinin",
+      "slug": "shc",
+      "appeal": "Prof."
+    }, {
+      "name": "D. Kulyabov",
+      "slug": "kul",
+      "appeal": "Prof."
+    }, {
+      "name": "A. Krishnamoorthy",
+      "slug": "kri",
+      "appeal": "Prof."
+    }, {
+      "name": "Varghese C. Joshua",
+      "slug": "jos",
+      "appeal": "Prof."
+    }, {
+      "name": "A. Dudin",
+      "slug": "dud",
+      "appeal": "Prof."
+    }, {
+      "name": "O. Semenova",
+      "slug": "sem",
+      "appeal": "Dr."
+    }, {
+      "name": "N. Markovich",
+      "slug": "mar",
+      "appeal": "Prof."
+    }, {
+      "name": "U. Krieger",
+      "slug": "kri",
+      "appeal": "Prof."
+    }, {
+      "name": "A. Koucheryavy",
+      "slug": "kou",
+      "appeal": "Prof."
+    }, {
+      "name": "I. Kochetkova",
+      "slug": "koc",
+      "appeal": "Dr."
+    }, {
+      "name": "R. Kirichek",
+      "slug": "kir",
+      "appeal": "Prof."
+    }, {
+      "name": "D. Ostrikova",
+      "slug": "ost",
+      "appeal": "Dr."
+    }, {
+      "name": "M. Makolkina",
+      "slug": "mak",
+      "appeal": "Dr."
+    }, {
+      "name": "E. Markova",
+      "slug": "ema",
+      "appeal": "Dr."
+    }, {
+      "name": "M. Gevorkyan",
+      "slug": "gev",
+      "appeal": "Dr."
+    }
+  ],
+  "common": {
+    "lecture": {
+      "duration": {
+        "minutes": 15
+      }
+    }
+  },
+  "sessions": [
+    {
+      "slug": "P.1",
+      "label": "Plenary session (morning)"
+    },
+    {
+      "slug": "P.2",
+      "label": "Plenary session (evening)"
+    },
+    {
+      "slug": "A.1.1",
+      "name": "A.1.1",
+      "track": {
+        "slug": "tra"
+      },
+      "chairs": [
+        {
+          "slug": "sam"
+        }, {
+          "slug": "yug"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 137,
+          "startTime": "2021-09-15T11:00+03:00"
+        }, {
+          "paperId": 163,
+          "startTime": "2021-09-15T11:15+03:00"
+        }, {
+          "paperId": 148,
+          "startTime": "2021-09-15T11:30+03:00"
+        }, {
+          "paperId": 151,
+          "startTime": "2021-09-15T11:45+03:00"
+        }, {
+          "paperId": 108,
+          "startTime": "2021-09-15T12:00+03:00"
+        }, {
+          "paperId": 53,
+          "startTime": "2021-09-15T12:15+03:00"
+        }, {
+          "paperId": 32,
+          "startTime": "2021-09-15T12:30+03:00"
+        }, {
+          "paperId": 95,
+          "startTime": "2021-09-15T12:45+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "A.1.2",
+      "name": "A.1.2",
+      "track": {
+        "slug": "tra"
+      },
+      "chairs": [
+        {
+          "slug": "sam"
+        }, {
+          "slug": "sop"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 59,
+          "startTime": "2021-09-15T13:30+03:00"
+        }, {
+          "paperId": 49,
+          "startTime": "2021-09-15T13:45+03:00"
+        }, {
+          "paperId": 116,
+          "startTime": "2021-09-15T14:00+03:00"
+        }, {
+          "paperId": 97,
+          "startTime": "2021-09-15T14:15+03:00"
+        }, {
+          "paperId": 96,
+          "startTime": "2021-09-15T14:30+03:00"
+        }, {
+          "paperId": 121,
+          "startTime": "2021-09-15T14:45+03:00"
+        }, {
+          "paperId": 118,
+          "startTime": "2021-09-15T15:00+03:00"
+        }, {
+          "paperId": 150,
+          "startTime": "2021-09-15T15:15+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "A.1.3",
+      "name": "A.1.3",
+      "track": {
+        "slug": "tra"
+      },
+      "chairs": [
+        {
+          "slug": "nam"
+        }, {
+          "slug": "abr"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 42,
+          "startTime": "2021-09-15T16:00+03:00"
+        }, {
+          "paperId": 19,
+          "startTime": "2021-09-15T16:15+03:00"
+        }, {
+          "paperId": 18,
+          "startTime": "2021-09-15T16:30+03:00"
+        }, {
+          "paperId": 85,
+          "startTime": "2021-09-15T16:45+03:00"
+        }, {
+          "paperId": 48,
+          "startTime": "2021-09-15T17:00+03:00"
+        }, {
+          "paperId": 139,
+          "startTime": "2021-09-15T17:15+03:00"
+        }, {
+          "paperId": 45,
+          "startTime": "2021-09-15T17:30+03:00"
+        }, {
+          "paperId": 13,
+          "startTime": "2021-09-15T17:45+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "A.2.1",
+      "name": "A.2.1",
+      "track": {
+        "slug": "tra"
+      },
+      "chairs": [
+        {
+          "slug": "ger"
+        }, {
+          "slug": "abg"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 23,
+          "startTime": "2021-09-16T11:00+03:00"
+        }, {
+          "paperId": 134,
+          "startTime": "2021-09-16T11:15+03:00"
+        }, {
+          "paperId": 144,
+          "startTime": "2021-09-16T11:30+03:00"
+        }, {
+          "paperId": 63,
+          "startTime": "2021-09-16T11:45+03:00"
+        }, {
+          "paperId": 153,
+          "startTime": "2021-09-16T12:00+03:00"
+        }, {
+          "paperId": 154,
+          "startTime": "2021-09-16T12:15+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "A.3.1",
+      "name": "A.3.1",
+      "track": {
+        "slug": "tra"
+      },
+      "chairs": [
+        {
+          "slug": "ste"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 34,
+          "startTime": "2021-09-17T11:00+03:00"
+        }, {
+          "paperId": 35,
+          "startTime": "2021-09-17T11:15+03:00"
+        }, {
+          "paperId": 14,
+          "startTime": "2021-09-17T11:30+03:00"
+        }, {
+          "paperId": 70,
+          "startTime": "2021-09-17T11:45+03:00"
+        }, {
+          "paperId": 182,
+          "startTime": "2021-09-17T12:00+03:00"
+        }, {
+          "paperId": 110,
+          "startTime": "2021-09-17T12:15+03:00"
+        }, {
+          "paperId": 155,
+          "startTime": "2021-09-17T12:30+03:00"
+        }, {
+          "paperId": 21,
+          "startTime": "2021-09-17T12:45+03:00"
+        }, {
+          "paperId": 174,
+          "startTime": "2021-09-15T13:30+03:00"
+        }, {
+          "paperId": 183,
+          "startTime": "2021-09-15T13:45+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B.1.1",
+      "name": "B.1.1",
+      "track": {
+        "slug": "trb"
+      },
+      "chairs": [
+        {
+          "slug": "kri"
+        }, {
+          "slug": "jos"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 102,
+          "startTime": "2021-09-15T11:00+03:00"
+        }, {
+          "paperId": 140,
+          "startTime": "2021-09-15T11:15+03:00"
+        }, {
+          "paperId": 164,
+          "startTime": "2021-09-15T11:30+03:00"
+        }, {
+          "paperId": 171,
+          "startTime": "2021-09-15T11:45+03:00"
+        }, {
+          "paperId": 98,
+          "startTime": "2021-09-15T12:00+03:00"
+        }, {
+          "paperId": 152,
+          "startTime": "2021-09-15T12:15+03:00"
+        }, {
+          "paperId": 113,
+          "startTime": "2021-09-15T12:30+03:00"
+        }, {
+          "paperId": 159,
+          "startTime": "2021-09-15T12:45+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B.1.2",
+      "name": "B.1.2",
+      "track": {
+        "slug": "trb"
+      },
+      "chairs": [
+        {
+          "slug": "dud"
+        }, {
+          "slug": "sem"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 20,
+          "startTime": "2021-09-15T13:30+03:00"
+        }, {
+          "paperId": 141,
+          "startTime": "2021-09-15T13:45+03:00"
+        }, {
+          "paperId": 64,
+          "startTime": "2021-09-15T14:00+03:00"
+        }, {
+          "paperId": 71,
+          "startTime": "2021-09-15T14:15+03:00"
+        }, {
+          "paperId": 76,
+          "startTime": "2021-09-15T14:30+03:00"
+        }, {
+          "paperId": 109,
+          "startTime": "2021-09-15T14:45+03:00"
+        }, {
+          "paperId": 169,
+          "startTime": "2021-09-15T15:00+03:00"
+        }, {
+          "paperId": 17,
+          "startTime": "2021-09-15T15:15+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B.1.3",
+      "name": "B.1.3",
+      "track": {
+        "slug": "trb"
+      },
+      "chairs": [
+        {
+          "slug": "mar"
+        }, {
+          "slug": "kri"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 2,
+          "startTime": "2021-09-15T16:00+03:00"
+        }, {
+          "paperId": 62,
+          "startTime": "2021-09-15T16:15+03:00"
+        }, {
+          "paperId": 24,
+          "startTime": "2021-09-15T16:30+03:00"
+        }, {
+          "paperId": 66,
+          "startTime": "2021-09-15T16:45+03:00"
+        }, {
+          "paperId": 142,
+          "startTime": "2021-09-15T17:00+03:00"
+        }, {
+          "paperId": 157,
+          "startTime": "2021-09-15T17:15+03:00"
+        }, {
+          "paperId": 100,
+          "startTime": "2021-09-15T17:30+03:00"
+        }, {
+          "paperId": 165,
+          "startTime": "2021-09-15T17:45+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B.2.1",
+      "name": "B.2.1",
+      "track": {
+        "slug": "trb"
+      },
+      "chairs": [
+        {
+          "slug": "mel"
+        }, {
+          "slug": "naz"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 50,
+          "startTime": "2021-09-16T11:00+03:00"
+        }, {
+          "paperId": 5,
+          "startTime": "2021-09-16T11:15+03:00"
+        }, {
+          "paperId": 93,
+          "startTime": "2021-09-16T11:30+03:00"
+        }, {
+          "paperId": 132,
+          "startTime": "2021-09-16T11:45+03:00"
+        }, {
+          "paperId": 40,
+          "startTime": "2021-09-16T12:00+03:00"
+        }, {
+          "paperId": 7,
+          "startTime": "2021-09-16T12:15+03:00"
+        }, {
+          "paperId": 161,
+          "startTime": "2021-09-16T12:30+03:00"
+        }, {
+          "paperId": 138,
+          "startTime": "2021-09-16T12:45+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B.2.2",
+      "name": "B.2.2",
+      "track": {
+        "slug": "trb"
+      },
+      "chairs": [
+        {
+          "slug": "pag"
+        }, {
+          "slug": "mor"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 8,
+          "startTime": "2021-09-16T13:30+03:00"
+        }, {
+          "paperId": 158,
+          "startTime": "2021-09-16T13:45+03:00"
+        }, {
+          "paperId": 57,
+          "startTime": "2021-09-16T14:00+03:00"
+        }, {
+          "paperId": 124,
+          "startTime": "2021-09-16T14:15+03:00"
+        },{
+          "paperId": 128,
+          "startTime": "2021-09-16T14:30+03:00"
+        }, {
+          "paperId": 99,
+          "startTime": "2021-09-16T14:45+03:00"
+        }, {
+          "paperId": 82,
+          "startTime": "2021-09-16T15:00+03:00"
+        }, {
+          "paperId": 78,
+          "startTime": "2021-09-16T15:15+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B.2.3",
+      "name": "B.2.3",
+      "track": {
+        "slug": "trb"
+      },
+      "chairs": [
+        {
+          "slug": "efr"
+        }, {
+          "slug": "vas"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 114,
+          "startTime": "2021-09-16T16:00+03:00"
+        }, {
+          "paperId": 3,
+          "startTime": "2021-09-16T16:15+03:00"
+        }, {
+          "paperId": 245,
+          "startTime": "2021-09-16T16:30+03:00"
+        }, {
+          "paperId": 167,
+          "startTime": "2021-09-16T16:45+03:00"
+        }, {
+          "paperId": 104,
+          "startTime": "2021-09-16T17:00+03:00"
+        }, {
+          "paperId": 111,
+          "startTime": "2021-09-16T17:15+03:00"
+        }, {
+          "paperId": 185,
+          "startTime": "2021-09-16T17:30+03:00"
+        }, {
+          "paperId": 186,
+          "startTime": "2021-09-16T17:45+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B.3.1",
+      "name": "B.3.1",
+      "track": {
+        "slug": "trb"
+      },
+      "chairs": [
+        {
+          "slug": "and"
+        }, {
+          "slug": "ryk"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 15,
+          "startTime": "2021-09-17T11:00+03:00"
+        }, {
+          "paperId": 67,
+          "startTime": "2021-09-17T11:15+03:00"
+        }, {
+          "paperId": 123,
+          "startTime": "2021-09-17T11:30+03:00"
+        }, {
+          "paperId": 68,
+          "startTime": "2021-09-17T11:45+03:00"
+        }, {
+          "paperId": 33,
+          "startTime": "2021-09-17T12:00+03:00"
+        }, {
+          "paperId": 12,
+          "startTime": "2021-09-17T12:15+03:00"
+        }, {
+          "paperId": 187,
+          "startTime": "2021-09-17T12:30+03:00"
+        }, {
+          "paperId": 89,
+          "startTime": "2021-09-17T12:45+03:00"
+        }, {
+          "paperId": 179,
+          "startTime": "2021-09-17T13:30+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "C.1.1",
+      "name": "C.1.1",
+      "track": {
+        "slug": "trc"
+      },
+      "chairs": [
+        {
+          "slug": "kou"
+        }, {
+          "slug": "koc"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 74,
+          "startTime": "2021-09-15T11:00+03:00"
+        }, {
+          "paperId": 55,
+          "startTime": "2021-09-15T11:15+03:00"
+        }, {
+          "paperId": 177,
+          "startTime": "2021-09-15T11:30+03:00"
+        }, {
+          "paperId": 156,
+          "startTime": "2021-09-15T11:45+03:00"
+        }, {
+          "paperId": 72,
+          "startTime": "2021-09-15T12:00+03:00"
+        }, {
+          "paperId": 73,
+          "startTime": "2021-09-15T12:15+03:00"
+        }, {
+          "paperId": 86,
+          "startTime": "2021-09-15T12:30+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "C.1.2",
+      "name": "C.1.2",
+      "track": {
+        "slug": "trc"
+      },
+      "chairs": [
+        {
+          "slug": "kir"
+        }, {
+          "slug": "ost"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 91,
+          "startTime": "2021-09-15T13:30+03:00"
+        }, {
+          "paperId": 61,
+          "startTime": "2021-09-15T13:45+03:00"
+        }, {
+          "paperId": 87,
+          "startTime": "2021-09-15T14:00+03:00"
+        }, {
+          "paperId": 284,
+          "startTime": "2021-09-15T14:15+03:00"
+        }, {
+          "paperId": 47,
+          "startTime": "2021-09-15T14:30+03:00"
+        }, {
+          "paperId": 119,
+          "startTime": "2021-09-15T14:45+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "C.1.3",
+      "name": "C.1.3",
+      "track": {
+        "slug": "trc"
+      },
+      "chairs": [
+        {
+          "slug": "kir"
+        }, {
+          "slug": "mak"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 143,
+          "startTime": "2021-09-15T16:00+03:00"
+        }, {
+          "paperId": 288,
+          "startTime": "2021-09-15T16:15+03:00"
+        }, {
+          "paperId": 178,
+          "startTime": "2021-09-15T16:30+03:00"
+        }, {
+          "paperId": 170,
+          "startTime": "2021-09-15T16:45+03:00"
+        }, {
+          "paperId": 106,
+          "startTime": "2021-09-15T17:00+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "C.2.1",
+      "name": "C.2.1",
+      "track": {
+        "slug": "trc"
+      },
+      "chairs": [
+        {
+          "slug": "ata"
+        }, {
+          "slug": "ema"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 58,
+          "startTime": "2021-09-16T11:00+03:00"
+        }, {
+          "paperId": 107,
+          "startTime": "2021-09-16T11:15+03:00"
+        }, {
+          "paperId": 136,
+          "startTime": "2021-09-16T11:30+03:00"
+        }, {
+          "paperId": 122,
+          "startTime": "2021-09-16T11:45+03:00"
+        }, {
+          "paperId": 90,
+          "startTime": "2021-09-16T12:00+03:00"
+        }, {
+          "paperId": 36,
+          "startTime": "2021-09-16T12:15+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "C.2.2",
+      "name": "C.2.2",
+      "track": {
+        "slug": "trc"
+      },
+      "chairs": [
+        {
+          "slug": "shc"
+        },
+        {
+          "slug": "kul"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 10,
+          "startTime": "2021-09-16T13:30+03:00"
+        }, {
+          "paperId": 11,
+          "startTime": "2021-09-16T13:45+03:00"
+        }, {
+          "paperId": 26,
+          "startTime": "2021-09-16T14:00+03:00"
+        }, {
+          "paperId": 250,
+          "startTime": "2021-09-16T14:15+03:00"
+        }, {
+          "paperId": 54,
+          "startTime": "2021-09-16T14:30+03:00"
+        }, {
+          "paperId": 30,
+          "startTime": "2021-09-16T14:45+03:00"
+        }, {
+          "paperId": 22,
+          "startTime": "2021-09-16T15:00+03:00"
+        }, {
+          "paperId": 79,
+          "startTime": "2021-09-16T15:15+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "C.2.3",
+      "name": "C.2.3",
+      "track": {
+        "slug": "trc"
+      },
+      "chairs": [
+        {
+          "slug": "kul"
+        }, {
+          "slug": "gev"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 147,
+          "startTime": "2021-09-16T16:00+03:00"
+        }, {
+          "paperId": 27,
+          "startTime": "2021-09-16T16:15+03:00"
+        }, {
+          "paperId": 37,
+          "startTime": "2021-09-16T16:30+03:00"
+        }, {
+          "paperId": 190,
+          "startTime": "2021-09-16T16:45+03:00"
+        }, {
+          "paperId": 28,
+          "startTime": "2021-09-16T17:00+03:00"
+        }, {
+          "paperId": 92,
+          "startTime": "2021-09-16T17:15+03:00"
+        }
+      ]
+    }]
+}

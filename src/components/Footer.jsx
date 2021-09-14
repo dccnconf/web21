@@ -70,6 +70,8 @@ const getConferenceLinks = () => [
 ];
 
 const getProgramLinks = () => [
+  <FooterLink href={"/program"} label="Schedule" />,
+  <FooterLink href={"/program"} hash="plenary" label="Plenary" />
 ];
 
 const getSupportLinks = () => [
