@@ -24,6 +24,7 @@ const KeynotePage = ({ keynote }) => {
               </h1>
 
               <SpeakerSmallCard speaker={keynote.speaker} className="mt-4 font-medium text-gray-600" />
+              {keynote.coauthor ? <SpeakerSmallCard speaker={keynote.coauthor} className="mt-4 font-medium text-gray-600" /> : null }
 
               {/*<div className="mt-3 border-b-2 font-extrabold text-indigo-600 text-lg">*/}
               {/*  <Moment format="HH:mm, DD MMM. YYYY">*/}

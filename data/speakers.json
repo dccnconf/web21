@@ -30,6 +30,9 @@
   "appeal": "Prof.",
   "country": "Israel",
   "avatar": "/images/avatars/levner.jpg",
+  "coauthor": {
+    "slug": "vishn"
+  } ,
   "affiliations": [{
     "name": "Holon Institute of Technology",
     "department": null,
@@ -74,6 +77,19 @@
     "name": "Indian Institute of Technology",
     "country": "India",
     "city": "Delhi",
+    "position": "Professor"
+  }]
+}, {
+  "slug": "vishn",
+  "name": "Vladimir M. Vishnevsky",
+  "appeal": "Prof.",
+  "country": "Russia",
+  "hidden": true,
+  "avatar": "/images/avatars/vishnevsky.jpg",
+  "affiliations": [{
+    "name": "V.A. Trapeznikov Institute of Control Sciences of RAS",
+    "country": "Russia",
+    "city": "Moscow",
     "position": "Professor"
   }]
 }]

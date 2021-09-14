@@ -3,6 +3,7 @@ import math from 'remark-math';
 import htmlKatex from 'remark-html-katex';
 import html from 'remark-html';
 import remark from "remark";
+import {getOpeningConferenceChair} from "./conference_opening_chairs";
 
 export const getAllSpeakers = () => {
   return loadJSONFile("speakers.json");
@@ -30,11 +31,22 @@ export const getPlenarySchedule = () => {
   const plenary = loadJSONFile("plenary.json");
   plenary.parts = plenary.parts.map(part => {
     const newPart = {...part};
+    if (newPart.chairs) {
+      newPart.chairs = newPart.chairs.map(chair => {
+        return getOpeningConferenceChair(chair);
+      })
+    }
+
     if (part.lectures) {
       newPart.lectures = part.lectures.map(lecture => {
         // Copy lecture and load speaker:
         const newLecture = {...lecture};
         newLecture.speaker = getSpeaker(lecture.speaker);
+
+        if (newLecture.speaker.coauthor) {
+          newLecture.speaker.coauthor = getSpeaker(newLecture.speaker.coauthor);
+        }
+
         // Attach lecture title:
         newLecture.data = getLectureData(lecture.speaker.slug);
         // Return the updated lecture
@@ -51,6 +63,7 @@ export const getKeynote = async (authorSlug) => {
   const plenary = loadMarkdown(authorSlug, 'plenary');
   const speakerBio = loadMarkdown(authorSlug, 'speakers');
   const speaker = getSpeaker({slug: authorSlug});
+  const coauthor = speaker.coauthor ? getSpeaker(speaker.coauthor) : null;
   // TODO add plenary schedule
   //const schedule = loadJSONFile("plenary.json");
   const schedule = {};
@@ -76,10 +89,12 @@ export const getKeynote = async (authorSlug) => {
     .use(html)
     .process(speakerBio.content);
 
+
   return {
     title: plenary.data.title,
     abstract: plenaryContentHtml.contents,
     bio: bioContentHtml.contents,
+    coauthor,
     speaker,
     lecture
   }

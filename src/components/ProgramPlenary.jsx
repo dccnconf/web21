@@ -4,7 +4,7 @@ import {faCoffee, faDoorOpen, faFlag, faFlagCheckered, faGraduationCap, faCommen
 import Moment from "react-moment";
 import {faClock} from "@fortawesome/free-regular-svg-icons";
 import Link from "next/link";
-import SpeakerSmallCard from "./SpeakerSmallCard";
+import SpeakerSmallCard, {ChairSmallCard} from "./SpeakerSmallCard";
 import VideoConfCard from "./VideoConfCard";
 
 const ProgramPlenary = ({ schedule, className = "" }) => {
@@ -88,19 +88,23 @@ const OpeningItemContent = ({ item, className = "" } = {}) => (
       <Moment format="DD MMM, HH:mm">{item.startTime}</Moment>
     </p>
     <h6 className="text-xl font-bold text-gray-800">{item.name}</h6>
-    <p className="mt-2 text-lg text-gray-600 leading-7">Conference Opening</p>
+    {item.chairs.map(c => {
+      return <ChairSmallCard key={c.id} chair={c} className="mt-2"/>
+    })}
   </div>
 );
 
-const WelcomeSpeechItemContent = ({ item, className = "" } = {}) => (
-  <div className={className}>
+const WelcomeSpeechItemContent = ({ item, className = "" } = {}) => {
+  return <div className={className}>
     <p className="text-indigo-600 font-extrabold mb-0">
       <Moment format="DD MMM, HH:mm">{item.startTime}</Moment>
     </p>
     <h6 className="text-xl font-bold text-gray-800">{item.name}</h6>
-    <p className="mt-2 text-lg text-gray-600 leading-7">Welcome words from general chairs</p>
+    {item.chairs.map(c => {
+      return <ChairSmallCard key={c.id} chair={c} className="mt-2"/>
+    })}
   </div>
-);
+};
 
 
 const GenericItemContent = ({ item, className = "" } = {}) => (
@@ -133,7 +137,13 @@ const LectureItemContent = ({ item, className = "" } = {}) => (
     <Link href={"/keynotes/[slug]"} as={`/keynotes/${item.speaker.slug}`}>
       <a className="text-xl font-medium leading-7 text-blue-500 hover:underline cursor-pointer">{item.data.title}</a>
     </Link>
-    <SpeakerSmallCard speaker={item.speaker} className="mt-2" />
+    <div className="flex flex-col lg:flex-row w-100 lg:items-center">
+      <SpeakerSmallCard speaker={item.speaker} className="mt-2" />
+      { item.speaker.coauthor ? <>
+        <span className="hidden lg:block mt-2 mr-2 ml-2"> and </span>
+        <SpeakerSmallCard speaker={item.speaker.coauthor} className="mt-2" /></>
+        : null}
+    </div>
   </div>
 );
 

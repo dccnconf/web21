@@ -18,21 +18,23 @@
       "name": "Conference Opening",
       "type": "opening",
       "startTime": "2021-09-20T11:30+03:00",
-      "endTime": "2021-09-20T11:45+03:00"
+      "endTime": "2021-09-20T11:45+03:00",
+      "chairs": ["vishn"]
     },
     {
       "id": 2,
       "name": "Welcome Speech",
       "type": "welcomeSpeech",
       "startTime": "2021-09-20T11:45+03:00",
-      "endTime": "2021-09-20T12:00+03:00"
+      "endTime": "2021-09-20T12:00+03:00",
+      "chairs": ["novik", "sam"]
     },
     {
       "id": 3,
       "name": "Plenary Session",
       "type": "session",
       "startTime": "2021-09-20T12:00+03:00",
-      "endTime": "2021-09-20T12:00+03:00",
+      "endTime": "2021-09-20T14:00+03:00",
       "lectures": [
         {
           "speaker": {
