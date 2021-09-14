@@ -1,95 +1,116 @@
-[{
-  "slug": "trivedi",
-  "name": "Kishor S. Trivedi",
-  "appeal": "Prof.",
-  "country": "USA",
-  "affiliations": [{
-    "name": "Duke University",
-    "department": null,
-    "city": "North Carolina",
+[
+  {
+    "slug": "trivedi",
+    "name": "Kishor S. Trivedi",
+    "appeal": "Prof.",
     "country": "USA",
-    "position": "Professor"
-  }],
-  "avatar": "/images/avatars/trivedi.jpg"
-}, {
-  "slug": "correira",
-  "name": "Luis M. Correia",
-  "appeal": "Prof.",
-  "country": "Portugal",
-  "avatar": "/images/avatars/correira.jpg",
-  "affiliations": [{
-    "name": "University of Lisbon",
-    "city": "Lisbon",
-    "department":  null,
+    "affiliations": [
+      {
+        "name": "Duke University",
+        "department": null,
+        "city": "North Carolina",
+        "country": "USA",
+        "position": "Professor"
+      }
+    ],
+    "avatar": "/images/avatars/trivedi.jpg"
+  },
+  {
+    "slug": "correira",
+    "name": "Luis M. Correia",
+    "appeal": "Prof.",
     "country": "Portugal",
-    "position": "Professor"
-  }]
-}, {
-  "slug": "levner",
-  "name": "Eugene Levner",
-  "appeal": "Prof.",
-  "country": "Israel",
-  "avatar": "/images/avatars/levner.jpg",
-  "coauthor": {
-    "slug": "vishn"
-  } ,
-  "affiliations": [{
-    "name": "Holon Institute of Technology",
-    "department": null,
-    "city": "Holon",
-    "address": "Flint, MI-48504",
+    "avatar": "/images/avatars/correira.jpg",
+    "affiliations": [
+      {
+        "name": "University of Lisbon",
+        "city": "Lisbon",
+        "department": null,
+        "country": "Portugal",
+        "position": "Professor"
+      }
+    ]
+  },
+  {
+    "slug": "levner",
+    "name": "Eugene Levner",
+    "appeal": "Prof.",
     "country": "Israel",
-    "position": "Professor"
-  }]
-}, {
-  "slug": "araniti",
-  "name": " Giuseppe Araniti",
-  "appeal": "Prof.",
-  "country": "Italy",
-  "avatar": "/images/avatars/araniti.png",
-  "affiliations": [{
-    "name": "Mediterranea University of Reggio Calabria",
-    "department": null,
+    "avatar": "/images/avatars/levner.jpg",
+    "coauthor": {
+      "slug": "vishn",
+      "name": "Vladimir M. Vishnevsky",
+      "appeal": "Prof.",
+      "country": "Russia",
+      "hidden": true,
+      "avatar": "/images/avatars/vishnevsky.jpg",
+      "affiliations": [
+        {
+          "name": "V.A. Trapeznikov Institute of Control Sciences of RAS",
+          "country": "Russia",
+          "city": "Moscow",
+          "position": "Professor"
+        }
+      ]
+    },
+    "affiliations": [
+      {
+        "name": "Holon Institute of Technology",
+        "department": null,
+        "city": "Holon",
+        "address": "Flint, MI-48504",
+        "country": "Israel",
+        "position": "Professor"
+      }
+    ]
+  },
+  {
+    "slug": "araniti",
+    "name": " Giuseppe Araniti",
+    "appeal": "Prof.",
     "country": "Italy",
-    "city": "Reggio Calabria",
-    "position": "Professor"
-  }]
-}, {
-  "slug": "sztrik",
-  "name": "János Sztrik",
-  "appeal": "Prof.",
-  "country": "Hungary",
-  "avatar": "/images/avatars/sztrik.jpg",
-  "affiliations": [{
-    "name": "University of Debrecen",
+    "avatar": "/images/avatars/araniti.png",
+    "affiliations": [
+      {
+        "name": "Mediterranea University of Reggio Calabria",
+        "department": null,
+        "country": "Italy",
+        "city": "Reggio Calabria",
+        "position": "Professor"
+      }
+    ]
+  },
+  {
+    "slug": "sztrik",
+    "name": "János Sztrik",
+    "appeal": "Prof.",
     "country": "Hungary",
-    "city": "Debrecen",
-    "position": "Professor"
-  }],
-  "emails": ["ztrik.janos@inf.unideb.hu"]
-}, {
-  "slug": "dharmaraja",
-  "name": "Dharmaraja Selvamuthu",
-  "appeal": "Prof.",
-  "country": "India",
-  "avatar": "/images/avatars/dharmaraja.png",
-  "affiliations": [{
-    "name": "Indian Institute of Technology",
+    "avatar": "/images/avatars/sztrik.jpg",
+    "affiliations": [
+      {
+        "name": "University of Debrecen",
+        "country": "Hungary",
+        "city": "Debrecen",
+        "position": "Professor"
+      }
+    ],
+    "emails": [
+      "ztrik.janos@inf.unideb.hu"
+    ]
+  },
+  {
+    "slug": "dharmaraja",
+    "name": "Dharmaraja Selvamuthu",
+    "appeal": "Prof.",
     "country": "India",
-    "city": "Delhi",
-    "position": "Professor"
-  }]
-}, {
-  "slug": "vishn",
-  "name": "Vladimir M. Vishnevsky",
-  "appeal": "Prof.",
-  "country": "Russia",
-  "hidden": true,
-  "avatar": "/images/avatars/vishnevsky.jpg",
-  "affiliations": [{
-    "name": "V.A. Trapeznikov Institute of Control Sciences of RAS",
-    "country": "Russia",
-    "city": "Moscow",
-    "position": "Professor"
-  }]
-}]
+    "avatar": "/images/avatars/dharmaraja.png",
+    "affiliations": [
+      {
+        "name": "Indian Institute of Technology",
+        "country": "India",
+        "city": "Delhi",
+        "position": "Professor"
+      }
+    ]
+  }
+]

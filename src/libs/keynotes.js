@@ -43,10 +43,6 @@ export const getPlenarySchedule = () => {
         const newLecture = {...lecture};
         newLecture.speaker = getSpeaker(lecture.speaker);
 
-        if (newLecture.speaker.coauthor) {
-          newLecture.speaker.coauthor = getSpeaker(newLecture.speaker.coauthor);
-        }
-
         // Attach lecture title:
         newLecture.data = getLectureData(lecture.speaker.slug);
         // Return the updated lecture
@@ -63,7 +59,7 @@ export const getKeynote = async (authorSlug) => {
   const plenary = loadMarkdown(authorSlug, 'plenary');
   const speakerBio = loadMarkdown(authorSlug, 'speakers');
   const speaker = getSpeaker({slug: authorSlug});
-  const coauthor = speaker.coauthor ? getSpeaker(speaker.coauthor) : null;
+  const coauthor = speaker.coauthor || null;
   // TODO add plenary schedule
   //const schedule = loadJSONFile("plenary.json");
   const schedule = {};
