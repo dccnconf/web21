@@ -28,7 +28,7 @@ const ProgramPlenary = ({ schedule, className = "" }) => {
 
   return (
     <div className={className}>
-      {/*<VideoConfCard links={schedule.links} videoHtml={schedule.video} className="mt-8" />*/}
+      <VideoConfCard links={schedule.links} videoHtml={schedule.video} className="mt-8" />
       <div className="relative mt-8">
         <div className="border-r-4 border-gray-400 absolute h-full top-0" style={{left: 22}} />
         <ul className="list-none m-0 pt-3 pb-1">
