@@ -31,7 +31,7 @@ const VideoConfCard = ({ links, videoHtml, className = "", isGreen = false } = {
             </ul>
           </div>
           <div className="mt-0 mb-2">
-            <a href="/downloads/MS_TEAMS_INSTRUCTION.pdf" className="hover:underline text-yellow-600">
+            <a href="/downloads/MS_TEAMS_INSTRUCTION.pdf" target="_blank" className="hover:underline text-yellow-600">
               <FontAwesomeIcon icon={faQuestionCircle} className="mr-4" />
               <FontAwesomeIcon icon={faFilePdf} className="mr-4" />
               How to use MS Teams
