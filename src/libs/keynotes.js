@@ -27,8 +27,8 @@ export const getLectureData = (authorSlug) => {
 };
 
 
-export const getPlenarySchedule = () => {
-  const plenary = loadJSONFile("plenary.json");
+export const getPlenarySchedule = (part = 0) => {
+  const plenary = loadJSONFile("plenary.json")[part];
   plenary.parts = plenary.parts.map(part => {
     const newPart = {...part};
     if (newPart.chairs) {

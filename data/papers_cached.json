@@ -1,1 +1,964 @@
-[]
+[
+  {
+    "id": 751,
+    "title": "Traffic management algorithm for V2X based flying fog system",
+    "abstract": "V2X system support a large number of new services and protocols, therefore,  moving to integrated interaction with the surrounding information space, defined as V2X interoperability, should ensure the interoperability of the various networks and systems involved in providing services to users[5]. The data must be transmitted with low latency and high speed between vehicles. This requires the introduction of a new high-speed network, advanced road transport, and telecommunications infrastructure. To ensure the effective functioning of V2X networks,  in this paper we propose to use flying fog computing for a reliable and efficient system for simulation model, we used a UAVs as a base station (BS) equipped by a controller (CU) that provide execution of the requests arriving from the users equipment located in the communication range of the BS. Users that are connected with the BS requests flow that arrive at CU, we assume that one cloud server (CS) can serve a number of UAVs. CU is described as a service system which provides execution of some requests simultaneously. We assume that the execution of each request flow from users needs a fixed amount of energy. We\u2019ve noticed that in the case of low traffic intensity the delay value increases with increasing of the part of traffic forwarded to the cloud, the energy consumption lower if the part of redirected traffic is bigger",
+    "authors": [
+      "Malik Alsweity",
+      "Ammar Muthanna",
+      "Andrey Koucheryavy"
+    ]
+  },
+  {
+    "id": 845,
+    "title": "Identification of narrowband wireless communication networks systems and Internet of Things devices using Blockchain technology",
+    "abstract": "The paper explores the possibility of interaction between the Handle System identification system and the blockchain network in order to optimize the operation of the identification system. The work covered the organization of the blockchain network, the architecture of the model stand developed, as well as a number of studies reflecting the results of the interaction of the identification system with the blockchain network in terms of the time of creation of an entity in LHS and the record thereof in the blockchain network, as well as the time of response of the blockchain network in case of query of data from it. As part of this work, the blockchain network acts as a tool to log all the changes of the identification system in order to prevent counterfeiting and substitution of the identification data of devices and sensors of the Internet of Things.",
+    "authors": [
+      "Albina Pomogalova",
+      "Dmitriy Sazonov",
+      "Evgeny Donskov",
+      "Alexey Borodin",
+      "Ruslan Kirichek"
+    ]
+  },
+  {
+    "id": 646,
+    "title": "Survey of Load balancing mechanisms based on  SDN in \u200e\u200e5G/IMT-2020\u200e",
+    "abstract": "The growing number of mobile devices and the demand for user data by 2030 \u200eare expected to put pressure on the current mobile network in an unprecedented \u200eway.\u200e\u200f \u200fFuture mobile networks must have several requirements regarding data \u200eamount, latency, quality of service and experience, mobility, spectrum and energy \u200eefficiency. Therefore, efforts have recently begun for more efficient mobile \u200enetwork solutions. To this end, load balancing has attracted much attention as a \u200epromising solution for greater resource utilization, improved system performance, \u200eand reduced operating costs.\u200e\u200f \u200fThis is an effective way to balance traffic and reduce \u200econgestion in heterogeneous networks in future 5G/IMT-2020 networks. Load \u200eBalancing is one of the most important tasks required to maximize network \u200eperformance, scalability and robustness. Nowadays, with the emergence of \u200eSoftware-Defined Networking (SDN), Load Balancing for SDN has become a very \u200eimportant issue in future network 5G/IMT-2020 . SDN allows for load balancers that \u200eare programmable and provides the flexibility for one to design and implement own \u200eload balancing strategies. In this survey, we highlight the methods of load balancing \u200ebased on SDN networks and prospective load balancing requirements on 5G \u200enetworks .\u200e",
+    "authors": [
+      "Behrooz Daneshmand"
+    ]
+  },
+  {
+    "id": 719,
+    "title": "Multi Task Multi-UAV Computation Offloading Enabled Mobile Edge Computing Systems",
+    "abstract": "Mobile edge computing (MEC) is a technology that has found\r\neffective solutions in terms of ultra-low latency, low energy consumption,\r\nhigh data rate and high reliability. MEC is become actual appropriate\r\nfor the devices that has a limited resource such IoT, UAVs etc. In this\r\npaper, we consider an algorithm to improve and minimize the energy consumption of Unmanned Aerial Vehicle by offloading and execution some\r\ntasks of UAV into nearby UAVs or into edge cloud server. The proposed\r\nalgorithm is based on dynamic programming that uses a randomization\r\nand hamming distance termination to obtain approximately optimal solution. The algorithm can minimize the energy consumption of UAV and\r\nimproving the total execution time by offload some tasks to nearby UAVs\r\nor to edge cloud server when transmission data rate of the network is\r\nhigh. The algorithm can find a nearly optimal offloading decision within\r\na few repetitions. The results show that the proposed algorithm achieves\r\na minimal energy while meeting energy and time constraints.",
+    "authors": [
+      "Abbas Alzaghir",
+      "Andrey Koucheryavy"
+    ]
+  },
+  {
+    "id": 744,
+    "title": "An efficient cluster routing protocol for vehicular ad-hoc network using bio-metaheuristic algorithm",
+    "abstract": "In this paper, we propose a novel hybrid K-MCSA protocol that combines the features of k-means clustering algorithm and cuckoo search algorithm to establish an efficient, reliable and stable route between the source and destination vehicular nodes in VANET network. In our proposed protocol, k-means clustering and cuckoo search algorithm are used to identify an optimal route among known routes. Further, three weight parameters are used along with the modified cuckoo search algorithm as a fitness function to ensure a stable and reliable route. The simulation is carried out in simulator NS-3 and it demonstrates that the proposed hybrid K-MCSA protocol significantly improves the packet delivery ratio, average delay, packet loss ratio, overhead and throughput while compared to popular routing protocol AODV.",
+    "authors": [
+      "\u0410\u043c\u0430\u043d\u0438 \u0421\u0430\u0431\u0431\u0430\u0433",
+      "\u041c\u0430\u043a\u0441\u0438\u043c \u0429\u0435\u0440\u0431\u0430\u043a\u043e\u0432"
+    ]
+  },
+  {
+    "id": 706,
+    "title": "Evaluation of reactive routing protocols performance under malicious attacks in VANET",
+    "abstract": "Changing over digital age is becoming the driving force for modern approaches\r\nto provide a safe road system. VANETs play an important role in Intelligent\r\nTransportation System (ITS) due to their increasing importance for the building\r\nof it. The Wireless networks are more vulnerable to malicious attack than\r\ntraditional wired networks. Thus, security is much more di\u000ecult in VANET\r\nnetworks than in other networks. This paper evaluates the performance of\r\ntwo reactive routing protocols under black hole attack, and analyzes which of\r\nprotocols are most a\u000bected by the attack. The performance was experimentally\r\nmeasured using some of metrics like packet delivery ratio, throughput, average\r\ndelay, overhead and packet loss ratio. The simulation is carried out in NS-3\r\nsimulator to create VANET network, and Bonnmotion to generate realistic\r\nmobility scenarios.",
+    "authors": [
+      "\u0410\u043c\u0430\u043d\u0438 \u0421\u0430\u0431\u0431\u0430\u0433",
+      "\u041c\u0430\u043a\u0441\u0438\u043c \u0429\u0435\u0440\u0431\u0430\u043a\u043e\u0432"
+    ]
+  },
+  {
+    "id": 673,
+    "title": "Development and application of intelligent systems for optimal production management of unique products",
+    "abstract": "The article proposes and discusses new approaches to the development and effective use of intelligent systems for optimal control of the production processes of unique technological products, that is, such products that are able to satisfy unmet demand and have no analogues in the world. The main results of this research are a conceptual model of an intelligent management system formation for the development and production of unique products.",
+    "authors": [
+      "Andrey Tyulin",
+      "Alexander Chursin",
+      "Igor Dubina"
+    ]
+  },
+  {
+    "id": 672,
+    "title": "Basis for the formation of a digital ecosystem of an industrial holding",
+    "abstract": "The article proposes and discusses new approaches to the formation of digital ecosystems of an industrial holding as a mechanism for organizing an innovation process based on a system of innovations inherent in a specific, relatively stable network that unites representatives of the State, business, science and education around a common vision of scientific and technological development and common approaches to the development of new innovative technologies, creating value, facilitating exchanges between two or more interdependent groups of participants based on big data analytics.",
+    "authors": [
+      "Andrey Tyulin",
+      "Alexander Chursin",
+      "Alexander Yudin",
+      "Polina Grosheva"
+    ]
+  },
+  {
+    "id": 597,
+    "title": "On Group Polling Method in Structured Wireless Sensor Networks for Very Rare Events Detecting",
+    "abstract": "The work explores some of the properties of the structured  wireless sensor networks when sensors have very small activeness such as the network is oriented onto detecting rare events. A typical example of such networks could be networks for emergencies detection. It is suppose that the network consists with three types of objects with sensors and total number of sensors is hundreds of thousands or millions of items. All sensors use a common signal channel to unsynchronized transmission of their individual code. Based on the studies, it has been established that to minimize the time of detection of active sensors, it is necessary to use variable length codes of sensors, taking into account the number of objects of different types and the probability of sensor activity on objects.",
+    "authors": [
+      "Ivan Tsitovich"
+    ]
+  },
+  {
+    "id": 734,
+    "title": "Local Hybrid Navigation System of Tethered High-Altitude Platform",
+    "abstract": "This paper describes the principles of building the local navigation system\r\nfor a tethered high-altitude platform. In particular, the platform \u201dAlbatross\u201d\r\ndeveloped by the scientists of the Institute of Control Sciences of the Russian\r\nAcademy of Sciences is considered here. The hybrid navigation system is\r\nproposed here. The system includes the millimeter and optical subsystems. The\r\nmillimeter system effectively functions at altitudes above 5-10m, the optical\r\nsystem effectively functions at altitudes below 5-10m. Moreover, each of them\r\ncan be used as a backup in the corresponding range.",
+    "authors": [
+      "Vladimir Vishnevsky",
+      "Konstantin Vytovtov",
+      "Elizaveta Barabanova",
+      "Vladislav Buzdin"
+    ]
+  },
+  {
+    "id": 641,
+    "title": "Investigation of wireless hybrid communication system reliability under external influences",
+    "abstract": "The transitional mode of the hybrid communication system functioning that includes two wireless information channels operating in optical and millimeter wavelength ranges is considered for the first time. For this purpose the accurate analytical method for analyzing the transient behavior of the hybrid system in the operating mode and in the case of failure of the channels is proposed. The method allows investigating the case of periodical man-made radio influence also. The expressions for reliability indicators and performance metrics of the hybrid system are presented for the first time.",
+    "authors": [
+      "Konstantin Vytovtov",
+      "Elizaveta Barabanova",
+      "Vladimir Vishnevsky"
+    ]
+  },
+  {
+    "id": 620,
+    "title": "Ontology-based model for sensor network fault management",
+    "abstract": "Ontological-based approach suggests an effective method of sensor network\r\nsources failures finding process for a quality-of-service analysis. Designed subjectoriented\r\nontology primary can be used for an identification and classification of\r\nfailures information sources at a heterogeneous environment. It helps to create\r\nunified semantic model for a sensor network failures description in the context\r\nof interconnections and interactions between all network elements and services\r\nprocessing. Methodologically, an ontology-based model of the subject area of\r\nsensor network failures is created to be used with a high-level model for the\r\ngeneral network management.",
+    "authors": [
+      "Alexander Grebeshkov"
+    ]
+  },
+  {
+    "id": 686,
+    "title": "Enhancing the Resource Sharing Capabilities of a Network by Deploying Network Slicing Procedure",
+    "abstract": "An analytical framework for\r\n modeling   resource allocation procedures for transmission of multiservice traffic is constructed and analyzed.\r\n  The model consists of arbitrary number of traffic streams created by variety of real time applications. All random variables used in the model have\r\nexponential distribution with corresponding mean values. Two  scenarios of resource sharing by coming  traffic streams are considered: Network Slicing when resources are strictly divided among coming traffic streams, and Filtering, when the access to resource is restricted depending on the amount of resource occupied by all  traffic streams. It is shown how to use both scenarios for\r\ncreation of conditions for  differentiated servicing of heterogeneous traffic.\r\nNumerical assessment  shows that scenario based on filtering is more efficient for solving the formulated task  than analogous scenario based on slicing.",
+    "authors": [
+      "Sergey Stepanov",
+      "Mikhail Stepanov",
+      "Umer Andrabi",
+      "Dmitriy Petrov",
+      "Juvent Ndayikunda"
+    ]
+  },
+  {
+    "id": 695,
+    "title": "Analysis of non-Preemptive Scheduling for 5G Network Model within Slicing Framework",
+    "abstract": "5G networks slicing technology, recognized as one of the possibles solution to radio resources scarcity and networks inflexibility problems, is getting the most attention from researchers and standard organizations around the world. This situation was expected since slicing capabilities are very well suited for mobile networks operators allowing significant changes in their range of services and daily operations. In addition, some researches showed that priority-based scheduling mechanisms can be implemented within slicing framework. This paper analyzes the performance measures of a wireless network implementing priority-based scheduling mechanism within slicing framework and described as queueing system with buffer and retrial queue.",
+    "authors": [
+      "Yves Adou",
+      "Ekaterina Markova"
+    ]
+  },
+  {
+    "id": 750,
+    "title": "Development of Radio Admission Scheme Model for 5G Network Slicing Framework as a Retrial Queue",
+    "abstract": "To improve the efficiency of using network resources, fifth-generation 5G networks propose to use the technology of network slicing. This feature consists of creating multiple logical, self-contained networks on top of a common shared physical infrastructure, and, therefore, it can be used to support multi-tenancy on the 5G network. Each of these logical networks is referred to as a network slice and can be tailored to provide a particular system behavior to best support specific service/application domains. This work is devoted to the development of a mathematical model of resource allocation in network slicing. Using the first-order asymptotic analysis method, we will find basic numerical and probabilistic characteristics.",
+    "authors": [
+      "Faina Moskaleva",
+      "Ekaterina Lisovskaya",
+      "Lyubov Lapshenkova",
+      "Sergey Shorgin",
+      "Yuliya Gaidamaka"
+    ]
+  },
+  {
+    "id": 746,
+    "title": "On the convergence of an iterative method for approximate analysis of a resource queuing system with signals",
+    "abstract": "Modern wireless networks are characterized by high user mobility. This factor can lead to changes in the quality of the channel during the lifetime of the interaction session. In order to take into account the fact of user movement in a queuing system with limited resources, signals are introduced. In this paper, an approximate model with signals is constructed. The simplification is to replace the signal with a new flow of requests. The mathematical proof of the method is given and the probabilistic-time characteristics are calculated.",
+    "authors": [
+      "Kirill Ageev",
+      "Eduard Sopin"
+    ]
+  },
+  {
+    "id": 701,
+    "title": "OpenFlow-based software-defined networking queue model",
+    "abstract": "SDN imposes requirements on manufacturers of infocommunication equipment to support new scenarios for working with network applications. This leads to the need to analyze the features of SDN networks, assess their performance both at the design stage and in the process of operation. \r\n\r\nIn this work, analytical expressions are obtained to estimate the average values of packet delay times in M/G/1 and G/G/1 systems for SDN. To approximate arbitrary densities in the G/G/1 system, an approach based on the use of hyperexponential distributions was used. When analyzing the G/G/1 system, it is assumed that there are no correlations within the sequences of time intervals between packets and packet processing times. The paper presents the result of comparing the estimates of the average values of the packet delay time in the M/G/1 and G/G/1 systems, which simulated the SDN operation.",
+    "authors": [
+      "Marina Buranova",
+      "Vyacheslav Kartashevskiy"
+    ]
+  },
+  {
+    "id": 714,
+    "title": "A generalized loss priority system with application to bandwidth sharing",
+    "abstract": "Some priority  loss queueing systems and their generalisations are considered. In particular, we study a modification of Adan-Weiss  loss system with patient non-priority customers, a system with blocking based on infinite server system (proposed by W.Whitt)  and a bandwidth sharing model. We study  relations between these models. Moreover,   an application of Whitt blocking model for bandwidth sharing to obtain bounds for stationary number of customers for general service times is proposed. Finally, a numerical example is considered to compare the results in the case of exponential service times.",
+    "authors": [
+      "Stepan Rogozin"
+    ]
+  },
+  {
+    "id": 572,
+    "title": "ADAPTIVE LEARNING IN COMPUTER DESIGN OF SHIP INTEGRATED MANAGEMENT SYSTEMS",
+    "abstract": "The missions of creating of printed circuit board for ship integrated\r\nmanagement systems are actual as they are being solved by many shipbuilding companies.\r\nThe mission of the conducted scientific research is formulated in the following way: it is\r\nnecessary to create a methodology of designing a system of graphical learning of specialists\r\nin computer-aided design of printed circuit board for ship integrated management systems,\r\nand consider the contradiction between unstable competence indicators of students and\r\nconstant expansion of the information sphere of the subject fields. Method. In the article\r\nthe documenting methods of printed circuit board for ship integrated management systems\r\nare created to train specialists in the CAD field. Main Results. The main components of\r\nadaptive training in computer-aided design and its advantages are pinpointed. The adaptive\r\napproaches to the teaching computer-aided design of ship integrated management systems\r\nare investigated. The main purpose of an adaptive learning systems is to implement\r\nmanagement of the learning process, considering individual characteristics of the users.\r\nPractical Relevance.The research approaches are applied at the Department of Engines\r\nfor Shipbuilding of the Vietnam Naval Academy.",
+    "authors": [
+      "HOANG KINH"
+    ]
+  },
+  {
+    "id": 752,
+    "title": "ULTRA-DENSE INTERNET OF THINGS MODEL NETWORK",
+    "abstract": "The article proposes the results of the analysis of the problems in the process of modeling the Internet of Things network, the choice of the structure and composition of the set of tools for full-scale and combined modeling. Subject of study: problems of modeling the high density Internet of things network. Research method: system and statistical analysis. Main results: the main tasks of modeling the high density Internet of Things networks are formulated, a three-level structure of the model is proposed, an analysis of the available technical means is carried out and the composition of technical means at each of the levels is proposed. Practical significance: the obtained results of the analysis of the use of technical means in solving various modeling problems and the proposed set of tools for simulating the Internet of Things network can be used in solving research problems, as well as in the educational process of the university.",
+    "authors": [
+      "Anastasia Marochkina",
+      "Alexander Paramonov",
+      "Tatiana Tatarnikova"
+    ]
+  },
+  {
+    "id": 693,
+    "title": "Algorithm of finding all maximal induced bicliques of hypergraph",
+    "abstract": "The problem of finding all maximal induced bicliques of a hypergraph is considered in this paper. An algorithm for finding all maximal induced bicliques is proposed and computational experiments with its applying are presented.",
+    "authors": [
+      "Aleksandr Soldatenko",
+      "Daria Semenova"
+    ]
+  },
+  {
+    "id": 688,
+    "title": "Linux network device drivers: NAPI polling in kernel threads",
+    "abstract": "This paper discusses the basic concepts of Linux network device drivers. A new function added in a series of patches for kernel 5.12 is considered, in which the NAPI mechanism is implemented.",
+    "authors": [
+      "Alyona Borisovskaya"
+    ]
+  },
+  {
+    "id": 748,
+    "title": "A Method for Link Quality Estimation in LoRa Network based on Support Vector Machine",
+    "abstract": "In this paper, we present the use of machine learning techniques to estimate the link quality of a fragment of the LoRa network. We performed experiments with a testbed based on Rostelecom-ITU-based Laboratory using several LoRa nodes (CubeCell and TTGO LoRa32).  The data such as received signal strength indicator (RSSI), signal-to-noise ratio (SNR) of received packets, and packet reception rate (PRR) were collected and trained to classify the link quality levels based on support vector machine (SVM) model with Gaussian kernel. The results show the high accuracy (mean = 95\\%) while using 10\\% of the dataset for training.",
+    "authors": [
+      "Van Dai Pham",
+      "Hao Do Phuc",
+      "Tran Duc Le",
+      "Ruslan Kirichek"
+    ]
+  },
+  {
+    "id": 846,
+    "title": "Analysis of Network Security Issues in the Join Procedure of LoRaWAN",
+    "abstract": "In the LoRaWAN network, the end devices need to make join-request by sending packets to the Network Server during the join procedure process. This procedure has some vulnerabilities that the attackers can exploit and attack network operations. In this paper, we will review, analyze, and compare some methods of exploiting vulnerabilities that are usually performed in the join procedure. In addition, we compare the advantages and disadvantages of existing solutions to reduce the above security issues.",
+    "authors": [
+      "Tran Duc Le",
+      "Nguyen Duc Tai",
+      "Le Ba Luong",
+      "Van Dai Pham",
+      "Ruslan Kirichek"
+    ]
+  },
+  {
+    "id": 605,
+    "title": "Evaluation of the quality and optimization functioning information systems",
+    "abstract": "Assessment of the quality of functioning of management information systems is the most important factor in the effective development of the digital economy of the region. The use of approaches based on the use of mathematical models allows us to obtain the most adequate results for assessing the quality and optimizing the functioning of information management systems in the economy.",
+    "authors": [
+      "Oleg Boychenko"
+    ]
+  },
+  {
+    "id": 632,
+    "title": "Customer Experience Model for Customer Digital Twin",
+    "abstract": "One of the most important components of a telecom operator\u2019s digital twinis the customer\u2019s digital twin.  Building a customer\u2019s digital twin is an extremelydifficult task, because a number of properties of a real customer are extremelydifficult  to  formalize  and  describe  mathematically.   We  offer  a  model  of  the customer  experience,  which  will  become a part  of  the  general  customer  model, complementing  the  behavioral  aspect  of  a  real  customer.   General  model  offuzzy cognitive maps was chosen as the mathematical basis for this model.  Forthis study, we used data from two telecom operators.  Based on these data, twomodels of fuzzy cognitive maps were developed.",
+    "authors": [
+      "Sergey Kislyakov",
+      "ALEKSANDR SOTNIKOV",
+      "Vladimir Akishin"
+    ]
+  },
+  {
+    "id": 726,
+    "title": "Integrity, resilience and security of 5G transport networks based on SDN/NFV technologies",
+    "abstract": "5G networks are being actively implemented in many countries around the\r\nworld. The goal of introducing technologies that make up the new standard is to\r\nreduce information transmission delays, increase transmission speed, and increase\r\nthe number of devices served. To achieve the targets, 5G networks must be built\r\nusing software-defined networking (SDN) and network function virtualization\r\n(NFV) technology. This paper analyzes the integrity, resilience and security of\r\n5G networks based on SDN/NFV, as well as provides recommendations for the\r\ncomprehensive information security of such networks.",
+    "authors": [
+      "Igor Buzhin",
+      "Maxim Bessonov",
+      "Yuriy Mironov",
+      "Mais Farkhadov"
+    ]
+  },
+  {
+    "id": 650,
+    "title": "MULTI-SERVER LOSS QUEUEING SYSTEM WITH THE  BMMAP  ARRIVAL PROCESS",
+    "abstract": "In this paper,  we consider a multi-server queueing system with heterogeneous customers that arrive according to a Batch Marked Markovian Arrival Process. The service time is exponentially distributed with the rate depending on the type of customer. The system does not have a buffer and the acceptance discipline is Partial Admission. The operation of the system is described by the multi-dimensional Markov chain.  The stationary distribution and performance measures of the system including loss probabilities of customers of different types are computed.",
+    "authors": [
+      "Chesoong Kim",
+      "Alexander Dudin",
+      "Sergei Dudin",
+      "Olga Dudina"
+    ]
+  },
+  {
+    "id": 578,
+    "title": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 BMAP/PH/1 \u0441 \u043d\u0430\u0433\u0440\u0435\u0432\u043e\u043c  \u0438 \u043e\u0445\u043b\u0430\u0436\u0434\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438\u0431\u043e\u0440\u0430",
+    "abstract": "\u0418\u0441\u0441\u043b\u0435\u0434\u0443\u0435\u0442\u0441\u044f \u043e\u0434\u043d\u043e\u043b\u0438\u043d\u0435\u0439\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0433\u043e \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0441 \u0433\u0440\u0443\u043f\u043f\u043e\u0432\u044b\u043c \u043c\u0430\u0440\u043a\u043e\u0432\u0441\u043a\u0438\u043c \u043f\u043e\u0442\u043e\u043a\u043e\u043c, \u0444\u0430\u0437\u043e\u0432\u044b\u043c \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u043c \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f, \u0431\u0435\u0441\u043a\u043e\u043d\u0435\u0447\u043d\u044b\u043c \u0431\u0443\u0444\u0435\u0440\u043e\u043c, \u043d\u0430\u0433\u0440\u0435\u0432\u043e\u043c \u0438 \u043e\u0445\u043b\u0430\u0436\u0434\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438\u0431\u043e\u0440\u0430. \u0412 \u0441\u043b\u0443\u0447\u0430\u0435 \u043f\u0435\u0440\u0435\u0433\u0440\u0435\u0432\u0430 \u043f\u0440\u0438\u0431\u043e\u0440\u0430 \u0435\u0433\u043e \u0440\u0430\u0431\u043e\u0442\u0430 \u043e\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0435\u0442\u0441\u044f, \u0430 \u0437\u0430\u043f\u0440\u043e\u0441, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0431\u044b\u043b \u043d\u0430 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0438, \u0442\u0435\u0440\u044f\u0435\u0442\u0441\u044f. \u041f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0430 \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0438 \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u0431\u043e\u0440\u0430, \u0447\u0442\u043e\u0431\u044b \u043c\u0438\u043d\u0438\u043c\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u043d\u0435\u0433\u0430\u0442\u0438\u0432\u043d\u044b\u0435 \u043f\u043e\u0441\u043b\u0435\u0434\u0441\u0442\u0432\u0438\u044f \u043f\u0435\u0440\u0435\u0433\u0440\u0435\u0432\u0430. \u041f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043e\u043f\u0438\u0441\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u043c\u043d\u043e\u0433\u043e\u043c\u0435\u0440\u043d\u043e\u0439 \u0446\u0435\u043f\u044c\u044e \u041c\u0430\u0440\u043a\u043e\u0432\u0430 \u0441 \u043e\u0434\u043d\u043e\u0439 \u0441\u0447\u0435\u0442\u043d\u043e\u0439 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u043e\u0439. \u0412\u044b\u043f\u0438\u0441\u0430\u043d \u0433\u0435\u043d\u0435\u0440\u0430\u0442\u043e\u0440 \u0446\u0435\u043f\u0438, \u043d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u0442\u0430\u0446\u0438\u043e\u043d\u0430\u0440\u043d\u043e\u0435 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u0435\u0439 \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0438 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438.",
+    "authors": [
+      "Alexander Dudin",
+      "Sergei Dudin",
+      "Olga Dudina"
+    ]
+  },
+  {
+    "id": 579,
+    "title": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 MAP/PH/1 \u0441 \u0430\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u044b\u043c \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u044b\u043c \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0431\u0435\u0437 \u043f\u0440\u0435\u0440\u044b\u0432\u0430\u043d\u0438\u044f",
+    "abstract": "\u0418\u0441\u0441\u043b\u0435\u0434\u0443\u0435\u0442\u0441\u044f \u043e\u0434\u043d\u043e\u043b\u0438\u043d\u0435\u0439\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0433\u043e \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0441 \u043c\u0430\u0440\u043a\u043e\u0432\u0441\u043a\u0438\u043c \u043f\u043e\u0442\u043e\u043a\u043e\u043c, \u0444\u0430\u0437\u043e\u0432\u044b\u043c \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u043c \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f, \u043e\u0442\u0434\u044b\u0445\u0430\u043c\u0438 \u043f\u0440\u0438\u0431\u043e\u0440\u0430, \u0430\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u044b\u043c \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u044b\u043c \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0431\u0435\u0437 \u043f\u0440\u0435\u0440\u044b\u0432\u0430\u043d\u0438\u044f \u0438 \u043d\u0435\u0442\u0435\u0440\u043f\u0435\u043b\u0438\u0432\u044b\u043c\u0438 \u0437\u0430\u043f\u0440\u043e\u0441\u0430\u043c\u0438.  \u041f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043e\u043f\u0438\u0441\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u043c\u043d\u043e\u0433\u043e\u043c\u0435\u0440\u043d\u043e\u0439 \u0446\u0435\u043f\u044c\u044e \u041c\u0430\u0440\u043a\u043e\u0432\u0430 \u0441 \u043e\u0434\u043d\u043e\u0439 \u0441\u0447\u0435\u0442\u043d\u043e\u0439 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u043e\u0439. \u0412\u044b\u043f\u0438\u0441\u0430\u043d \u0433\u0435\u043d\u0435\u0440\u0430\u0442\u043e\u0440 \u0446\u0435\u043f\u0438, \u0447\u0442\u043e \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043d\u0430\u0439\u0442\u0438 \u0441\u0442\u0430\u0446\u0438\u043e\u043d\u0430\u0440\u043d\u043e\u0435 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u0435\u0439 \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0438 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438 \u0435\u0435 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438.",
+    "authors": [
+      "Alexander Dudin",
+      "Sergei Dudin",
+      "Olga Dudina"
+    ]
+  },
+  {
+    "id": 647,
+    "title": "\u041c\u043d\u043e\u0433\u043e\u043b\u0438\u043d\u0435\u0439\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441 \u0440\u0430\u0437\u043d\u043e\u0442\u0438\u043f\u043d\u044b\u043c\u0438 \u043d\u0435\u043d\u0430\u0434\u0435\u0436\u043d\u044b\u043c\u0438 \u043f\u0440\u0438\u0431\u043e\u0440\u0430\u043c\u0438 \u0438 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u043c\u0438 \u0432\u044b\u0437\u043e\u0432\u0430\u043c\u0438",
+    "abstract": "\u0418\u0441\u0441\u043b\u0435\u0434\u0443\u0435\u0442\u0441\u044f \u043c\u043d\u043e\u0433\u043e\u043b\u0438\u043d\u0435\u0439\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0433\u043e \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0441 \u0440\u0430\u0437\u043d\u043e\u0442\u0438\u043f\u043d\u044b\u043c\u0438 \u043d\u0435\u043d\u0430\u0434\u0435\u0436\u043d\u044b\u043c\u0438 \u043f\u0440\u0438\u0431\u043e\u0440\u0430\u043c\u0438 \u0438 \u043c\u0430\u0440\u043a\u043e\u0432\u0441\u043a\u0438\u043c  \u0432\u0445\u043e\u0434\u043d\u044b\u043c  \u043f\u043e\u0442\u043e\u043a\u043e\u043c. \u041f\u0440\u0438\u0431\u043e\u0440\u044b \u043f\u0435\u0440\u0435\u043d\u0443\u043c\u0435\u0440\u043e\u0432\u0430\u043d\u044b \u0432 \u043f\u043e\u0440\u044f\u0434\u043a\u0435 \u0443\u0431\u044b\u0432\u0430\u043d\u0438\u044f \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u0438 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0438 \u0432\u0445\u043e\u0434\u044f\u0449\u0438\u0439 \u0437\u0430\u043f\u0440\u043e\u0441 \u0432\u0441\u0435\u0433\u0434\u0430 \u0437\u0430\u043d\u0438\u043c\u0430\u0435\u0442 \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0439 \u0438\u0441\u043f\u0440\u0430\u0432\u043d\u044b\u0439 \u043f\u0440\u0438\u0431\u043e\u0440 \u0441 \u043c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u043c \u043d\u043e\u043c\u0435\u0440\u043e\u043c. \u0415\u0441\u043b\u0438 \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0445 \u0438\u0441\u043f\u0440\u0430\u0432\u043d\u044b\u0445 \u043f\u0440\u0438\u0431\u043e\u0440\u043e\u0432 \u043d\u0435\u0442, \u0437\u0430\u043f\u0440\u043e\u0441 \u0438\u0434\u0435\u0442 \u043d\u0430 \u043e\u0440\u0431\u0438\u0442\u0443, \u0441 \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u0435\u0442 \u043f\u043e\u043f\u044b\u0442\u043a\u0438 \u043f\u043e\u043f\u0430\u0441\u0442\u044c \u043d\u0430 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435.  \u041f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043e\u043f\u0438\u0441\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u043c\u043d\u043e\u0433\u043e\u043c\u0435\u0440\u043d\u043e\u0439 \u0446\u0435\u043f\u044c\u044e \u041c\u0430\u0440\u043a\u043e\u0432\u0430 \u0441 \u043e\u0434\u043d\u043e\u0439 \u0441\u0447\u0435\u0442\u043d\u043e\u0439 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u043e\u0439. \u0412\u044b\u043f\u0438\u0441\u0430\u043d \u0433\u0435\u043d\u0435\u0440\u0430\u0442\u043e\u0440 \u0446\u0435\u043f\u0438, \u0447\u0442\u043e \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043d\u0430\u0439\u0442\u0438 \u0441\u0442\u0430\u0446\u0438\u043e\u043d\u0430\u0440\u043d\u043e\u0435 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u0435\u0439 \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0438 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438 \u0435\u0435 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438.",
+    "authors": [
+      "Alexander Dudin",
+      "Mei Liu"
+    ]
+  },
+  {
+    "id": 624,
+    "title": "A Two Server Queueing Inventory Model With Two Types of Customers and a Dedicated Server",
+    "abstract": "We consider a two server queueing inventory model with two types of customers. Type-I customers can form an infinite queue, while type-II customers join a finite buffer of size N. There are two servers.  Server-1 is a dedicated server, giving service only to the type-I customers. Server-2 provides service to both type-I and type-II customers.  Service of each customer requires an inventory item. Type-I customers are served one by one, by both servers on a FIFO basis. Type-II customers are served in batches of varying sizes by server-2. A random clock is set for type-II customers, which starts ticking with the arrival of first type-II customer to an empty buffer.  When the number of type-II customers becomes N or when the random clock realizes, server-2 starts the service of that batch of type-II customers. In such a situation, if server-2 is giving service to a type-I customer, its service is frozen and the service of that batch of type-II begins.  The arrival of both types of customers are according to a stationary Marked Markovian Arrival Process. The service times of both type-I and type-II customers follow phase type distribution. The inventory replenishment follows the  (s,S) policy with positive leadtime. If the required inventory is not there at the time of service of a batch of type-II customers, local purchase is done.",
+    "authors": [
+      "Nisha Mathew",
+      "Varghese C. Joshua",
+      "Achyutha Krishnamoorthy"
+    ]
+  },
+  {
+    "id": 609,
+    "title": "On A Queue With Marked Compound Poisson Input And Exponentially Distributed Batch Service",
+    "abstract": "In this paper, we consider the batch arrival with batch service process. We assume that our queueing model has multi-server. Arrivals of customers in batches of various sizes (1,2,...,k ) form a marked compound Poisson process; we designate the batches as T1,T2,...,Tk. The service time of  Ti follows exponential distribution with parameter mu i, i=1,2,...,k; they are served in batches of the specific size. In arrival process, waiting room of type i for Ti has finite capacity except waiting room of type  1 for T1. In service process, server room of type i has finite capacity. Ti can go to service if server room of type i has available space. If server room of type i does not have available place, then there are two following cases. The first case, if waiting room of type i has available places, Ti must wait in this waiting room. The second case, if waiting room of type i  does not have available place, then Ti must leave the system without service except T1, who must wait in waiting room of type 1.  Various performance measures are estimated.",
+    "authors": [
+      "Khamis Abdullah Khamis AL Maqbali",
+      "Varghese C. Joshua",
+      "Achyutha Krishnamoorthy"
+    ]
+  },
+  {
+    "id": 700,
+    "title": "A queueing model for observation of suspicious data",
+    "abstract": "In this paper we describe a model for detecting, observing and recovering suspicious data packets(customers) arriving to networks. Packets arrive according to a Markovian arrival process to a multi server station. An arriving packet is suspected to be malicious with a probability p or transmitted with the complimentary probability 1 - p: A suspected packet is sent to an observation pool. When a packet reaches the pool, two random clocks starts ticking. One\r\nof the random clocks shows Erlang distributed times, this is the duration of observation . The second clock on realization gives the duration for generating the status of being malware affected or not and this clock gives Coxian distributed times. A packet gets transmitted from pool upon realization of the Erlang clock, provided the Coxian clock does not realize until this point of time. If the Coaxian clock realizes \frst, then the packet is assumed to be malware infected and it is sent to a multi server station for the recovery and then transmitted after the recovery process. This system is modeled as a continuous time Markov chain and is analyzed using matrix analytic method. The model is illustrated numerically.",
+    "authors": [
+      "Sinu Lal T S",
+      "Achyutha Krishnamoorthy",
+      "Varghese C. Joshua"
+    ]
+  },
+  {
+    "id": 627,
+    "title": "Batch Service Queueing System Associated with Inventory Transport",
+    "abstract": "This paper considers a single server batch service queueing system in which\r\nservice is provided in at most k stages. A batch of customers is admitted for\r\nservice under GBS - rule (with minimum batch size a and maximum batch size\r\nb). The customers have the choice to leave the system after service completion\r\nfrom any stage. The service time of a customer in a stage depends on the stage\r\nas well as the number of customers being served in that stage. The stability of\r\nsuch a system is investigated and key performance measures computed based on\r\nsystem state distribution. The time required to provide service to a batch of\r\nspecified size is analyzed. An optimization problem is considered and a numerical\r\nexample provided.",
+    "authors": [
+      "Achyutha Krishnamoorthy",
+      "Anu Joshua"
+    ]
+  },
+  {
+    "id": 685,
+    "title": "Joint stationary distribution in the two-channel queueing system with ordered entry, governed by one queue skipping policy",
+    "abstract": "Consideration is given to the queueing system with the ordered entry,\r\nwhich is governed by one special queue skipping policy. \r\nThe system consists of two single-server queues, say~Q1 and~Q2,\r\neach with infinite capacity.  New customers arrive only in batches \r\nand only to~Q1. Upon arrival of a batch its size is compared with the current\r\ntotal number of customers in~Q1. If the size of the batch \r\nis larger than that number, all customers residing in the system\r\n(including the one in server) are pushed-out to~Q2 \r\nand the arrived batch enters the system;\r\notherwise the new batch goes to~Q2. \r\nWhenever a~batch arrives to~Q2 the same comparison is performed.\r\nThe batch pushed-out from~Q2 is considered as lost.\r\nUnder the assumption that the service times \r\nare exponential and the batch inter-arrival times are i.i.d.\r\nwe sketch the procedure for the computation \r\nof the joint stationary distribution \r\nof the queues' content. Obtaining stability criteria \r\nas well as closed-form expressions remain the open issue.",
+    "authors": [
+      "Rostislav Razumchik"
+    ]
+  },
+  {
+    "id": 613,
+    "title": "Application of a queuing network with positive and negative arrivals for modeling a computer network with antivirus software",
+    "abstract": "In article we investigate a queuing network with positive and negative requests, consisting of systems with control and quarantine queues. The application of such a network as a stochastic model of a computer network with antivirus is described. A system of difference-differential equations for possible states of described queueing network is derived. In case when the network is in saturation mode the expressions for the expected number of requests in the control and quarantine queues are obtained.",
+    "authors": [
+      "Katsiaryna Kosarava",
+      "Dzmitry Kopats"
+    ]
+  },
+  {
+    "id": 844,
+    "title": "Unreliable retrial queueing system with a backup server",
+    "abstract": "In this paper we consider an unreliable retrial queueing system consisting of the main unreliable server, the reliable backup server and the orbit of in\fnite size. Customers and breakdowns arrive to the main server according to Markovian arrival processes (MAP). If at the moment of a customer arrival the main server is busy, then the customer goes to the orbit. If at the moment of a primary or an orbital customer arrival the main server is under repair and the backup server is free,\r\nthen the customer goes to the backup server. If during the service by the backup server the main server restores, the customer goes to this server and is serviced as a new. If at the time of the arrival of a primary or an orbital customer the main server is under repair and the backup one is busy, then the customer goes to orbit. If a breakdown arrives at the busy main server, then the under-served customer is transferred to the backup server and is serviced as a new. Service times and repair times have phase type (PH) distributions. The system under consideration can be used when modeling the hybrid communication system consisting of the main optic channel and the reserve radio channel. We investigate the stable operation of the system, calculate the stationary distribution and a number of performance measures. We also present illustrative numerical examples to show the behavior of the performance measures of the system.",
+    "authors": [
+      "Valentina Klimenok",
+      "Alexander Dudin",
+      "Olga Semenova"
+    ]
+  },
+  {
+    "id": 603,
+    "title": "Asymptotic Analysis of a Closed Exponential Queueing Network with Unreliable Nodes",
+    "abstract": "A closed exponential queueing network with unreliable nodes was studied. The process of changing the number of serviceable servers in network nodes was considered as the birth\u2013death process. The process of changing the number of customers at the nodes was studied under the asymptotic assumption of a large number of customers. The last-mentioned process divided by the large number of customers is a continuous stochastic process with the Markov property. It was proved that its probability density function satisfies the Fokker\u2013Planck\u2013Kolmogorov equation. The system of differential equations for the first-order and second-order moments of this process was derived.",
+    "authors": [
+      "Tatiana Rusilko"
+    ]
+  },
+  {
+    "id": 600,
+    "title": "Calculating the PageRank Vector of a Scale-Free Web Network        Growing by Preferential Attachment",
+    "abstract": "We consider a  scale-free model of the  Web network  that is evolving by a preferential attachment scheme and derive an explicit formula of its PageRank vector.\r\nIts $i^{th}$ element  indicates the  probability that a surfer  resides at a related Web  page $i$\r\nin a stationary regime of an associated random walk. Considering the growth  of the underlying directed Web graph, we apply\r\nspecific linear preferential attachment schemes   proposed by Samorodnitsky et al. (2016). To express the probability of a connection between two  nodes of this\r\n Web graph, our derivation allows us to avoid the consideration of complicated paths with random lengths   and to cover both self loops and multiple edges between nodes.\r\nIn this way, our approach enhances existing analysis schemes. It provides a better insight on the PageRank of growing scale-free Web networks\r\nand supports the adaptation of the model to gathered network statistics.",
+    "authors": [
+      "Natalia Markovich",
+      "Udo Krieger"
+    ]
+  },
+  {
+    "id": 683,
+    "title": "Information Spreading in Non-homogeneous Evolving Networks",
+    "abstract": "The paper is devoted to  finding of leader nodes in evolving directed random networks with regard to the information spreading. We consider non-homogeneous networks consisting of several weakly connected subgraphs having different distributions of node in- and out-degrees. This is a plausible situation for real complex networks. The evolution of the network in time starting from a seed set of nodes is provided by  linear preferential attachment schemes. We compare the spreading rate of nodes which share their messages with other nodes when they belong to different subgraphs of the non-homogeneous network. It is found that the nodes of the subgraph with the most heavy tailed out-degree distribution may spread their messages faster. We compared the spreading capacity of the linear preferential attachment used also for the graph evolution with a well-known SPREAD algorithm and found that the latter can disseminate the information faster.",
+    "authors": [
+      "Maksim Ryzhov",
+      "Natalia Markovich"
+    ]
+  },
+  {
+    "id": 716,
+    "title": "Digitization of student's personal characteristics: statistical analysis of psychological tests results and the Spearman effect",
+    "abstract": "In this work, a statistical analysis of the results of psychological testing is carried out in order to establish correlations between the results of surveys of respondents that were not grouped beforehand by some criterion. The goal is also to formalize the construction of patterns (i.e., combining respondents into groups according to their skill level in the following qualities) of typical distributions of quality indicators, which is important for interpreting test results by identifying subgroups and checking for them the Spearman's law of diminishing returns. The effect is that the correlation between responses in the worst group is higher than in the best group.",
+    "authors": [
+      "Voronina Maria",
+      "Yurii Orlov"
+    ]
+  },
+  {
+    "id": 718,
+    "title": "Statistical model of graph structure based on \"VKontakte\" social network",
+    "abstract": "The paper presents a study of the graph network structure formed by the friendly connections of the \"VKontakte\" social network between the cities of Russia. It turned out that the graph node degree distribution is close to uniform. The consequence of this is the existence of a high-dimensional fully connected region and thin periphery. Also, the probability of fully connected structures was estimated for dense and sparse areas of the graph.",
+    "authors": [
+      "Alexey Kislitsyn",
+      "Yurii Orlov"
+    ]
+  },
+  {
+    "id": 730,
+    "title": "Hybrid MCDM for Cloud Services: AHP(blocks) &  Entropy,  TOPSIS & MOORA (case study based on QoS and QoE criteria)",
+    "abstract": "In the methodology  part of this study, we introduced a combined  \"AHP-block and Entropy\" approach for improving  of  Multi-Criteria Decision Making (MCDM)  for Cloud Services (CS) selection. On this basis, we optimize the combination of professional experts' opinion and objectivity of entropy criteria weighting. In this second part, we test our findings on an existing universal dataset with Quality of Service (QoS) and Quality of Experience (QoE) criteria  and adapting for the needs of individual users and small education organizations under conditions of COVID-19 pandemics.",
+    "authors": [
+      "Iliyan Petrov"
+    ]
+  },
+  {
+    "id": 731,
+    "title": "Combined \"AHP-Block & Entropy\" weighting  of QoS/QoE criteria for Cloud Services selection with TOPSIS, MOORA and WPM (methodology improvements)",
+    "abstract": "Cloud services (CS) offer virtual, reliable, and flexible hardware and software resources as part of the distant Cloud Computing (CC) concept.  The wide variety of products from different providers create the necessity for users to collect data and define criteria for comparing alternatives with reliable evaluation methods and techniques. This paper presents a combined approach based on Analytical Hierarchy Process(AHP), Information Entropy, and  Multi-criteria decision analysis (MCDM) techniques. The list of evaluation criteria is decomposed and logically structured in a reasonable number of 2-5 blocks which weights are computed more easily and effectively with a reduced number of AHP comparisons. With the implementation of Information Entropy, the weights of individual criteria within each block are defined objectively on basis of real empiric data for quantitative and quantifiable parameters.   This hybrid approach is applied in a case study   based on QoS and QoE criteria with popular MCDM evaluation techniques like TOPSIS, WPM, and  MOORA.",
+    "authors": [
+      "Iliyan Petrov"
+    ]
+  },
+  {
+    "id": 612,
+    "title": "Hidden Markov Model of the Control System Latent Failures of Technological Cell",
+    "abstract": "In the process of functioning of the information system described by the semi-Markov model, it is not always possible, when its states change, to obtain all the information contained in the state codes of the semi-Markov model. However, it is possible to obtain some signal (information) associated with a semi-Markov process. In this case, the states of the semi-Markov model can be considered hidden (unobservable). There are problems of correcting the model, predicting the states of the simulated information system and analyzing its dynamics on the basis of the received vector of signals. To solve these problems, you can use the apparatus of the theory of hidden Markov models. In this paper, a hidden Markov model of the control system is constructed on the basis of the semi-Markov model of the control system for latent failures of a technological cell. The hidden Markov model is used to assess the characteristics of the control system and predict its states based on the received signal vector. The constructed hidden Markov model makes it possible to expand the possibilities the used semi-Markov model application.",
+    "authors": [
+      "Yuriy Obzherin",
+      "Mikhail Nikitin",
+      "Stanislav Sidorov"
+    ]
+  },
+  {
+    "id": 606,
+    "title": "Stability conditions for a multi-orbit retrial system with general retrials under classical retrial policy.",
+    "abstract": "We consider a single server multi-class retrial system.  The arrival customer, who meets the server busy, joins the corresponding orbit and then retries to capture the server.  The model obeys to the classical retrial policy: the total rate of orbit customers depends on their number. Retrial times are assumed to be generally distributed, and that makes the analysis much more complicated.    \r\n\r\nWe use the previous results for the systems with exponential retrials and regenerative approach to establish the sufficient stability conditions to the  model under consideration. The key element of the proof relies on Lorden's inequality, which is a the significant  result from the renewal theory.",
+    "authors": [
+      "Ruslana Nekrasova"
+    ]
+  },
+  {
+    "id": 625,
+    "title": "Analysis of the Amount of Information in Semi-Markov Flow",
+    "abstract": "In this paper, we consider semi-Markov flow as a model of bit-level traffic. Each request of the flow brings some arbitrary distributed amount of information. The aim of the current paper is to investigate the amount of information received in semi-Markov flow. We use asymptotic analysis method under the limit condition of growing time of observation to derive limiting probability distribution of the amount of information received in the flow and build its approximation.",
+    "authors": [
+      "Anatoly Nazarov",
+      "Alexander Moiseev",
+      "Ivan Lapatin",
+      "Svetlana Paul",
+      "Olga Lizyura",
+      "Pavel Pristupa",
+      "Xi PENG",
+      "Li Chen",
+      "Bo BAI"
+    ]
+  },
+  {
+    "id": 589,
+    "title": "Algorithmic Approach to Study the Model of Perishable Inventory System with Repeated Customers",
+    "abstract": "The model of perishable inventory system with repeated customers is examined\r\nunder (s; S) policy. The stability condition of the system is derived and the\r\njoint distribution of the number of customers in orbit and the inventory level\r\nis obtained by using matrix-geometric method. Formulas for calculation of the\r\nperformance measures are developed.",
+    "authors": [
+      "Agassi Melikov",
+      "Mamed Shahmaliyev",
+      "J\u00e1nos Sztrik"
+    ]
+  },
+  {
+    "id": 707,
+    "title": "Asymptotic Diffusion Analysis of an Retrial Queueing System M/M/1 with Impatient Calls",
+    "abstract": "In the paper, the retrial queueing system of M/M/1 type with input Poison flow of events and impatient calls is considered. The service time, delay time of calls in the orbit and the impatience time of calls in the orbit have exponential distribution. Asymptotic diffusion analysis method is proposed for the solving problem of finding distribution of the number of calls in the orbit under a long delay of calls in orbit and long time patience of calls in the orbit condition.",
+    "authors": [
+      "Elena Danilyuk",
+      "Svetlana Moiseeva",
+      "Anatoly Nazarov"
+    ]
+  },
+  {
+    "id": 640,
+    "title": "Transient behavior of the M|M|1|n queuing system with piecewise-constant information flows",
+    "abstract": "The analysis of transient behavior of the M|M|1|n queuing system with abruptly changing information flows is presented in this paper for the first time. The proposed method is based on the conception of fundamental matrix of the system of the Kolmogorov equations and allows studying the transient\r\nand stationary modes of functioning different types of queuing system. The conception of transient time for the queuing system has been introduced and the formulas for calculation of such transient performance metrics as throughput, the number of received and processed packets and others have been obtained for the first time.",
+    "authors": [
+      "Konstantin Vytovtov",
+      "Elizaveta Barabanova",
+      "Vladimir Vishnevsky"
+    ]
+  },
+  {
+    "id": 711,
+    "title": "Scaling limits of a tandem retrial queue with common orbit and Poisson arrival process",
+    "abstract": "In this paper, we consider a tandem queueing system with one orbit, Poisson arrival process of incoming calls and two sequentially connected servers by a method of asymptotic analysis involving the existence of a steady-state regime. We use the asymptotic condition of unlimited increase of the average delay time of calls in the orbit and obtain the limiting probability distribution of the number of calls there. Then we evaluate the applicability of analytical results by the simulation.",
+    "authors": [
+      "Anatoly Nazarov",
+      "Svetlana Paul",
+      "Tuan Phung-Duc",
+      "Maria Morozova"
+    ]
+  },
+  {
+    "id": 576,
+    "title": "Waiting Time Asymptotic Analysis of a M/GI/1 Retrial Queue System",
+    "abstract": "In this paper we dial with M/GI/1 retrial queueing system and conduct asymptotic analysis of the waiting time. The main result of this analysis is the asymptotic characteristic function of the waiting time distribution under a heavy load condition . Also during the analysis the asymptotic distribution\r\nof the number of returns of the tagged request to the orbit and the asymptotic distributions of the number of requests in the orbit were obtained.",
+    "authors": [
+      "Anatoly Nazarov",
+      "Maria Samorodova"
+    ]
+  },
+  {
+    "id": 694,
+    "title": "Resource Queueing System M/M/\u221e in Random Environment",
+    "abstract": "In this paper, the resource queueing system operating in a random environment is considered. When the environment changes its state, the arrival rate, the service rate, and resource requirements are changed. An approximation for the characteristic function of the probability distribution of the total amount of occupied resource is derived under the asymptotic condition of growing arrival rate and extremely frequent changes in the states of the random environment.",
+    "authors": [
+      "Nikita Krishtalev",
+      "Ekaterina Lisovskaya",
+      "Alexander Moiseev"
+    ]
+  },
+  {
+    "id": 743,
+    "title": "The two-dimensional Output Process of Retrial Queue with Two-Way Communication and MMPP input",
+    "abstract": "In this paper, we review a retrial queue with MMPP input and two-way\r\ncommunication. Incoming applications, arriving at the server and finding it\r\nbusy, join orbit and try to enter the server again after some exponentially\r\ndistributed time. While idle, the server makes outgoing calls and serves them\r\nfor exponentially distributed time with another intensity. MMPP (Markov\r\nModulated Poisson Process) is an input process, in which control is driven\r\nby a continuous Markov chain, can change its state, which entails a change\r\nof the intensity of the arrival of applications. For this model we present an\r\nasymptotic approximation of the two-dimensional characteristic function under\r\nthe condition of a large delay of applications in the orbit. For this approximation\r\nwe carried out a numerical experiment, where asymptotic results were compared\r\nto computations, which were obtained via simulation.",
+    "authors": [
+      "Ivan Lapatin",
+      "Alexey Blaginin"
+    ]
+  },
+  {
+    "id": 703,
+    "title": "Numerical analysis of a retrial system with unreliable servers based on Laplace transform description",
+    "abstract": "In this paper, we consider a retrial queuing system with unreliable servers and analyse the distribution of the stationary generalized service time which includes also the unavailable periods (setup times) occurring during service of the customer. We consider three service interruptions disciplines: preemptive resume (PRS), preemptive repeat different (PRD) and preemptive repeat identical (PRI); and provide the stationary distribution of the generalized service time and the remaining generalized service time with these disciplines in Laplace transform (LT).\r\nThe main focus of the paper is on the numerical analysis based on LST domain descriptions, which we evaluate for various numerical examples.",
+    "authors": [
+      "Andras Meszaros",
+      "Evsey Morozov"
+    ]
+  },
+  {
+    "id": 715,
+    "title": "On regenerative estimation of extremal index in  queueing systems",
+    "abstract": "In this paper, the extremal behavior of the waiting time and queue size in  queueing systems  is considered,    based on the regenerative property of the system.  Basic properties of extremal index of a stationary sequence are discussed which further relate to the maximum waiting time and queue size processes.\r\nSimulation results are presented with aim to construct confidence interval and to evaluate the sensitivity of extremal index on level of exceedances and traffic intensity",
+    "authors": [
+      "IRINA PESHKOVA",
+      "Evsey Morozov",
+      "Mariia Maltseva"
+    ]
+  },
+  {
+    "id": 698,
+    "title": "A large deviation analysis of  a queueing system  with general retrieval  time",
+    "abstract": "We consider logarithmic  asymptotics of the large deviation probability in a single-server  queue with Poisson input,  where  server, after completion of service,  seeks a customer from an orbit (retrial customer)  for the next service, unless new arrival captures server.  This system is described by a regenerative process, and under stability assumption, \r\nthe  asymptotic of the  probability that the number of customers in the system (indeed in the orbit) reaches a high threshold within a regeneration cycle is found. Some  examples are given for  particular retrieval time distributions.",
+    "authors": [
+      "Ksenia Zhukova",
+      "Evsey Morozov"
+    ]
+  },
+  {
+    "id": 623,
+    "title": "On Convergence of Tabu-Enhanced Quantum Annealing Algorithm",
+    "abstract": "The convergence of a recently proposed tabu-enhanced quantum annealing algorithm depends critically on the finiteness of memory (markov property) of the related stochastic process. We discuss the background of quantum annealing and the convergence issues of the tabu-enhanced algorithm. Given the details of the tabu data structure, the so-called tabu matrix, we consider the sequences of solutions that result in a tabu matrix collision (regeneration). As such, convergence of the algorithm is related to the problem of studying the kernel of the matrix, which we investigate and give an example of such a collision as well.",
+    "authors": [
+      "Alexander Rumyantsev",
+      "Davide Pastorello",
+      "Enrico Blanzieri",
+      "Valter Cavecchia"
+    ]
+  },
+  {
+    "id": 601,
+    "title": "The Simulation of Finite-Source Retrial Queueing Systems With Two-Way Communications to the Orbit and Impatient Customers",
+    "abstract": "The aim of the paper is to analyze a M/M/1//N finite-source, two-way communication retrial queueing system with an unreliable server and impatient customer. In this model,\r\nevery request in the source is eligible to generate customers when the server does not function but they are forwarded immediately to the orbit. Customers may depart from the system during its waiting for being served in the orbit after a random time and they get back to the source. All random variables involved in the model construction are supposed to be  independent of each other.\r\nThe novelty of the investigation is to carry out a sensitivity analysis comparing various distributions of failure time on the performance measures such as the mean number of customers in the orbit, the mean waiting time of an arbitrary customer, probability of abandonment, etc. With the help of self-developed simulation program,   results are illustrated graphically.",
+    "authors": [
+      "\u00c1d\u00e1m T\u00f3th",
+      "J\u00e1nos Sztrik"
+    ]
+  },
+  {
+    "id": 602,
+    "title": "Simulation of Two-Way Communication Retrial Queuing Systems With Non-reliable Server, Impatient Customers to the Orbit and Blocking",
+    "abstract": "The goal of this paper is to carry out a sensitivity analysis to examine the effect of different distributions of service time when blocking is applied with the help of retrial queueing systems having the property of two-way communication. This eventuates in outgoing calls (secondary customers) which are performed by the service unit after a random time in its idle state. Primary customers arrive from the finite-source according to an exponential distribution. This model does not contain queues so the service of an incoming request starts immediately if the server is functional and in an idle state. Impatience of the customers and server failures are characterized by this system  which also follows an exponential distribution.\r\nThe novelty of the investigation is to illustrate the effect of blocking with several figures obtained by simulation using various distributions of service time on the desired performance measures.",
+    "authors": [
+      "\u00c1d\u00e1m T\u00f3th",
+      "J\u00e1nos Sztrik"
+    ]
+  },
+  {
+    "id": 622,
+    "title": "Analysis of cognitive radio networks with balking and reneging",
+    "abstract": "In this paper, we investigate the concept of balking and reneging on Cognitive\r\nRadio Networks. The concept of balking and reneging is quite common in\r\nthe networking world nowadays. The more occupied the system, the more\r\ndiscouraged are the new coming customers, on the other hand, impatient users\r\nwill leave the system after a maximum waiting time.",
+    "authors": [
+      "Mohamed Hedi Zaghouani",
+      "Hamza Nemouchi",
+      "J\u00e1nos Sztrik"
+    ]
+  },
+  {
+    "id": 633,
+    "title": "Modeling of non-reliable retrial queueing systems with collisions and catastrophic breakdowns",
+    "abstract": "The aim of the investigation is a closed retrial queueing system with a finite source. The server is non-reliable, and collisions of customers are considered. The server can be reached from the source or the orbit. If an incoming job finds the server busy, the service of the job at the server is interrupted and both of them are transferred to the orbit (collision). The non-reliable server is subject to catastrophic breakdown. It means, that all of the customers at the server and in the orbit are sent back to the source. The novelty of this paper is to investigate the phenomenon of the catastrophic breakdown in a collision environment. Our goal is to calculate the steady-state probabilities and the performance characteristics (utilization, response time, etc.) of the system with the help of a software package. Figures illustrate the effect of the system parameters on the performance measures.",
+    "authors": [
+      "J\u00e1nos Sztrik",
+      "\u00c1d\u00e1m T\u00f3th"
+    ]
+  },
+  {
+    "id": 626,
+    "title": "Computational algorithm for an analysis of a single-line queueing system with arrived alternating Poisson flow",
+    "abstract": "The M/G/1 queue is considered for a case when an alternating Poisson flow takes place on the input. The analysis is based on an embedded Markov chain, built on the instants of service ending. Various algorithms are elaborated for the calculation of the distribution of the system\u2019 states and various numerical indices.",
+    "authors": [
+      "Alexander Andronov",
+      "Iakov Dalinger",
+      "Nadezda Spiridovska"
+    ]
+  },
+  {
+    "id": 643,
+    "title": "Risks Ordering and Reliability of Some Applied Probability Systems",
+    "abstract": "Risk management or decision making under uncertainty is an important research direction. For optimization of applied probability systems performance one needs an appropriate mathematical model. Discrete-time models became popular during the last decade not only because they can be used for approximation of the corresponding continuous-time ones. In many practical situations discrete-time models describe more precisely the real system functioning. We focus below on the so-called dual models taking the system reliability as criterium of its performance quality. In order to compare the models we study the influence of stochastic ordering of risks on systems reliability.",
+    "authors": [
+      "Ekaterina Bulinskaya"
+    ]
+  },
+  {
+    "id": 610,
+    "title": "On   polynomial   convergence   rate   for   reliability system   with   warm   standby",
+    "abstract": "The use of generalized Lorden's inequality and coupling method makes it possible to calculate strong upper bounds for the convergence rate of the distribution of the total state of the reliability system with warm standby. This entails an estimate of the convergence rate for the availability factor.",
+    "authors": [
+      "Galina Zverkina"
+    ]
+  },
+  {
+    "id": 884,
+    "title": "On k-out-of-n System under Full Repair and Arbitrary Distributed Repair Time",
+    "abstract": "In the paper [1] a k-out-of-n:F renewable system with exponentially distributed life-times, and arbitrary distributed repair times of its components in a partial repair regime  has been investigated. In this paper the same model is studied under the assumption that the system is  fully repaired after each complete  failure. For this model we  use Markovization method, based on adding of supplementary variables for the service process, describing system behavior in our analysis.",
+    "authors": [
+      "Boyan Dimitrov",
+      "Vladimir Rykov"
+    ]
+  },
+  {
+    "id": 765,
+    "title": "\u041f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u0435 \u0442\u0435\u043e\u0440\u0438\u0438 \u0440\u0430\u0437\u043b\u043e\u0436\u0438\u043c\u044b\u0445 \u043f\u043e\u043b\u0443\u0440\u0435\u0433\u0435\u043d\u0435\u0440\u0438\u0440\u0443\u044e\u0449\u0438\u0445 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0432 \u043a \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044e \u0441\u0438\u0441\u0442\u0435\u043c\u044b k-\u0438\u0437-n:F \u0441 \u0447\u0430\u0441\u0442\u0438\u0447\u043d\u044b\u043c \u0440\u0435\u043c\u043e\u043d\u0442\u043e\u043c",
+    "abstract": "\u0412 \u0440\u0430\u0431\u043e\u0442\u0435 \u0438\u0441\u0441\u043b\u0435\u0434\u0443\u0435\u0442\u0441\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 k-\u0438\u0437-n:F \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0442\u0435\u043e\u0440\u0438\u0438 \u0440\u0430\u0437\u043b\u043e\u0436\u0438\u043c\u044b\u0445 \u043f\u043e\u043b\u0443\u0440\u0435\u0433\u0435\u043d\u0435\u0440\u0438\u0440\u0443\u044e\u0449\u0438\u0445 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0432. \u0414\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438 \u043e\u0442\u043a\u0430\u0437\u043e\u0432 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u043e\u0432 \u0438 \u0432\u0441\u0435\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0438\u043c\u0435\u044e\u0442 \u044d\u043a\u0441\u043f\u043e\u043d\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0435 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435, \u0430 \u0440\u0435\u043c\u043e\u043d\u0442\u0430 - \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u043b\u044c\u043d\u043e\u0435. \u0420\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0439 \u0447\u0430\u0441\u0442\u0438\u0447\u043d\u043e\u0433\u043e \u0440\u0435\u043c\u043e\u043d\u0442\u0430 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u043e\u0432 \u043f\u043e\u0441\u043b\u0435 \u043e\u0442\u043a\u0430\u0437\u0430 \u0432\u0441\u0435\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b. \u041f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u044b \u043d\u0435\u0441\u0442\u0430\u0446\u0438\u043e\u043d\u0430\u0440\u043d\u044b\u0435 \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u0438 \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0432 \u0442\u0435\u0440\u043c\u0438\u043d\u0430\u0445 \u043f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u041b\u0430\u043f\u043b\u0430\u0441\u0430, \u0432\u044b\u0447\u0438\u0441\u043b\u0435\u043d\u044b \u0441\u0442\u0430\u0446\u0438\u043e\u043d\u0430\u0440\u043d\u044b\u0435 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438.",
+    "authors": [
+      "Vladimir Rykov",
+      "Dmitry Kozyrev",
+      "Nika Ivanova"
+    ]
+  },
+  {
+    "id": 684,
+    "title": "Single-server queueing systems with exponential service times and threshold-based renovation",
+    "abstract": "In this paper we study two types of GI/M/1 infinite capacity queues with the\r\nimplemented threshold-based renovation mechanism. As usual renovation implies\r\nprobabilistic dropping of customers from the queue upon service completions.\r\nIn the systems of the first type there the threshold value (indication the queue\r\nlength) controls the activation of the renovation mechanism. In the systems of\r\nthe second type the threshold value not only triggers the renovation, but also\r\nspecifies the area in the queue wherefrom the customers cannot be dropped.\r\nFor both types of systems the main stationary characteristics are obtained.\r\nNumerical results are also provided, which illustrate the performance of the\r\nqueues.",
+    "authors": [
+      "Hilquias Cravid",
+      "Ivan Zaryadov",
+      "Tatiana Milovanova"
+    ]
+  },
+  {
+    "id": 758,
+    "title": "Reliability Model of a Homogeneous Hot-Standby k-out-of-n System",
+    "abstract": "We consider the mathematical model of a closed homogenous redundant hot standby system. The system consists of an arbitrary numbers of data sources with an exponential distribution function (DF) of uptime and a general independent (GI) DF of the repair time of its components with a single repair unit. Explicit analytic expressions are obtained for the steady-state probabilities (SSP) of the system and the SSP of failure-free system operation.",
+    "authors": [
+      "Hector Gibson",
+      "Kinmanhon Houankpo" ,
+      "Dmitry Kozyrev" ,
+      "Emmanuel NIBASUMBA",
+      "Bienvenue N'dah MOUALE MOUTOUAMA"
+    ]
+  },
+  {
+    "id": 747,
+    "title": "Availability factor analysis of a network in mesh structure",
+    "abstract": "The development of network technologies leads to the introduction of data transmission systems in all areas of human activity. Problems cover large areas with reliable networks, intellectualizing devices for receiving and transmitting data, increasing the speed, quality, and spectrum of transmitted information. Requirements for the given characteristics of the reliability of networks are among the most promising and essential tasks since the cost of equipment, service life, and network maintenance strategy depend on this. Analytical and simulation models play an essential role in determining the reliability characteristics; mathematical apparatus and programming become an inevitable factor in a successful project. This paper presents a methodology and an example of calculating the reliability of networks in a mesh topology.",
+    "authors": [
+      "Alexander Dagaev",
+      "Van Dai Pham",
+      "Ruslan Kirichek"
+    ]
+  },
+  {
+    "id": 689,
+    "title": "\u041a \u0432\u043e\u043f\u0440\u043e\u0441\u0443 \u043e \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u0438 \u0442\u0435\u043e\u0440\u0438\u0438 \u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0433\u043e \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u043f\u0440\u0438 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438 \u0440\u0430\u0431\u043e\u0442\u044b \u0436\u0435\u043b\u0435\u0437\u043d\u043e\u0434\u043e\u0440\u043e\u0436\u043d\u044b\u0445 \u0441\u0442\u0430\u043d\u0446\u0438\u0439",
+    "abstract": "\u0412 \u0441\u0442\u0430\u0442\u044c\u0435 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043e \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u0435 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u043d\u043e\u0433\u043e \u0430\u0432\u0442\u043e\u0440\u0430\u043c\u0438 \u043f\u043e\u0434\u0445\u043e\u0434\u0430 \u043a \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u043c\u0443 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e \u0440\u0430\u0431\u043e\u0442\u044b \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u044b\u0445 \u0441\u0438\u0441\u0442\u0435\u043c, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043e\u0441\u043d\u043e\u0432\u0430\u043d \u043d\u0430 \u0442\u0435\u043e\u0440\u0438\u0438 \u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0433\u043e \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f. \u0417\u0430 \u0441\u0447\u0435\u0442 \u0443\u0447\u0435\u0442\u0430 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0445 \u0434\u0438\u0441\u0446\u0438\u043f\u043b\u0438\u043d \u043f\u0440\u0438\u043d\u044f\u0442\u0438\u044f \u0433\u0440\u0443\u043f\u043f \u0437\u0430\u044f\u0432\u043e\u043a \u0441\u0442\u0430\u043b\u043e \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u043e\u0442\u043e\u0431\u0440\u0430\u0437\u0438\u0442\u044c \u0432 \u043c\u043e\u0434\u0435\u043b\u0438 \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u043f\u0440\u0438\u043d\u044f\u0442\u0438\u044f \u043f\u043e\u0435\u0437\u0434\u043e\u0432 \u043d\u0430 \u0436\u0435\u043b\u0435\u0437\u043d\u043e\u0434\u043e\u0440\u043e\u0436\u043d\u044b\u0445 \u0441\u0442\u0430\u043d\u0446\u0438\u044f\u0445 \u0438 \u0442\u0435\u043c \u0441\u0430\u043c\u044b\u043c \u043f\u043e\u0432\u044b\u0441\u0438\u0442\u044c \u0442\u043e\u0447\u043d\u043e\u0441\u0442\u044c \u0438\u0445 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f. \u041f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0430 \u0438 \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u0430 \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0434\u043d\u043e\u0439 \u0438\u0437 \u043a\u0440\u0443\u043f\u043d\u0435\u0439\u0448\u0438\u0445 \u0432 \u043c\u0438\u0440\u0435 \u0436\u0435\u043b\u0435\u0437\u043d\u043e\u0434\u043e\u0440\u043e\u0436\u043d\u044b\u0445 \u0441\u0442\u0430\u043d\u0446\u0438\u0439 \u0432 \u0432\u0438\u0434\u0435 \u0441\u0435\u0442\u0438 \u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0433\u043e \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0441 BMAP-\u043f\u043e\u0442\u043e\u043a\u043e\u043c (Batch Markovian Arrival Process). \u0412 \u043d\u0435\u0439 \u0443\u0447\u0442\u0435\u043d\u044b \u0441\u043b\u043e\u0436\u043d\u044b\u0439 \u0432\u0445\u043e\u0434\u044f\u0449\u0438\u0439 \u0432\u0430\u0433\u043e\u043d\u043e\u043f\u043e\u0442\u043e\u043a \u0438 \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u044c \u0435\u0433\u043e \u043f\u0440\u0438\u043d\u044f\u0442\u0438\u044f, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0441\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u043e\u0447\u043d\u044b\u0435 \u0438 \u0433\u0440\u0443\u0437\u043e\u0432\u044b\u0435 \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u044d\u0442\u043e\u0439 \u0441\u0442\u0430\u043d\u0446\u0438\u0438.",
+    "authors": [
+      "Maksim Zharkov",
+      "Alexander Kazakov",
+      "Anna Lempert"
+    ]
+  },
+  {
+    "id": 733,
+    "title": "Response Time Estimate for a Fork-join System with Pareto Distributed Service Time as a Model of a Cloud Computing System Using Neural Networks",
+    "abstract": "A cloud computing system that receives complex user tasks involving several subtasks\r\nis studied from the point of view of the response time.\r\nIn order to reduce the service time, the tasks are divided into smaller components and processed in parallel.\r\nAs a cloud center model we use a~fork-join queuing system with Pareto distribution of the service time on the servers.\r\nTo analyze the mean response time and its standard deviation, a~new approach is used combining\r\nsimulation modeling with one of the machine learning methods.\r\nThe estimates obtained are much more accurate than the earlier analytical results on fork-join systems.",
+    "authors": [
+      "Anastasia Gorbunova",
+      "Alexey Lebedev"
+    ]
+  },
+  {
+    "id": 727,
+    "title": "Evaluation of the Performance Parameters of a Closed Queuing Network Using Artificial Neural Networks",
+    "abstract": "The article presents a new approach to solving complex problems of queuing theory in general and to the analysis of closed queuing networks, in particular.\r\nThe main idea is to combine simulation on a limited set of input parameters with data mining methods.\r\nAs an example of the application of this approach, the paper evaluates the main performance parameters of a closed exponential queuing network, for which, as is known, methods of analytical and numerical analysis have been developed with some restrictions on its structure.\r\nThe specified network was chosen in order to qualitatively test the proposed approach, as well as to demonstrate its effectiveness on a very large amount of input data, which is an essential distinguishing feature of this work.\r\nThe maximum approximation error of the estimates of the average sojourn times of customers obtained in the study, as well as their average number in the network nodes, does not exceed 5\\%.\r\nThe new approach has universal character, and its field of application is not limited to studies of only exponential networks, therefore, it can be used to study more complex queuing networks.",
+    "authors": [
+      "Anastasia Gorbunova",
+      "Vladimir Vishnevsky"
+    ]
+  },
+  {
+    "id": 759,
+    "title": "Algorithmic analysis of finite-source multi-server heterogeneous queueing systems",
+    "abstract": "The paper deals with a finite-source queueing system serving one class of customers and consisting of heterogeneous servers with unequal service intensities and  of  one  common  queue.   The  main  model  has  a  non-preemptive  service when  the  customer  can  not  change  the  server  during  its  service  time.   The optimal allocation problem is formulated as a Markov-decision one.  We show numerically  that  the  optimal  policy  which  minimizes  the  long-run  average number of customers in the system has a threshold structure.  We derive the matrix expressions for the mean performance measures and compare the main model with alternative simplified queuing systems which are analysed for the arbitrary number of servers.  We observe that the preemptive heterogeneous model operating under a threshold policy is a good approximation for the main model by calculating the mean number of customers in the system.  Moreover,using the preemptive and non-preemptive queueing models with the faster server first policy the lower and upper bounds are calculated for this mean value",
+    "authors": [
+      "Dmitry Efrosinin",
+      "Natalia Stepanova",
+      "J\u00e1nos Sztrik"
+    ]
+  },
+  {
+    "id": 953,
+    "title": "Queueing analysis of a large-scale system with a small parameter",
+    "abstract": "In this paper the large-scaling queueing systems (LSQS) with an large number of servers is considered. It is assumed that LSQS has a Poisson input flow of requests with constant intensity. We describe performance dynamics of this LSQS using a system of di\u000berential equations with a small parameter. This small parameter allows to describe the rapid of changes processes. We use the\r\nDobrushin mean-\feld approach and the simulation methods for this large-scaling queueing system analysis.",
+    "authors": [
+      "Sergey Vasilyev",
+      "Galina Tsareva",
+      "Shakhmurad Kanzitdinov",
+      "Mohamed Adel Bouatta"
+    ]
+  },
+  {
+    "id": 598,
+    "title": "\u0410\u0441\u0438\u043c\u043f\u0442\u043e\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0430\u043d\u0430\u043b\u0438\u0437 \u043d\u0435\u043e\u0434\u043d\u043e\u0440\u043e\u0434\u043d\u043e\u0439 \u0421\u041c\u041e M|GI|\u221e, \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0438\u0440\u0443\u044e\u0449\u0435\u0439 \u0432 \u043c\u0430\u0440\u043a\u043e\u0432\u0441\u043a\u043e\u0439 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0439 \u0441\u0440\u0435\u0434\u0435, \u0432 \u0443\u0441\u043b\u043e\u0432\u0438\u0438 \u044d\u043a\u0432\u0438\u0432\u0430\u043b\u0435\u043d\u0442\u043d\u043e\u0433\u043e \u0440\u043e\u0441\u0442\u0430 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u043d\u0430 \u043f\u0440\u0438\u0431\u043e\u0440\u0430\u0445",
+    "abstract": "\u0420\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043d\u0435\u043e\u0434\u043d\u043e\u0440\u043e\u0434\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0433\u043e \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f (\u0421\u041c\u041e) \u0441 \u043d\u0435\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u044b\u043c \u0447\u0438\u0441\u043b\u043e\u043c \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u044e\u0449\u0438\u0445 \u043f\u0440\u0438\u0431\u043e\u0440\u043e\u0432, \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0438\u0440\u0443\u044e\u0449\u0430\u044f \u0432 \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u0445 \u0438\u0437\u043c\u0435\u043d\u044f\u044e\u0449\u0435\u0439\u0441\u044f \u0432\u043d\u0435\u0448\u043d\u0435\u0439 \u0441\u0440\u0435\u0434\u044b. \u041d\u0430 \u0432\u0445\u043e\u0434 \u0421\u041c\u041e \u043f\u043e\u0441\u0442\u0443\u043f\u0430\u0435\u0442 \u043f\u0443\u0430\u0441\u0441\u043e\u043d\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u043e\u0442\u043e\u043a, \u0432\u0440\u0435\u043c\u044f \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0437\u0430\u044f\u0432\u043e\u043a \u043d\u0430 \u043f\u0440\u0438\u0431\u043e\u0440\u0430\u0445 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043f\u043e\u043b\u043e\u0436\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0439 \u0432\u0435\u043b\u0438\u0447\u0438\u043d\u043e\u0439, \u0438\u043c\u0435\u044e\u0449\u0435\u0439 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u043b\u044c\u043d\u0443\u044e \u0444\u0443\u043d\u043a\u0446\u0438\u044e \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u0435\u0439. \u0418\u043d\u0442\u0435\u043d\u0441\u0438\u0432\u043d\u043e\u0441\u0442\u044c \u0432\u0445\u043e\u0434\u044f\u0449\u0435\u0433\u043e \u043f\u043e\u0442\u043e\u043a\u0430 \u0438 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u043f\u043e\u0441\u0442\u0443\u043f\u0430\u044e\u0449\u0435\u0439 \u0437\u0430\u044f\u0432\u043a\u0438, \u043d\u0435 \u043c\u0435\u043d\u044f\u044e\u0449\u0438\u0435 \u0441\u0432\u043e\u0438 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f \u0434\u043e \u043e\u043a\u043e\u043d\u0447\u0430\u043d\u0438\u044f \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f, \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u044e\u0442\u0441\u044f \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0435\u043c \u0432\u043d\u0435\u0448\u043d\u0435\u0439 \u0441\u0440\u0435\u0434\u044b. \u0420\u0435\u0448\u0430\u0435\u0442\u0441\u044f \u0437\u0430\u0434\u0430\u0447\u0430 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f \u043c\u043d\u043e\u0433\u043e\u043c\u0435\u0440\u043d\u043e\u0433\u043e \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u2013 \u0447\u0438\u0441\u043b\u0430 \u0437\u0430\u044f\u0432\u043e\u043a, \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u0435\u043c\u044b\u0445 \u0441 \u0440\u0430\u0437\u043d\u043e\u0439 \u0438\u043d\u0442\u0435\u043d\u0441\u0438\u0432\u043d\u043e\u0441\u0442\u044c\u044e \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u0435 \u043c\u0435\u0442\u043e\u0434\u043e\u043c \u0430\u0441\u0438\u043c\u043f\u0442\u043e\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0430\u043d\u0430\u043b\u0438\u0437\u0430. \u0414\u043e\u043a\u0430\u0437\u0430\u043d\u043e, \u0447\u0442\u043e \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u0435\u0439 \u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u043c\u043e\u0433\u043e \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u043f\u0440\u0438 \u0443\u0441\u043b\u043e\u0432\u0438\u0438 \u044d\u043a\u0432\u0438\u0432\u0430\u043b\u0435\u043d\u0442\u043d\u043e \u0440\u0430\u0441\u0442\u0443\u0449\u0435\u0433\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043c\u043d\u043e\u0433\u043e\u043c\u0435\u0440\u043d\u044b\u043c \u0433\u0430\u0443\u0441\u0441\u043e\u0432\u0441\u043a\u0438\u043c.",
+    "authors": [
+      "Evgeny Polin",
+      "Svetlana Moiseeva",
+      "Alexander Moiseev"
+    ]
+  },
+  {
+    "id": 687,
+    "title": "\u041c\u0435\u0442\u043e\u0434 \u043c\u0430\u0440\u043a\u043e\u0432\u0441\u043a\u043e\u0433\u043e \u0441\u0443\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f \u043f\u043e\u0442\u043e\u043a\u0430 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u0445 \u043e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u0439 \u0432 \u0434\u0432\u0443\u0445\u0444\u0430\u0437\u043d\u043e\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u0435 MAP|GI|\u221e \u0441 \u043c\u0433\u043d\u043e\u0432\u0435\u043d\u043d\u043e\u0439 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0439 \u0441\u0432\u044f\u0437\u044c\u044e",
+    "abstract": "\u0420\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u0434\u0432\u0443\u0445\u0444\u0430\u0437\u043d\u0430\u044f \u0431\u0435\u0441\u043a\u043e\u043d\u0435\u0447\u043d\u043e\u043b\u0438\u043d\u0435\u0439\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0433\u043e \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0441 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c\u044e \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e\u0433\u043e \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u043d\u0430 \u0432\u0442\u043e\u0440\u043e\u0439 \u0444\u0430\u0437\u0435. \u041d\u0430 \u0432\u0445\u043e\u0434 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043f\u043e\u0441\u0442\u0443\u043f\u0430\u0435\u0442 MAP-\u043f\u043e\u0442\u043e\u043a, \u0432\u0440\u0435\u043c\u044f \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0437\u0430\u044f\u0432\u043a\u0438 \u043d\u0430 \u043a\u0430\u0436\u0434\u043e\u0439 \u0444\u0430\u0437\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u043b\u044c\u043d\u043e\u0439 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0439 \u0432\u0435\u043b\u0438\u0447\u0438\u043d\u043e\u0439, \u0437\u0430\u0434\u0430\u043d\u043d\u043e\u0439 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0435\u0439 \u0444\u0443\u043d\u043a\u0446\u0438\u0435\u0439 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f. \u0421\u0442\u0430\u0432\u0438\u0442\u0441\u044f \u0437\u0430\u0434\u0430\u0447\u0430 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f \u043f\u043e\u0442\u043e\u043a\u0430 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u0445 \u043e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u0439 \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u0443 \u043c\u0435\u0442\u043e\u0434\u043e\u043c \u043c\u0430\u0440\u043a\u043e\u0432\u0441\u043a\u043e\u0433\u043e \u0441\u0443\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f. \u041f\u043e\u043b\u0443\u0447\u0435\u043d\u043e \u0432\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u0447\u0438\u0441\u043b\u0430 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u0445 \u0437\u0430\u044f\u0432\u043e\u043a \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u0435 \u043f\u0440\u0438 \u0430\u0441\u0438\u043c\u043f\u0442\u043e\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u043c \u0443\u0441\u043b\u043e\u0432\u0438\u0438 \u0432\u044b\u0441\u043e\u043a\u043e\u0439 \u0438\u043d\u0442\u0435\u043d\u0441\u0438\u0432\u043d\u043e\u0441\u0442\u0438 \u0432\u0445\u043e\u0434\u044f\u0449\u0435\u0433\u043e \u043f\u043e\u0442\u043e\u043a\u0430 \u043f\u0440\u0438 \u043d\u0435\u0441\u0442\u0430\u0446\u0438\u043e\u043d\u0430\u0440\u043d\u043e\u043c \u0440\u0435\u0436\u0438\u043c\u0435 \u0440\u0430\u0431\u043e\u0442\u044b.",
+    "authors": [
+      "Maria Shklennik",
+      "Alexander Moiseev",
+      "Lyubov Zadiranova"
+    ]
+  },
+  {
+    "id": 682,
+    "title": "\u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u0435\u0439 \u0434\u043e\u043b\u0433\u043e\u0432\u0435\u0447\u043d\u043e\u0441\u0442\u0438 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0451\u043d\u043d\u043e\u0439 \u043a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0439 \u0441\u0435\u0442\u0438 \u043c\u0435\u0442\u0435\u043e\u0441\u0442\u0430\u043d\u0446\u0438\u0439 \u043c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0439 \u043a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u0438",
+    "abstract": "\u0420\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u0442\u043e\u043f\u043e\u043b\u043e\u0433\u0438\u044f \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0451\u043d\u043d\u043e\u0439 \u043a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0439 \u0441\u0435\u0442\u0438 \u043c\u0435\u0442\u0435\u043e\u0441\u0442\u0430\u043d\u0446\u0438\u0439 (\u0420\u041a\u0421\u041c) \u043c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0439 \u043a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u0438 \u0438 \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430 \u0435\u0451 \u0430\u043f\u043f\u0430\u0440\u0430\u0442\u0443\u0440\u044b. \u041f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u0430 \u044d\u043a\u0441\u043f\u0435\u0440\u0442\u043d\u0430\u044f \u043e\u0446\u0435\u043d\u043a\u0430 \u043f\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u0435\u0439 \u0434\u043e\u043b\u0433\u043e\u0432\u0435\u0447\u043d\u043e\u0441\u0442\u0438 \u0420\u041a\u0421\u041c \u0438 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u044b \u0440\u0435\u0436\u0438\u043c\u044b \u0435\u0451 \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f. \u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u044b \u043c\u043e\u0434\u0435\u043b\u044c \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u043d\u043e\u0433\u043e \u043a\u043e\u044d\u0444\u0444\u0438\u0446\u0438\u0435\u043d\u0442\u0430 \u043d\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0438 \u0440\u0435\u0441\u0443\u0440\u0441\u0430 \u0420\u041a\u0421\u041c, \u0442\u0438\u043f\u043e\u0432\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c \u044d\u043a\u0441\u043f\u043b\u0443\u0430\u0442\u0430\u0446\u0438\u0438 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u043e\u0432 \u0420\u041a\u0421\u041c. \u041f\u0440\u043e\u0432\u0435\u0434\u0435\u043d \u0440\u0430\u0441\u0447\u0435\u0442 \u0441\u0440\u043e\u043a\u0430 \u0441\u043b\u0443\u0436\u0431\u044b \u0420\u041a\u0421\u041c \u0441 \u0443\u0447\u0451\u0442\u043e\u043c \u0440\u0435\u0436\u0438\u043c\u043e\u0432 \u0432 \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u0445 \u042e\u0436\u043d\u043e\u0433\u043e \u0440\u0435\u0433\u0438\u043e\u043d\u0430 \u0420\u043e\u0441\u0441\u0438\u0438.",
+    "authors": [
+      "Evgeny Golovinov",
+      "Dmitrii Aminev",
+      "Dmitry Kozyrev",
+      "Vladimir Kulygin"
+    ]
+  },
+  {
+    "id": 586,
+    "title": "Software Packages for Teaching Queueing Theory",
+    "abstract": "The goal of the present paper is to give a short review of software tools for teaching Queueing Theory (QT) and then to introduce a  recent application called Queueing Systems Assistance  (QSA) .\r\nThe software is integrated into a lecture note with the aim to calculate and visualize the main performance measures. In addition, it helps to minimize a quite general mean total cost per unit time with the linear objective function. Several examples are given to illustrate the advantage of\r\nthe graphical module included in the package.",
+    "authors": [
+      "J\u00e1nos Sztrik"
+    ]
+  },
+  {
+    "id": 588,
+    "title": "On the applicability and limitations of formal veri\fcation of machine learning systems",
+    "abstract": "The paper deals with the issues of formal veri\fcation of machine learning systems. With the growth of the introduction of systems based on machine learning in the so-called critical systems (systems with a very high cost of erroneous decisions and actions), the demand for con\frmation of the stability of such systems is growing. How will the built machine learning system perform on data that is di\u000berent from the set on which it was trained? Is it possible to somehow verify or even prove that the behavior of the system, which was demonstrated on the initial dataset, will always remain so? There are di\u000berent ways to try to do this. This article deals with the formal veri\fcation of machine learning systems.",
+    "authors": [
+      "Dmitry Namiot"
+    ]
+  },
+  {
+    "id": 732,
+    "title": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u0430\u0448\u0438\u043d\u043d\u043e\u0433\u043e \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f \u0434\u043b\u044f \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f \u0441\u0438\u0441\u0442\u0435\u043c \u043f\u043e\u043b\u043b\u0438\u043d\u0433\u0430 \u0441 \u043a\u043e\u0440\u0440\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u043c\u0438 \u0432\u0445\u043e\u0434\u043d\u044b\u043c\u0438 \u043f\u043e\u0442\u043e\u043a\u0430\u043c\u0438",
+    "abstract": "\u0412 \u0440\u0430\u0431\u043e\u0442\u0435 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u044b \u0441\u0442\u043e\u0445\u0430\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043f\u043e\u043b\u043b\u0438\u043d\u0433\u0430 \u0441 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435\u043c \u043c\u0430\u0448\u0438\u043d\u043d\u043e\u0433\u043e \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f. \u0420\u0430\u0441\u0441\u043c\u043e\u0442\u0440\u0435\u043d\u044b \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043f\u043e\u043b\u043b\u0438\u043d\u0433\u0430 \u0442\u0438\u043f\u0430 M/M/1 \u0438 MAP/M/1 \u0441 \u0446\u0438\u043a\u043b\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043e\u043f\u0440\u043e\u0441\u043e\u043c, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0442\u0438\u043f\u0430 M/M/1 \u0441 \u0430\u0434\u0430\u043f\u0442\u0438\u0432\u043d\u044b\u043c \u0446\u0438\u043a\u043b\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043e\u043f\u0440\u043e\u0441\u043e\u043c. \u0414\u043b\u044f \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f \u043c\u0430\u0448\u0438\u043d\u043d\u043e\u0439 \u043c\u043e\u0434\u0435\u043b\u0438 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043f\u043e\u043b\u043b\u0438\u043d\u0433\u0430 \u0442\u0438\u043f\u0430 M/M/1 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043b\u0438\u0441\u044c \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0440\u0430\u0441\u0447\u0435\u0442\u043e\u0432, \u0430 \u0434\u043b\u044f \u0434\u0440\u0443\u0433\u0438\u0445 \u0440\u0430\u0441\u0441\u043c\u043e\u0442\u0440\u0435\u043d\u043d\u044b\u0445 \u0441\u0438\u0441\u0442\u0435\u043c, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043d\u0435 \u043f\u043e\u0434\u0434\u0430\u044e\u0442\u0441\u044f \u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u0430\u043d\u0430\u043b\u0438\u0437\u0443, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043b\u0438\u0441\u044c \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u0438\u043c\u0438\u0442\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0433\u043e \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f. \u041f\u0440\u0438\u0432\u0435\u0434\u0435\u043d\u044b \u0447\u0438\u0441\u043b\u0435\u043d\u043d\u044b\u0435 \u043f\u0440\u0438\u043c\u0435\u0440\u044b, \u043f\u043e\u043a\u0430\u0437\u0430\u043d\u043e, \u0447\u0442\u043e \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u043c\u0430\u0448\u0438\u043d\u043d\u043e\u0433\u043e \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f \u0441 \u0432\u044b\u0441\u043e\u043a\u043e\u0439 \u0442\u043e\u0447\u043d\u043e\u0441\u0442\u044c\u044e \u0441\u043e\u0432\u043f\u0430\u0434\u0430\u044e\u0442 \u0441 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0430\u043c\u0438 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0438\u043b\u0438 \u0438\u043c\u0438\u0442\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u0440\u0430\u0441\u0447\u0435\u0442\u043e\u0432.",
+    "authors": [
+      "Vladimir Vishnevsky",
+      "Olga Semenova",
+      "Bui Duy Tan"
+    ]
+  },
+  {
+    "id": 637,
+    "title": "Binary gradient computation and implementation in reconfigurable computing environments",
+    "abstract": "The article outlines a new approach to constructing a feature vector for\r\nimplementation on computers with a parallel pipeline architecture. The feature\r\nvector consists of the calculated characteristics of the gradient of a binary image\r\n(binary gradient) by analogy with the operation of the HOG algorithm. The\r\nproposed algorithm detects features of the contour pixels of objects in a binary\r\nimage, which are further used for pattern recognition. After using the newly\r\ngenerated feature vectors for training a support vector machine (SVM) classifier,\r\nthe speed of processing and classifying objects of interest on an image with a\r\nsize of 1280 \u00d7 720 pixels increased by 3.5 times, in comparison with using the\r\nclassical HOG descriptor.",
+    "authors": [
+      "Anton Bondarchuk",
+      "Dmitriy Shashev",
+      "Stanislav Shidlovskiy"
+    ]
+  },
+  {
+    "id": 634,
+    "title": "Distributed Computing of Embarrassingly Parallel R Applications using RBOINC Package",
+    "abstract": "R programming language is commonly used for statistical computing, data science and stochastic simulation. Existing packages for R allow to run parallel code on various parallel architectures, however, the support for distributed (volunteer) computing is rather weak. This article describes a new R package RBOINC that allows to run parallel code on grid systems via BOINC, a open source system for grid computing, which is a promising approach for parallel stochastic simulation.",
+    "authors": [
+      "Sergey Astafiev",
+      "Alexander Rumyantsev"
+    ]
+  },
+  {
+    "id": 615,
+    "title": "Targeted massive incident notification system for a globally distributed computation network",
+    "abstract": "A typical 'cloud' service, provided by means of a globally distributed computations network commonly has availability SLA below 100%, meaning a possibility of an incident with service outage or service degradation. With a multi-service approach and global segmentation, this incident in most cases does not happen for the whole system and all services at the same time. On the contrary, there are multiple incidents in different global regions and different services, each affecting only subset of customers. An incident notification to all customers creates a negative service provider image in terms of service availability. A targeted incident notification system is introduced in this paper, sending an incident notification to customers who are currently experiencing service outage or degradation only. An implementation of this system in RingCentral, a global 'cloud' telecommunications service provider is given.",
+    "authors": [
+      "Vadim Efimov"
+    ]
+  },
+  {
+    "id": 728,
+    "title": "Object classification using neural networks with binary input and binary feature extraction",
+    "abstract": "Although machine learning by its nature, has been resource-intensive, mul- tiple resource efficient alternative approaches have been made in the field of embedded systems. Researchers over the years, have specially shown interest and thus it has fueled the research output, in the field of autonomous naviga- tion, IoT and distributed embedded systems. These approaches are aimed at finding a trade-off between performance and resource consumption in terms of computational costs and energy efficiency. The development of appropriate algorithms is one of the main tasks of modern research in the field of machine learning and the key to ensuring smooth adaptation of machine learning tech- nologies in an environment with limited or distributed computing resources. These algorithms can be divided into four non-mutually exclusive categories: quantization of neural networks, network pruning, structural efficient algorithms, binarized neural networks. Our approach is proposed for working with binary images and extracting binary features for training neural networks This approach provides the possibility of an implementation based on the architecture of a reconfigurable computing systems. Our approach was used to build a neural network architecture. The resulting architecture was trained and tested on the MNIST dataset. The results were compared with the results of the LeNet-5 architecture.",
+    "authors": [
+      "Sergey Poslavskiy",
+      "Dmitriy Shashev",
+      "Stanislav Shidlovskiy"
+    ]
+  },
+  {
+    "id": 717,
+    "title": "An innovative solution for analyzing the dynamics of slowly developing processes of changing the geometry of engineering structures using the example of a system for strengthening a rocky slope",
+    "abstract": "The paper presents and discusses the developed original methods, technolo- gies and the results of the implementation of a pilot project to ensure the possibility of automated control of a protective structure mounted on a poten- tially dangerous natural slope along a high-speed railway line. The information on the technologies used for \u201ddigitizing\u201d the slope, the principles and methods of measuring, collecting, storing and delivering continuously collected data to a specialized software platform is given. The mathematical methods inherent in the algorithms for processing measurement data are considered, the developed capabilities of the platform for intellectual data analysis and visualization are presented.",
+    "authors": [
+      "Konstantin Mikhailov",
+      "Alexey Abramov"
+    ]
+  },
+  {
+    "id": 708,
+    "title": "Machine learning for recognition of events in hostile environments",
+    "abstract": "The paper considers the problem of machine learning for recognizing events that can occur with a control object operating in its environment. Information about the state of the environment is formed by means of technical vision systems as a result of its targeted online monitoring. Such events, triggered by a set of recorded facts and influencing environmental factors, become a training sample. The sample is used for machine learning with deep neural networks. The neural model obtained during the learning process is used in the object control system to recognize and predict potential events and their consequences.",
+    "authors": [
+      "Ekaterina Panteley",
+      "Viacheslav Abrosimov"
+    ]
+  },
+  {
+    "id": 691,
+    "title": "\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0440\u0438\u0441\u043a\u0430\u043c\u0438 \u0441\u043b\u043e\u0436\u043d\u043e\u0439 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u043e\u0439 \u0441\u0435\u0442\u0438  \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u043e\u0431\u0449\u0435\u0439 \u0430\u0440\u0431\u0438\u0442\u0440\u0430\u0436\u043d\u043e\u0439 \u0441\u0445\u0435\u043c\u044b",
+    "abstract": "\u0412 \u0440\u0430\u0431\u043e\u0442\u0435 \u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043e\u0431\u0449\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c \u0441\u043b\u043e\u0436\u043d\u043e\u0439 \u0433\u0435\u0442\u0435\u0440\u043e\u0433\u0435\u043d\u043d\u043e\u0439 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u043e\u0439 \u0441\u0435\u0442\u0438, \u0432 \u0440\u0430\u043c\u043a\u0430\u0445 \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u0441\u0443\u0431\u044a\u0435\u043a\u0442 \u043e\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043b\u044f\u0435\u0442 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0440\u0438\u0441\u043a\u0430\u043c\u0438 \u043f\u0443\u0442\u0435\u043c \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0433\u043e \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0438\u043c\u0435\u044e\u0449\u0435\u0433\u043e\u0441\u044f \u0432 \u0435\u0433\u043e \u0440\u0430\u0441\u043f\u043e\u0440\u044f\u0436\u0435\u043d\u0438\u0438 \u043e\u0434\u043d\u043e\u0440\u043e\u0434\u043d\u043e\u0433\u043e \u0440\u0435\u0441\u0443\u0440\u0441\u0430 \u043c\u0435\u0436\u0434\u0443 \u0435\u0435 \u0443\u0437\u043b\u0430\u043c\u0438. \u0420\u0430\u0441\u0441\u043c\u043e\u0442\u0440\u0435\u043d\u044b \u0437\u0430\u0434\u0430\u0447\u0438 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0440\u0438\u0441\u043a\u0430\u043c\u0438 \u0432 \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u0445 \u00ab\u0438\u0433\u0440\u044b \u0441 \u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439\u00bb, \u043a\u043e\u0433\u0434\u0430 \u043b\u043e\u043a\u0430\u043b\u044c\u043d\u044b\u0435 \u0440\u0438\u0441\u043a\u0438 \u0443\u0437\u043b\u043e\u0432 \u0441\u0435\u0442\u0438 \u044f\u0432\u043b\u044f\u044e\u0442\u0441\u044f  \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u044b\u043c\u0438 \u0444\u0443\u043d\u043a\u0446\u0438\u044f\u043c\u0438, \u0430 \u0432\u0437\u0430\u0438\u043c\u043d\u043e\u0435 \u0432\u043b\u0438\u044f\u043d\u0438\u0435 \u0443\u0437\u043b\u043e\u0432 \u0441\u0435\u0442\u0438 \u0434\u0440\u0443\u0433 \u043d\u0430 \u0434\u0440\u0443\u0433\u0430 \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442.",
+    "authors": [
+      "Evgenia Anikina",
+      "Andrey Kalashnikov"
+    ]
+  },
+  {
+    "id": 629,
+    "title": "On Deep Option Pricing in Local Volatility Models",
+    "abstract": "We study boundary value problem for Black-Scholes-Merton partial differential equation for a European call option price, when volatility depends on asset price and time (local volatility model).\r\nAn approximation to option price is obtained via deep learning with deep Galerkin method (DGM). For some cases with known exact closed-form solutions analytical option prices and their DGM approximations are compared.",
+    "authors": [
+      "Sergey Shorokhov"
+    ]
+  },
+  {
+    "id": 607,
+    "title": "Autonomous Infrared Guided UAV Landing System",
+    "abstract": "This article highlights the requirements for precision landing systems in multi rotors and proposes a 3 point IR-guided Landings system for a standard portable landing pad. The proposed system uses a monocular camera with an IR Filter and Open CV. The geometrical Centroid formula is used to anchor itself over the landing pad.",
+    "authors": [
+      "Mainak Mondal",
+      "Stanislav Shidlovskiy",
+      "Dmitriy Shashev",
+      "Michael Okunsky"
+    ]
+  },
+  {
+    "id": 704,
+    "title": "Statistical Method for Support of Responsible Decision",
+    "abstract": "The paper is devoted to the problem of evaluation of trust to the results of complex computer analysis of data. The approach of constructing empirical dependencies based on similarity of precedents in the training sample, which has already become classical, is used.\r\nThe trust approximation is based on simulating training data by random sampling from an unknown distribution. This approach implements approximate causal analysis and have advantages and disadvantages.",
+    "authors": [
+      "Alexander Grusho",
+      "Nick Grusho",
+      "Michael Zabezhailo",
+      "Elena Timonina"
+    ]
+  },
+  {
+    "id": 721,
+    "title": "The Importance of Conference Proceedings in Research Evaluation: a Methodology for Assessing Conference Impact",
+    "abstract": "Conferences are an essential tool for scientific communication. In disciplines such as Computer Science the majority of original research results are published in conference proceedings. In this study, we have analyzed the role of conference proceedings in various disciplines and propose an alternative approach to research evaluation based on conference proceedings sources indexed in Scopus and Scimago Journal Rank (SJR). This allows one to categorize conference proceedings in quartiles Q1 - Q4 by analogy with SJR journal quartiles. Out of 171 conference proceedings sources analyzed, 38 conference proceedings in Engineering (45% of the list) and 23 in Computer Science (32% of the list) have an SJR level corresponding to the first quartile journals in these areas, which emphasizes the exceptional importance of conferences in these disciplines. The comparison of this bibliometric-driven ranking with the expert-driven CORE ranking in Computer Science showed a 62% overlap, as well as a significant average rank correlation of the category distribution.",
+    "authors": [
+      "Dmitry Kochetkov",
+      "Aliaksandr Birukou",
+      "Anna Ermolayeva"
+    ]
+  },
+  {
+    "id": 720,
+    "title": "\u042d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c \u0440\u0430\u0434\u0438\u043e\u0447\u0430\u0441\u0442\u043e\u0442\u043d\u043e\u0439 \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u044b\u0445 \u0441\u0440\u0435\u0434\u0441\u0442\u0432 \u0441 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435\u043c \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0430\u043f\u043f\u0440\u043e\u043a\u0441\u0438\u043c\u0430\u0446\u0438\u0435\u0439 \u0438 \u0438\u043c\u0438\u0442\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0433\u043e \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
+    "abstract": "\u0412 \u0434\u0430\u043d\u043d\u043e\u0439 \u0440\u0430\u0431\u043e\u0442\u0435 \u043e\u043f\u0438\u0441\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u044b\u0445 \u0441\u0440\u0435\u0434\u0441\u0442\u0432 \u0432 \u043f\u043e\u0442\u043e\u043a\u0435 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438 \u0440\u0430\u0434\u0438\u043e\u0447\u0430\u0441\u0442\u043e\u0442\u043d\u043e\u0439 \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 (RFID). \u0426\u0435\u043b\u044c\u044e \u0440\u0430\u0431\u043e\u0442\u044b \u0431\u044b\u043b\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0441\u0442\u0438 \u043e\u0446\u0435\u043d\u043a\u0443 \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u0438 \u0443\u0441\u043f\u0435\u0448\u043d\u043e\u0439 \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u043f\u0440\u0438 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0445 \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u0445 \u0438 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u0430\u0445 \u0440\u0430\u0431\u043e\u0442\u044b \u0441\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u0435\u043b\u044f. \u0414\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u0431\u044b\u043b\u0430 \u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0430 \u0438\u043c\u0438\u0442\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u0430 EPC gen 1 class 2 \u0438 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c. \r\n\r\n\u041c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442, \u0447\u0442\u043e \u043f\u0440\u0438 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0445 \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u0445 \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u043e\u0439 \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u043f\u0440\u0435\u0432\u044b\u0448\u0430\u0435\u0442 0,9. \u0414\u0430\u043d\u043d\u044b\u0439 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442 \u0441\u043e\u0433\u043b\u0430\u0441\u0443\u0435\u0442\u0441\u044f \u0441 \u0440\u0435\u0430\u043b\u044c\u043d\u044b\u043c\u0438 \u0434\u0430\u043d\u043d\u044b\u043c\u0438, \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u043d\u044b\u0435 \u0432 \u0445\u043e\u0434\u0435 \u0434\u0432\u0443\u0445 \u044d\u043a\u0441\u043f\u0435\u0440\u0438\u043c\u0435\u043d\u0442\u043e\u0432 \u0432 \u041a\u0430\u0437\u0430\u043d\u0438 \u0432 2015 \u0438 2020 \u0433\u043e\u0434\u0430\u0445.",
+    "authors": [
+      "Evgeny Mikhailov",
+      "Ivan Fedotov",
+      "Andrey Larionov"
+    ]
+  },
+  {
+    "id": 593,
+    "title": "Detection of cardiac arrhythmia based on the analysis of electrocardiogram using deep learning models",
+    "abstract": "The use of computer algorithms for detecting cardiac rhythm disturbance in humans based on an electrocardiogram is studied. For this purpose, the MIT-BIH Physionet database was used, which contains five classes of different types of cardiac rhythm. We propose an electrocardiogram classifier model, which is an ensemble of convolutional (CNN) and recurrent  deep neural networks with LSTM unit. The results of performed computer experiments show that the proposed model successfully classifies cardiac arrhythmia with an overall accuracy of 99.37%. The computer system developed can be efficient to detect cardiac arrhythmia at an early stage.",
+    "authors": [
+      "Eugene Yu. Shchetinin",
+      "Anastasia Glushkova",
+      "Leonid Sevastianov",
+      "Anastasia Demidova"
+    ]
+  },
+  {
+    "id": 705,
+    "title": "Surrogate modeling assistant software",
+    "abstract": "Computer modeling is designed to predict the behavior of complex systems by solving the corresponding mathematical equations of the physical process. The simulation requires a huge number of parameters to be found, and they all require a large number of simulation runs, where each run takes a different combination of design parameters as input. Computer simulations tend to be expensive. Research that requires a large number of computer calculations will lead to exorbitant computational costs, which will make them practically impracticable. This is what surrogate modeling is for.\r\nSurrogate modeling builds a statistical model to accurately approximate the simulation result. Subsequently, this trained model can replace the original computer simulation when performing system analysis.",
+    "authors": [
+      "Dmitry Kulyabov",
+      "Anna Korolkova",
+      "Anastasia Demidova"
+    ]
+  },
+  {
+    "id": 611,
+    "title": "Developing of models of dynamically reconfigurable neural network accelerators based on homogeneous computing environments",
+    "abstract": "Nowadays, machine learning algorithms are widely used in many intelligent systems. As a result, the development of high-performance, power-efficient, flexible and reliable computing devices is becoming a major challenge. This is especially important for autonomous and mobile systems that use several different machine learning algorithms at the same time. Reconfigurable hardware accelerators are one possible solution to the problem. A key feature of these accelerators is the ability to be dynamically configured by external configuration signal to implement a required at the moment neural network model. In this paper reconfigurable accelerators based on the concept of reconfigurable homogeneous computing environments are proposed. Benefits of the reconfigurability and the usage of reconfigurable environments are discussed. Possible models of a computing environment and its elements, simulation results and their comparison with a classical non-reconfigurable solution are presented.",
+    "authors": [
+      "Vladislav Shatravin",
+      "Dmitriy Shashev",
+      "Stanislav Shidlovskiy"
+    ]
+  },
+  {
+    "id": 710,
+    "title": "Construction of di\u000berential equations of a nonholonomic mechanical system and perspectives of motion control using arti\fcial intelligence methods",
+    "abstract": "First, a mechanical model of a mechanism with two links of variable length\r\nin space with holonomic constraints is considered. Its mathematical model is\r\nobtained, in the form of Lagrange equations of the second kind. Then we consider\r\na model similar in structure - the number and design of links with a nonholonomic\r\nconstraint in the form of a skier-snowboarder. The mathematical model of a\r\nsystem of rigid bodies with a nonholonomic constraint is based on the Routh\r\ndi\u000berential equations for a nonholonomic system in generalized coordinates\r\nwith Lagrange multipliers. A method is developed for constructing di\u000berential\r\nequations for a system containing nonholonomic constraints using Lagrange\r\nequations of the second kind for a model of a similar structure with holonomic\r\nconstraints. As an example, the model is applied to the description of a skiersnowboarder\r\nwith two variable-length movable links on one ski. Usually, the\r\ncontrol of such systems is implemented on the basis of the method of stabilizing\r\nlinks, however, this article declares methods for controlling mechanical systems\r\nbased on arti\fcial intelligence systems and outlines approaches to their use in\r\nmodels with nonholonomic links.",
+    "authors": [
+      "Andrey Borisov",
+      "Robert Mukharlyamov",
+      "Kaspirovich Ivan"
+    ]
+  },
+  {
+    "id": 668,
+    "title": "Intelligent system for forecasting the effectiveness of space services in solving economic problems",
+    "abstract": "The development and application of space services development programs for more efficient solution of economic problems is a priority for many countries. However, the solution of such problems requires an increasing amount of information for analysis, which complicates the analysis itself and the construction of forecasting. In this regard, the article formulates approaches to forecasting the effectiveness of the use of space services for solving economic problems, on the basis of which a model of an intelligent system for managing the effectiveness of space services is proposed, which allows automatically predicting the effectiveness of space services, taking into account dynamically changing factors, which eventually ensures timely decision-making to increase the competitiveness of the created space services at the early stages of their life cycle.",
+    "authors": [
+      "Alexander Yudin",
+      "Polina Grosheva"
+    ]
+  },
+  {
+    "id": 702,
+    "title": "The Automata-based Approach to Large Systems Control in the Global Computer Environment",
+    "abstract": "With the increase in the size of distributed systems implemented in a global computer environment, mathematical methods for formalizing their development and functioning become one of the important problems. The article proposes the automata-based approach to distributed systems representation and control of their operation using balance-based equations. A feature of the automata-based model is that the control complexity in arbitrarily large distributed systems ceases to depend on the size of the distributed network systems and the problems they solve.",
+    "authors": [
+      "Yury Zatuliveter",
+      "Elena Fishchenko"
+    ]
+  }
+]
