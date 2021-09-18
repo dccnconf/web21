@@ -22,6 +22,8 @@ const SponsorsImageGallery = ({ organizations, className = "" }) => {
         : (a.member.order === b.member.order) ? 0 : 1);
 
   const getStyle = (slug) => {
+    if (slug === "rudn")
+      return {minWidth: 64, width: 220};
     if (slug === "springer")
       return {minWidth: 64, width: 220};
     if (slug === "incet")

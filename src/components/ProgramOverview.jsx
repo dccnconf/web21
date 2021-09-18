@@ -194,7 +194,7 @@ function SingleSessionCell({ interval, tracks, isPlenary = false } = {}) {
         <div className="px-2">{icon}</div>
         <div className="">
           {
-            isPlenary && interval.type !== "break"
+            (isPlenary || interval.type === "plenary") && interval.type !== "break"
               ? (
                 <Link href={"/program"} as="/program#plenary">
                   <a className="text-blue-500 hover:underline">
