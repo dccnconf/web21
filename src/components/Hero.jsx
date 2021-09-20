@@ -1,9 +1,11 @@
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faDoorOpen} from "@fortawesome/free-solid-svg-icons";
-import {faWindows} from "@fortawesome/free-brands-svg-icons";
+import {faWindows, faYoutube} from "@fortawesome/free-brands-svg-icons";
 
-export default function Hero() {
+export default function Hero({ plenary }) {
+  const youTubeLink = plenary.links.find(link => link.type === "youtube");
+
   return (
     <main className="mt-10 mb-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 flex">
       <div className="sm:text-center lg:text-left lg:w-3/4">
@@ -25,7 +27,7 @@ export default function Hero() {
         </p>
         <br className="hidden lg:block lg:mt-12"/>
 
-        <div className="mt-3 mx-0 md:mx-16 lg:mx-0 lg:w-1/2 xl:w-1/3">
+        <div className="mt-3 mx-0 md:mx-16 lg:mx-0 lg:w-1/2 xl:w-4/7">
           <div className="rounded-md shadow">
             {/*<a href="https://uconfy.com/conf/4/"*/}
             {/*   target="_blank"*/}
@@ -37,10 +39,21 @@ export default function Hero() {
             {/*</a>*/}
             <a
               href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzQ0ZGIxOGQtZTM2MC00NzcyLTliNzItZjUzMWE1YTM4MDVm%40thread.v2/0?context=%7b%22Tid%22%3a%222ae95c20-c675-4c48-88d3-f276b762bf52%22%2c%22Oid%22%3a%22db999021-788c-4c3d-8e8f-1899ab30f3bc%22%7d"
-              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+              className="w-full flex justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
               target="_blank">
               <FontAwesomeIcon icon={faWindows} size="lg" className="mr-2 hidden md:block"/>
               Join plenary session
+            </a>
+          </div>
+        </div>
+
+        <div className="mt-3 mx-0 md:mx-16 lg:mx-0 lg:w-1/2 xl:w-4/7">
+          <div className="rounded-md shadow">
+            <a href={youTubeLink.url}
+               target="_blank"
+               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-12">
+              <FontAwesomeIcon icon={faYoutube} size="lg" className="mr-2" />
+              Watch keynotes on YouTube
             </a>
           </div>
         </div>

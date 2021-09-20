@@ -17,7 +17,7 @@ import Link from "next/link";
 import TechnicalsSponsors from "../components/TechnicalSponsors";
 import getTopics from "../libs/topics";
 import KeynoteSpeakers from "../components/KeynoteSpeakers";
-import {getAllSpeakers} from "../libs/keynotes";
+import {getAllSpeakers, getPlenarySchedule} from "../libs/keynotes";
 
 export default function Home ({
   deadlines,
@@ -27,13 +27,14 @@ export default function Home ({
   tpcMembers,
   fees,
   speakers,
+  plenary,
   topics
 }) {
   return (
     <Layout pageTitle={"DCCN'2021"} active="conference">
-      {/*<div className="lg:pb-12">*/}
-        <Hero />
-      {/*</div>*/}
+      <div className="lg:pb-12">
+        <Hero plenary={plenary} />
+      </div>
 
       <section id="about" className="pt-12 bg-gray-100">
         <div className="container mx-auto px-4 pb-12 lg:w-1/2">
@@ -127,6 +128,8 @@ export const getStaticProps = async () => {
   const topics = getTopics();
   const fees = getAllFees();
   const speakers = getAllSpeakers();
+  const plenary = getPlenarySchedule();
+
 
   // for (const track of tracks) {
   //   for (const topic of track.topics) {
@@ -141,6 +144,7 @@ export const getStaticProps = async () => {
       committeeMembers,
       tpcMembers,
       fees,
+      plenary,
       topics,
       speakers
     }
