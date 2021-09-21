@@ -71,7 +71,10 @@ const getConferenceLinks = () => [
 
 const getProgramLinks = () => [
   <FooterLink href={"/program"} label="Schedule" />,
-  <FooterLink href={"/program"} hash="plenary" label="Plenary" />
+  <FooterLink href={"/program"} hash="plenary" label="Plenary" />,
+  <FooterLink href={"/program"} hash="tra" label="Track A: Computer and Communication Networks: Architecture, Protocols and Technologies" />,
+  <FooterLink href={"/program"} hash="trb" label="Track B: Modeling of Distributed Systems and Networks" />,
+  <FooterLink href={"/program"} hash="trc" label="Track C: Distributed Systems Applications" />,
 ];
 
 const getSupportLinks = () => [

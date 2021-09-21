@@ -231,21 +231,21 @@ const ProgramMenu = ({onClick}) => (
       comment="Learn more about the plenary session, keynote speakers and presentations"
       onClick={onClick}
     />
-    {/*<NavbarDropdownMenuItem*/}
-    {/*  href="/program" as="/program#tra" icon={faNetworkWired} text="Track A: Computer and Communication Networks"*/}
-    {/*  comment="General sessions schedule for Computer and Communication Networks track"*/}
-    {/*  onClick={onClick}*/}
-    {/*/>*/}
-    {/*<NavbarDropdownMenuItem*/}
-    {/*  href="/program" as="/program#trb" icon={faWaveSquare} text="Track B: Analytical Modeling of Distributed Systems"*/}
-    {/*  comment="General sessions schedule for Analytical Modeling of Distributed Systems track"*/}
-    {/*  onClick={onClick}*/}
-    {/*/>*/}
-    {/*<NavbarDropdownMenuItem*/}
-    {/*  href="/program" as="/program#trc" icon={faDesktop} text="Track C: Distributed Systems Applications"*/}
-    {/*  comment="General sessions schedule for Distributed Systems Applications track"*/}
-    {/*  onClick={onClick}*/}
-    {/*/>*/}
+    <NavbarDropdownMenuItem
+      href="/program" as="/program#tra" icon={faNetworkWired} text="Track A: Computer and Communication Networks: Architecture, Protocols and Technologies"
+      comment="General sessions schedule for Computer and Communication Networks track"
+      onClick={onClick}
+    />
+    <NavbarDropdownMenuItem
+      href="/program" as="/program#trb" icon={faWaveSquare} text="Track B: Modeling of Distributed Systems and Networks"
+      comment="General sessions schedule for Modeling of Distributed Systems and Networks track"
+      onClick={onClick}
+    />
+    <NavbarDropdownMenuItem
+      href="/program" as="/program#trc" icon={faDesktop} text="Track C: Distributed Systems Applications"
+      comment="General sessions schedule for Distributed Systems Applications track"
+      onClick={onClick}
+    />
   </>
 );
 
@@ -350,7 +350,7 @@ const NavbarDropdownMenuItem = ({ href, as = undefined, icon, iconClassName = "m
   <div onClick={onClick}>
     <Link href={href} as={as}>
       <a className="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-        { icon && <div className="flex justify-center mt-0 md:mt-2" style={{"max-width": 32, "min-width": 32}}><FontAwesomeIcon icon={icon} size="lg" className={`text-indigo-600 ${iconClassName}`} /></div>}
+        { icon && <div className="flex justify-center mt-0 md:mt-2" style={{"maxWidth": 32, "minWidth": 32}}><FontAwesomeIcon icon={icon} size="lg" className={`text-indigo-600 ${iconClassName}`} /></div>}
         <div className="space-y-1">
           <p className="text-base leading-6 font-medium text-gray-900 mb-1">{text}</p>
           { comment && (<p className="hidden md:block text-sm leading-5 text-gray-500">{comment}</p>) }
