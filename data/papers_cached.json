@@ -601,8 +601,10 @@
     "title": "Modeling of non-reliable retrial queueing systems with collisions and catastrophic breakdowns",
     "abstract": "The aim of the investigation is a closed retrial queueing system with a finite source. The server is non-reliable, and collisions of customers are considered. The server can be reached from the source or the orbit. If an incoming job finds the server busy, the service of the job at the server is interrupted and both of them are transferred to the orbit (collision). The non-reliable server is subject to catastrophic breakdown. It means, that all of the customers at the server and in the orbit are sent back to the source. The novelty of this paper is to investigate the phenomenon of the catastrophic breakdown in a collision environment. Our goal is to calculate the steady-state probabilities and the performance characteristics (utilization, response time, etc.) of the system with the help of a software package. Figures illustrate the effect of the system parameters on the performance measures.",
     "authors": [
-      "J\u00e1nos Sztrik",
-      "\u00c1d\u00e1m T\u00f3th"
+      "Attila Kuki",
+      "Tamás Bérczes",
+      "\u00c1d\u00e1m T\u00f3th",
+      "J\u00e1nos Sztrik"
     ]
   },
   {
