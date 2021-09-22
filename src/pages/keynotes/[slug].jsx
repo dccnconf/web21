@@ -2,7 +2,7 @@ import Layout from "../../components/layout";
 import React from "react";
 import {getAllSpeakersSlugs, getKeynote} from "../../libs/keynotes";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faClock, faStar} from "@fortawesome/free-regular-svg-icons";
+import {faClock, faFilePdf, faStar} from "@fortawesome/free-regular-svg-icons";
 import KeynoteSpeakerCard from "../../components/KeynoteSpeakerCard";
 import Moment from "react-moment";
 import SpeakerSmallCard from "../../components/SpeakerSmallCard";
@@ -37,6 +37,13 @@ const KeynotePage = ({ keynote }) => {
               <div className="my-12 text-xl leading-tight text-gray-700 markdown-box">
                 <div dangerouslySetInnerHTML={{__html: keynote.abstract}} />
               </div>
+              {
+                keynote.speaker.presentation ?
+                  <a href={keynote.speaker.presentation} target="_blank" className="text-blue-500 hover:underline">
+                    <FontAwesomeIcon icon={faFilePdf} size="lg" className="mr-2 text-purple-500"/>Presentation
+                  </a> : null
+              }
+
             </article>
 
             <div className="container mx-auto mt-12 bg-indigo-100">

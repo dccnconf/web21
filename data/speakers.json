@@ -13,6 +13,7 @@
         "position": "Professor"
       }
     ],
+    "presentation": "/downloads/DCCN2021_Plenary_Slides_Trivedi.pdf",
     "avatar": "/images/avatars/trivedi.jpg"
   },
   {
@@ -96,7 +97,8 @@
     ],
     "emails": [
       "ztrik.janos@inf.unideb.hu"
-    ]
+    ],
+    "presentation": "/downloads/DCCN2021_Plenary_Slides_Sztrik.pdf"
   },
   {
     "slug": "dharmaraja",
