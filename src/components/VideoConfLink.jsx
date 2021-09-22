@@ -6,7 +6,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 const VideoConfLink = ({ link, className = "", linkClassName = "text-blue-500 text-lg"} = {}) => {
   return (
     <div className={className}>
-      <a href={link.url} className={`${linkClassName} cursor-pointer hover:underline`}>
+      <a href={link.url} target="_blank" className={`${linkClassName} cursor-pointer hover:underline`}>
         <FontAwesomeIcon icon={getLinkIcon(link)} className={getLinkIconClassName(link)} />
         {link.text}
       </a>
