@@ -261,7 +261,7 @@
             "url": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjI0Y2VkZGMtNTJlNy00YWUzLTk0ZmYtZGE4ZGUxZjgxYjAz%40thread.v2/0?context=%7b%22Tid%22%3a%222ae95c20-c675-4c48-88d3-f276b762bf52%22%2c%22Oid%22%3a%22db999021-788c-4c3d-8e8f-1899ab30f3bc%22%7d",
             "disabled": false,
             "track": {
-              "slug": "tra"
+              "slug": "trb"
             }
           },
           {
@@ -270,7 +270,7 @@
             "url": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_N2UwNWI4OWItYWNiZS00MWE3LWJlMjQtYWMwNGE3ODNlYzU1%40thread.v2/0?context=%7b%22Tid%22%3a%222ae95c20-c675-4c48-88d3-f276b762bf52%22%2c%22Oid%22%3a%22db999021-788c-4c3d-8e8f-1899ab30f3bc%22%7d",
             "disabled": false,
             "track": {
-              "slug": "trb"
+              "slug": "trc"
             }
           }
         ]
