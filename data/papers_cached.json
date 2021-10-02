@@ -910,9 +910,9 @@
     "abstract": "The use of computer algorithms for detecting cardiac rhythm disturbance in humans based on an electrocardiogram is studied. For this purpose, the MIT-BIH Physionet database was used, which contains five classes of different types of cardiac rhythm. We propose an electrocardiogram classifier model, which is an ensemble of convolutional (CNN) and recurrent  deep neural networks with LSTM unit. The results of performed computer experiments show that the proposed model successfully classifies cardiac arrhythmia with an overall accuracy of 99.37%. The computer system developed can be efficient to detect cardiac arrhythmia at an early stage.",
     "authors": [
       "Eugene Yu. Shchetinin",
-      "Anastasia Glushkova",
-      "Leonid Sevastianov",
-      "Anastasia Demidova"
+      "Leonid A. Sevastianov",
+      "Anastasia V. Demidova",
+      "Yury A. Blinkov"
     ]
   },
   {
