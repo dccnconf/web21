@@ -65,7 +65,7 @@ export default function About({ tracks = [], topics = [] } = {}) {
               </a> {"(LNCS) and "}
               <a target="_blank" className="text-blue-500 hover:underline" href="https://www.springer.com/series/7899">Communications in Computer and Information Science
               </a> (CCIS) series (indexed in Scopus and Web of Science).
-              {"Author guidelines and technical instructions for the preparation of contributions to be published in one of these Springer series is available "}
+              {" Author guidelines and technical instructions for the preparation of contributions to be published in one of these Springer series is available "}
               <a target="_blank" className="text-blue-500 hover:underline" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">here</a>.
             </p>
             <p className="md:text-xl">
