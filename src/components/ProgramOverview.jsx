@@ -257,7 +257,7 @@ function getIntervalDurationStr(interval) {
   const endTime = moment(interval.endTime);
   const minutes = moment.duration(endTime.diff(startTime)).asMinutes();
   let durationStr;
-  if (minutes > 60) {
+  if (minutes >= 60) {
     const restMinutes = minutes % 60;
     const restMinutesStr = restMinutes > 0 ? `${restMinutes}m` : "";
     durationStr = `${Math.floor(minutes / 60)}h ${restMinutesStr}`;

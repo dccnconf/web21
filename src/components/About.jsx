@@ -59,8 +59,14 @@ export default function About({ tracks = [], topics = [] } = {}) {
             </p>
             <img src="/images/springer_logo.png" alt="Springer Image" className="w-4/5 mx-auto sm:hidden sm:w-2/6 sm:float-right sm:mr-4 pt-3"/>
             <p className="md:text-xl">
-              The revised selected submissions in English, recommended by the Program Committee,
-              also appear as a stand-alone volume of selected extended papers published by Springer (indexed in Scopus and Web of Science).
+              {"The revised selected submissions in English, recommended by the Program Committee, will be published by Springer Nature (approved) as 2 stand-alone post-proceedings volumes in "}
+              <a target="_blank" className="text-blue-500 hover:underline" href="https://www.springer.com/series/558">
+                Lecture Notes in Computer Science
+              </a> {"(LNCS) and "}
+              <a target="_blank" className="text-blue-500 hover:underline" href="https://www.springer.com/series/7899">Communications in Computer and Information Science
+              </a> (CCIS) series (indexed in Scopus and Web of Science).
+              {"Author guidelines and technical instructions for the preparation of contributions to be published in one of these Springer series is available "}
+              <a target="_blank" className="text-blue-500 hover:underline" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">here</a>.
             </p>
             <p className="md:text-xl">
               <img src="/images/mathematics_logo.png" alt="Image with a book" className="w-4/5 mx-auto sm:w-1/4 sm:float-left sm:mr-4 pt-3 pb-3"/>
