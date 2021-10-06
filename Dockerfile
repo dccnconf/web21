@@ -33,4 +33,4 @@ EXPOSE 3000
 USER node
 
 # Start development server (source is expected to be bind-mounted), see compose
-CMD ["pm2-runtime", "npm", "--", "start"]
+CMD ["yarn", "start"]
