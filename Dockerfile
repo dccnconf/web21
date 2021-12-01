@@ -23,6 +23,8 @@ COPY ./public ./public
 COPY ./data ./data
 COPY *.config.js ./
 
+ENV NODE_OPTIONS=--openssl-legacy-provider
+
 # Build app
 RUN yarn build
 
