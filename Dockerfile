@@ -24,7 +24,7 @@ COPY ./data ./data
 COPY *.config.js ./
 
 # Build app
-RUN npm run build
+RUN yarn build
 
 EXPOSE 3000
 
