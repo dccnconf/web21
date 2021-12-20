@@ -18,6 +18,7 @@ import TechnicalsSponsors from "../components/TechnicalSponsors";
 import getTopics from "../libs/topics";
 import KeynoteSpeakers from "../components/KeynoteSpeakers";
 import {getAllSpeakers, getPlenarySchedule} from "../libs/keynotes";
+import Proceedings from "../components/Proceedings";
 
 export default function Home ({
   deadlines,
@@ -42,6 +43,17 @@ export default function Home ({
           <h2 className="h2">About</h2>
           <div className="py-12 text-gray-600">
             <About tracks={tracks} topics={topics} />
+          </div>
+
+        </div>
+      </section>
+
+      <section id="proceedings" className="pt-12 bg-purple-100">
+        <div className="container mx-auto px-4 pb-12 lg:w-1/2">
+
+          <h2 className="h2">Springer Proceedings</h2>
+          <div className="py-12 text-gray-600">
+            <Proceedings />
           </div>
 
         </div>
