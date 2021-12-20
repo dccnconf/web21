@@ -8,7 +8,7 @@ import {
   faWaveSquare,
   faDesktop,
   faNetworkWired,
-  faUserFriends, faFileInvoice
+  faUserFriends, faFileInvoice, faBook
 } from '@fortawesome/free-solid-svg-icons';
 import {faCalendarAlt, faEnvelope, faStar} from '@fortawesome/free-regular-svg-icons';
 import OutsideClickHandler from "react-outside-click-handler";
@@ -182,6 +182,11 @@ const ConferenceMenu = ({onClick}) => (
     <NavbarDropdownMenuItem
       href="/" as="/#about" icon={faInfo} text="About" iconClassName="mx-2"
       comment="Learn more about our conference"
+      onClick={onClick}
+    />
+    <NavbarDropdownMenuItem
+      href="/" as="/#proceedings" icon={faBook} text="Proceedings" iconClassName="mx-2"
+      comment="Springer Proceedings"
       onClick={onClick}
     />
     <NavbarDropdownMenuItem
